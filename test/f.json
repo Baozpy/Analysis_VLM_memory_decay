@@ -1,0 +1,19 @@
+[
+  {
+    "id": "sample_0",
+    "image_a": "/fs/clip-scratch/apalnitk/figure/scripts/plot2code_outputs/sample_0/generated.png",
+    "image_b": "/fs/clip-scratch/apalnitk/figure/scripts/plot2code_outputs/sample_0/ground_truth.png",
+    "ssim": 0.585388720035553,
+    "lpips": 0.7460150718688965,
+    "mae_delta": 0.251792311668396,
+    "ciede2000_mean": 22.483196258544922,
+    "ciede2000_median": 0.0,
+    "edge_f1": 0.26054752244744156,
+    "qwen_rating_1to5": 3,
+    "qwen_raw": "system\nYou are a helpful assistant.\nuser\nYou are a strict image similarity judge for scientific plots and charts. Given two images, output ONLY ONE line in this exact format:\nSCORE: <1-5>; REASON: <a single short sentence>\nassistant\nSCORE: 3; REASON: The images contain similar",
+    "dino_cosine": 0.8348388671875,
+    "dino_similarity01": 0.91741943359375,
+    "dino_l2": 18.69729232788086,
+    "elapsed_sec": 18.589763641357422
+  }
+]

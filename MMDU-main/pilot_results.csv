@@ -1,0 +1,11 @@
+sample_id,turn,img_idx,prompt,answer
+0,1,0,"Question: Image1: <ImageHere>. Image2: <ImageHere>. Image3: <ImageHere>. Describe the patterns and textures you can observe in the Image3.
+Answer concisely in one sentence. Answer:","The pattern is a combination of brown, green, black, white, red, yellow, blue, orange, purple,"
+0,2,1,"[Prev] Image1: <ImageHere>. Image2: <ImageHere>. Image3: <ImageHere>. Describe the patt…
+Question: What type of lace is shown in the Image3 and what characteristics might you expect it to have based on its historical context?
+Answer concisely in one sentence. Answer:","The pattern would be a geometric motif, such as an octagon or hexagon, with alternating colors. It could also"
+1,1,0,"Question: Image1: <ImageHere>. Image2: <ImageHere>. Image3: <ImageHere>. What natural features are visible in the landscape of Image3?
+Answer concisely in one sentence. Answer:","The river is flowing through a valley with mountains on both sides, and there's an open area between them where people can"
+1,2,1,"[Prev] Image1: <ImageHere>. Image2: <ImageHere>. Image3: <ImageHere>. What natural feat…
+Question: How might the geographical terrain and natural beauty seen in Image3 contribute to its current use as a tourist destination?
+Answer concisely in one sentence. Answer:","The beach is used by tourists for recreation, relaxation, sunbathing, swimming, etc., because it has many amenities"

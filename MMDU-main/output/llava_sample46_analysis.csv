@@ -1,0 +1,6 @@
+turn,focus_rate,focus_n,answer_ok_rate,answer_ok_n,trunc_rate,trunc_n,model,sample_id
+1,,0,1.0,1,0.0,1,llava,46
+2,,0,1.0,1,0.0,1,llava,46
+3,,0,1.0,1,0.0,1,llava,46
+4,,0,1.0,1,0.0,1,llava,46
+5,,0,1.0,1,0.0,1,llava,46

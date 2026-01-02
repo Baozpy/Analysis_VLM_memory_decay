@@ -1,0 +1,2875 @@
+Node: cml00.umiacs.umd.edu
+Thu Oct 30 10:26:08 2025       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 580.95.05              Driver Version: 580.95.05      CUDA Version: 13.0     |
++-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA GeForce RTX 2080 Ti     Off |   00000000:1B:00.0 Off |                  N/A |
+| 30%   28C    P8              3W /  250W |       1MiB /  11264MiB |      0%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+Start running Salesforce/blip2-opt-6.7b from sample 37 to 109
+Outputs -> /fs/nexus-scratch/byan1/MMDU-main/output/Salesforce_blip2-opt-6.7b_sample{ID}.csv
+
+>>> [run] sample 37 ...
+Local images root: /fs/nexus-scratch/byan1/MMDU-main/_mmdu_pics/mmdu_pics
+[dataset] using samples [37, 38) -> total 1
+Using device_map=auto, dtype=torch.bfloat16
+[ctx] max_pos=2048  max_new=128  budget=1912
+
+============================================================
+Sample 37 (local idx 0) | #images=5  #turns=42
+[write] output/blip2-opt-6.7b_sample37.csv
+
+[Turn 1] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=74  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 107) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 107) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The building has a vaulted ceiling and stained glass windows. [TRUNCATED?]
+
+[Turn 2] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=70  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 103) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 103) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The design of Image 1 is very simple and plain, with no ornamentation. [TRUNCATED?]
+
+[Turn 3] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=68  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 101) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 101) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The building shown is a medieval cathedral, which was built in and is one of England's most famous cathedrals. [TRUNCATED?]
+
+[Turn 4] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=70  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 103) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 103) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The building is a large, rectangular structure with a clock tower on top. [TRUNCATED?]
+
+[Turn 5] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=69  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 102) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 102) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The building is a large stone structure with a bridge leading to it and a clock tower on top The image shows a view of a building with an ar...
+
+[Turn 6] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=66  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 99) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 99) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The structure is a bridge over the river Cam, and it is built on a hilltop. [TRUNCATED?]
+
+[Turn 7] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=67  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 100) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 100) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The bridge is a stone structure with a parapet wall and a balustrade. [TRUNCATED?]
+
+[Turn 8] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=79  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 112) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 112) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The building is a large white building with a green roof Answers [TRUNCATED?]
+
+[Turn 9] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=64  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 97) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 97) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): a large white building with a clock tower The building is surrounded by grass and trees There are many windows on the side of it It has a la...
+
+[Turn 10] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=76  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 109) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 109) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The building is a classical building with a large central tower An image of a white building sitting on top of green grass with a clock towe...
+
+[Turn 11] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=76  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 109) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 109) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The building is a Gothic Revival style building with a tower and spire. [TRUNCATED?]
+
+[Turn 12] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=77  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 110) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 110) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The grassy lawns and the buildings surrounding the pond create a tranquil atmosphere that is conducive to learning. [TRUNCATED?]
+
+[Turn 13] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=78  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 111) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 111) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The building is a symbol of academic excellence and tradition.
+
+[Turn 14] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=69  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 102) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 102) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): Image 1 is a white building with a green roof. [TRUNCATED?]
+
+[Turn 15] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=77  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 110) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 110) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): Image 1 is a view of a bridge over a river. [TRUNCATED?]
+
+[Turn 16] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=76  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 109) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 109) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): Image1 is a view of the River Cam from the south bank. [TRUNCATED?]
+
+[Turn 17] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=66  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 99) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 99) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): Image 3 is a photograph of a building that is over years old.
+
+[Turn 18] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=70  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 103) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 103) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The building in image 2 is a gothic revival style, while the building shown in the image 4 is an example of a neo-gothicism style image 1 - ...
+
+[Turn 19] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=73  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 106) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 106) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): Image 1 is a classroom. [TRUNCATED?]
+
+[Turn 20] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=75  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 108) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 108) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The building is a university, so it is probably a college. [TRUNCATED?]
+
+✅ Per-sample CSVs saved under output/
+Tip: Each file name is <model_short>_sample<global_id>.csv .
+Tip: If you still hit context budget, reduce --max-images-per-turn or --panel-tile-size or --hist-max.
+[ok]   sample 37 -> /fs/nexus-scratch/byan1/MMDU-main/output/Salesforce_blip2-opt-6.7b_sample37.csv
+>>> [run] sample 38 ...
+Local images root: /fs/nexus-scratch/byan1/MMDU-main/_mmdu_pics/mmdu_pics
+[dataset] using samples [38, 39) -> total 1
+Using device_map=auto, dtype=torch.bfloat16
+[ctx] max_pos=2048  max_new=128  budget=1912
+
+============================================================
+Sample 38 (local idx 0) | #images=2  #turns=20
+[write] output/blip2-opt-6.7b_sample38.csv
+
+[Turn 1] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=78  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 111) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 111) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The first car is a classic chevrolet sedan, while the second car has a more modern look. [TRUNCATED?]
+
+[Turn 2] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=72  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 105) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 105) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): Image 1 is a car, while Image 2 is from the . [TRUNCATED?]
+
+[Turn 3] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=68  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 101) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 101) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The cars in Image 1 are all of the same model year and have the exact same paint color.
+
+[Turn 4] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=77  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 110) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 110) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): Image 1 is a classic car from the . [TRUNCATED?]
+
+[Turn 5] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=70  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 103) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 103) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): Image 1 is a classic car from the . [TRUNCATED?]
+
+[Turn 6] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=74  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 107) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 107) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The shift is from a classic car to a more modern one. [TRUNCATED?]
+
+[Turn 7] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=77  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 110) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 110) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): Image 1 shows a classic car from the , while Image 2 shows an automobile from today. [TRUNCATED?]
+
+[Turn 8] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=72  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 105) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 105) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The car in image 1 is a classic car, while the car shown in the image 2 is an old car. [TRUNCATED?]
+
+[Turn 9] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=72  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 105) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 105) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The first image is a classic car with a man sitting in it and the second image shows the car being driven by a woman. [TRUNCATED?]
+
+[Turn 10] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=77  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 110) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 110) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): Image 1 is a classic car, while image 2 is an old car. [TRUNCATED?]
+
+✅ Per-sample CSVs saved under output/
+Tip: Each file name is <model_short>_sample<global_id>.csv .
+Tip: If you still hit context budget, reduce --max-images-per-turn or --panel-tile-size or --hist-max.
+[ok]   sample 38 -> /fs/nexus-scratch/byan1/MMDU-main/output/Salesforce_blip2-opt-6.7b_sample38.csv
+>>> [run] sample 39 ...
+Local images root: /fs/nexus-scratch/byan1/MMDU-main/_mmdu_pics/mmdu_pics
+[dataset] using samples [39, 40) -> total 1
+Using device_map=auto, dtype=torch.bfloat16
+[ctx] max_pos=2048  max_new=128  budget=1912
+
+============================================================
+Sample 39 (local idx 0) | #images=5  #turns=40
+[write] output/blip2-opt-6.7b_sample39.csv
+
+[Turn 1] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=69  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 102) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 102) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): a plant with long stems and leaves . [TRUNCATED?]
+
+[Turn 2] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=67  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 100) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 100) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The plant is a member of a genus of plants that produce edible fruits and vegetables Image2 a plant with a long stem and many small leaves i...
+
+[Turn 3] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=70  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 103) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 103) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The plant is a plant that grows in a pot on a porch An image of a potted plant with two sticks in it on a wooden deck in front of some trees...
+
+[Turn 4] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=67  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 100) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 100) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): plant The plant has purple flowers and is growing in a field with green grass and tall green plants in the background of the picture there i...
+
+[Turn 5] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=63  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 96) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 96) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): purple There is a tall plant with blue flowers in a field with green plants and some tall grass in the background of the photo on the left s...
+
+[Turn 6] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=64  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 97) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 97) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): A field The purple flowers are growing in a field with green grass and tall plants in the background there is a blue sky and some clouds the...
+
+[Turn 7] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=65  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 98) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 98) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): pink and purple a flower with small pink flowers close up of a flower flowers in a field flower in bloom pink flowers on a plant plant with ...
+
+[Turn 8] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=64  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 97) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 97) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The flower is a single flower with a long stem. [TRUNCATED?]
+
+[Turn 9] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=76  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 109) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 109) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The plant is growing in a forested area Image4 The plant has a single stem There are no leaves on this flower It is a plant with a long stem...
+
+[Turn 10] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=68  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 101) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 101) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): red There is a plant with red flowers that is sitting on a bench in front of some bushes and there is also a bird sitting in front of the pl...
+
+[Turn 11] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=66  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 99) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 99) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The flower is a red flower with white petals There is an orange flower that has red petal and there is another flower in front of it that ha...
+
+[Turn 12] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=68  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 101) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 101) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The flowers are bright and colorful There is a red flower sitting in the middle of a green bush and a yellow flower is on top of it there is...
+
+[Turn 13] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=68  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 101) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 101) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The flower is a small purple flower with white and blue flowers on it Photograph by james kern on jameskern photographer .com www jkphoto.or...
+
+[Turn 14] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=67  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 100) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 100) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): Image 5 is a plant with a long stem that has many flowers on it. [TRUNCATED?]
+
+[Turn 15] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=65  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 98) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 98) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The flowers are the center of the image, with the spines being the background. [TRUNCATED?]
+
+[Turn 16] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=82  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 115) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 115) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): Image 2 has a flower with a single petal and a large central disc. [TRUNCATED?]
+
+[Turn 17] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=77  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 110) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 110) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): Image 1 - the leaf structure is a simple, single-lobed leaf with a few veins and a central vein. [TRUNCATED?]
+
+[Turn 18] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=76  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 109) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 109) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The Salvinia genus is a group of aquatic plants that have been used for medicinal purposes since ancient times. [TRUNCATED?]
+
+[Turn 19] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=75  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 108) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 108) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): Image 2 is a red flower with a white center and red petals. [TRUNCATED?]
+
+[Turn 20] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=83  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 116) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 116) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): Image 2 is a closeup of a flower with purple and white flowers. [TRUNCATED?]
+
+✅ Per-sample CSVs saved under output/
+Tip: Each file name is <model_short>_sample<global_id>.csv .
+Tip: If you still hit context budget, reduce --max-images-per-turn or --panel-tile-size or --hist-max.
+[ok]   sample 39 -> /fs/nexus-scratch/byan1/MMDU-main/output/Salesforce_blip2-opt-6.7b_sample39.csv
+>>> [run] sample 40 ...
+Local images root: /fs/nexus-scratch/byan1/MMDU-main/_mmdu_pics/mmdu_pics
+[dataset] using samples [40, 41) -> total 1
+Using device_map=auto, dtype=torch.bfloat16
+[ctx] max_pos=2048  max_new=128  budget=1912
+
+============================================================
+Sample 40 (local idx 0) | #images=5  #turns=36
+[write] output/blip2-opt-6.7b_sample40.csv
+
+[Turn 1] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=69  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 102) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 102) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The fruit is green and has a red center. [TRUNCATED?]
+
+[Turn 2] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=74  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 107) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 107) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The Image 1 is a member of the family Solanaceae, which includes tomatoes, peppers, eggplants, potatoes, beans, pumpkins, etc. [TRUNCATED?]
+
+[Turn 3] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=70  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 103) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 103) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The flower is purple and has a yellow center The purple flower has purple petals and yellow centers There is a small yellow flower on the st...
+
+[Turn 4] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=69  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 102) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 102) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The flower is purple, and it has a yellow center. [TRUNCATED?]
+
+[Turn 5] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=73  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 106) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 106) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The flower is a solanaceous plant, which means it belongs to the same family as tomatoes, eggplants, peppers, and potatoes The purple flower...
+
+[Turn 6] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=79  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 112) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 112) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The flower is a small, purple, bell-shaped flower with a single white petal. [TRUNCATED?]
+
+[Turn 7] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=78  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 111) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 111) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The flower is similar to those of other solanaceous plants, but it has a unique structure. [TRUNCATED?]
+
+[Turn 8] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=71  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 104) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 104) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): the image is a close up of a plant with a purple flower and green leaves Image 3 a closeup of an echeveria with purple flowers and light gre...
+
+[Turn 9] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=79  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 112) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 112) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The plant is a banana tree. [TRUNCATED?]
+
+[Turn 10] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=76  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 109) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 109) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): Solano berry is a fruit that is edible and has a sweet taste. [TRUNCATED?]
+
+[Turn 11] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=79  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 112) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 112) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): Solano Baretia is a perennial plant that grows in the tropics and subtropics. [TRUNCATED?]
+
+[Turn 12] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=71  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 104) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 104) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): white flowers with yellow centers There are many different types of flowers that grow in this garden some are white and some are yellow ther...
+
+[Turn 13] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=73  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 106) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 106) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The flowers are pollinated by insects Image6 The flowers of a plant are white and have yellow centers There is a small white flower with a y...
+
+[Turn 14] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=66  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 99) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 99) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The white flowers in this image represent the innocence of the child and the yellow flowers represent a person's wisdom The flowers are grow...
+
+[Turn 15] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=71  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 104) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 104) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): Image 2 is a white flower with a yellow center Image 3 is an orange flower Image 4 is white with yellow centers Image 5 is yellow with white...
+
+[Turn 16] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=60  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 93) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 93) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): Image 1 is a banana and image 4 is an orange The pictures show a plant with fruit and leaves on it with a flower on it and a leaf in the mid...
+
+[Turn 17] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=82  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 115) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 115) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): Solanus is a genus of flowering plants in the family Solaniaceae, native to tropical and subtropical regions of Africa, Asia, Australia, Sou...
+
+[Turn 18] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=72  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 105) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 105) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): Image 1, 3, 4, 5 Image 1 is a close up of a plant with a white flower and yellow center image 3 is of an herbaceous plant images 4 and 5 are...
+
+✅ Per-sample CSVs saved under output/
+Tip: Each file name is <model_short>_sample<global_id>.csv .
+Tip: If you still hit context budget, reduce --max-images-per-turn or --panel-tile-size or --hist-max.
+[ok]   sample 40 -> /fs/nexus-scratch/byan1/MMDU-main/output/Salesforce_blip2-opt-6.7b_sample40.csv
+>>> [run] sample 41 ...
+Local images root: /fs/nexus-scratch/byan1/MMDU-main/_mmdu_pics/mmdu_pics
+[dataset] using samples [41, 42) -> total 1
+Using device_map=auto, dtype=torch.bfloat16
+[ctx] max_pos=2048  max_new=128  budget=1912
+
+============================================================
+Sample 41 (local idx 0) | #images=2  #turns=32
+[write] output/blip2-opt-6.7b_sample41.csv
+
+[Turn 1] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=75  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 108) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 108) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The person is wearing a black coat with gold trim, a white shirt, and a gold collar. [TRUNCATED?]
+
+[Turn 2] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=75  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 108) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 108) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The individual is a nobleman of high rank and status. [TRUNCATED?]
+
+[Turn 3] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=68  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 101) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 101) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The person is shown with a military uniform and a large collar. [TRUNCATED?]
+
+[Turn 4] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=69  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 102) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 102) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The subject is looking at the viewer with a smile on her face. [TRUNCATED?]
+
+[Turn 5] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=63  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 96) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 96) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The woman is wearing a green dress with a veil and a gold necklace and bracelet painting of a woman in a white dress by alexander van helsin...
+
+[Turn 6] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=70  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 103) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 103) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The Rococco style is characterized by a strong emphasis on decorative elements, such as flowers and foliage, and by the use of rich colors a...
+
+[Turn 7] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=67  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 100) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 100) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The dress is similar in both images, but the neckline is different in each. [TRUNCATED?]
+
+[Turn 8] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=66  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 99) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 99) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): Image 1 is a portrait of a woman with a large bust and a veil over her face.
+
+[Turn 9] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=69  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 102) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 102) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The facial expression of each person in image 1 is of a woman who is angry and upset. [TRUNCATED?]
+
+[Turn 10] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=62  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 95) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 95) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): Image 1 is a portrait of a woman with large breasts, and her dress is draped over her shoulders. [TRUNCATED?]
+
+[Turn 11] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=72  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 105) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 105) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The portrait of a woman in a green dress is a painting by a french painter named jean-baptiste lully Image 1 The portrait depicts a lady in ...
+
+[Turn 12] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=71  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 104) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 104) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): Image 1 is a portrait of a woman with a large bust and a veil.
+
+[Turn 13] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=67  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 100) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 100) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): Image 1 is a portrait of a woman with a large bust. [TRUNCATED?]
+
+[Turn 14] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=71  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 104) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 104) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): Image 1 shows a woman with a large bust and a veil covering her face. [TRUNCATED?]
+
+[Turn 15] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=71  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 104) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 104) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): Image 1 is a portrait of a woman with a large bust.
+
+[Turn 16] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=70  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 103) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 103) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The first image is a portrait of a woman with large breasts and a large headdress. [TRUNCATED?]
+
+✅ Per-sample CSVs saved under output/
+Tip: Each file name is <model_short>_sample<global_id>.csv .
+Tip: If you still hit context budget, reduce --max-images-per-turn or --panel-tile-size or --hist-max.
+[ok]   sample 41 -> /fs/nexus-scratch/byan1/MMDU-main/output/Salesforce_blip2-opt-6.7b_sample41.csv
+>>> [run] sample 42 ...
+Local images root: /fs/nexus-scratch/byan1/MMDU-main/_mmdu_pics/mmdu_pics
+[dataset] using samples [42, 43) -> total 1
+Using device_map=auto, dtype=torch.bfloat16
+[ctx] max_pos=2048  max_new=128  budget=1912
+
+============================================================
+Sample 42 (local idx 0) | #images=2  #turns=38
+[write] output/blip2-opt-6.7b_sample42.csv
+
+[Turn 1] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=70  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 103) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 103) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The image is of a roman theater The image shows a large building with a dome and a fence around it with a small tree in front of it and some...
+
+[Turn 2] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=68  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 101) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 101) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The image shows a building with a large circular structure. [TRUNCATED?]
+
+[Turn 3] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=66  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 99) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 99) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The structure was a forum, a place where people could gather and discuss issues. [TRUNCATED?]
+
+[Turn 4] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=71  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 104) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 104) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): Image1:<ImageK>. Which architectural styles are prominent in Image 1?  A: Gothic  B: Romanesque  C: Baroque
+D: Renaissance  E: Modern  F: Me...
+
+[Turn 5] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=61  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 94) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 94) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The architectural styles visible are Gothic and Romanesque a large building with a tall spire the spires are white there is a large clock to...
+
+[Turn 6] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=69  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 102) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 102) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): Image 1 is a cathedral in the UK. [TRUNCATED?]
+
+[Turn 7] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=62  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 95) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 95) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): Image 1 is a church and image 2 is an office building. [TRUNCATED?]
+
+[Turn 8] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=70  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 103) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 103) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): Image 1 is a building with a large clock tower and a stone facade. [TRUNCATED?]
+
+[Turn 9] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=73  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 106) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 106) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The buildings were used for religious purposes and to house the poor images of a city [TRUNCATED?]
+
+[Turn 10] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=68  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 101) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 101) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): Image 1 is a church, Image 2 is an airport. [TRUNCATED?]
+
+[Turn 11] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=72  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 105) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 105) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The first image is a church. [TRUNCATED?]
+
+[Turn 12] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=75  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 108) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 108) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The buildings shown in the images are the cathedral of Bath and the abbey of St. [TRUNCATED?]
+
+[Turn 13] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=69  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 102) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 102) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): Image 1 is a Gothic cathedral, Image 2 is an Italian Renaissance palace. [TRUNCATED?]
+
+[Turn 14] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=67  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 100) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 100) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): Image 1 is a building, Image 2 is not. [TRUNCATED?]
+
+[Turn 15] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=69  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 102) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 102) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): Image 1 is a church, Image 2 is an abbey. [TRUNCATED?]
+
+[Turn 16] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=68  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 101) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 101) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): Image 1 is a church and image 2 is an old building. [TRUNCATED?]
+
+[Turn 17] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=70  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 103) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 103) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The ruins are a reminder of the past.
+
+[Turn 18] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=65  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 98) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 98) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): Image 1 is a church. [TRUNCATED?]
+
+[Turn 19] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=69  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 102) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 102) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): Image 1 is a Gothic cathedral. [TRUNCATED?]
+
+✅ Per-sample CSVs saved under output/
+Tip: Each file name is <model_short>_sample<global_id>.csv .
+Tip: If you still hit context budget, reduce --max-images-per-turn or --panel-tile-size or --hist-max.
+[ok]   sample 42 -> /fs/nexus-scratch/byan1/MMDU-main/output/Salesforce_blip2-opt-6.7b_sample42.csv
+>>> [run] sample 43 ...
+Local images root: /fs/nexus-scratch/byan1/MMDU-main/_mmdu_pics/mmdu_pics
+[dataset] using samples [43, 44) -> total 1
+Using device_map=auto, dtype=torch.bfloat16
+[ctx] max_pos=2048  max_new=128  budget=1912
+
+============================================================
+Sample 43 (local idx 0) | #images=2  #turns=32
+[write] output/blip2-opt-6.7b_sample43.csv
+
+[Turn 1] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=76  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 109) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 109) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The figure is in a state of ecstasy. [TRUNCATED?]
+
+[Turn 2] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=71  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 104) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 104) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The use and placement of lights and shadows in image 1 help to create a mood of mystery and fear. [TRUNCATED?]
+
+[Turn 3] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=75  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 108) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 108) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The central image is a nude man holding a spear and a shield. [TRUNCATED?]
+
+[Turn 4] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=78  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 111) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 111) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The two figures are standing on a rocky outcrop, looking up at a cloud-filled sky. [TRUNCATED?]
+
+[Turn 5] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=66  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 99) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 99) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): the figure is kneeling to the right, with his hands on his knees and his head bowed down. [TRUNCATED?]
+
+[Turn 6] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=67  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 100) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 100) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The use and placement of lights and shadows in Image 2 enhances the emotional impact of the painting by emphasizing the tension between the ...
+
+[Turn 7] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=62  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 95) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 95) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The death of jesus Image1 The death and resurrection of christ Christ's death on the cross Jesus' burial His resurrection image2 the death, ...
+
+[Turn 8] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=71  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 104) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 104) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The artist in image1 is using a dark background to create a sense of mystery and darkness. [TRUNCATED?]
+
+[Turn 9] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=65  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 98) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 98) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The image of saint Sebastian is a symbol of the martyrdom of christians in the middle ages and the painting is an allegory of Christ's sacri...
+
+[Turn 10] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=70  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 103) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 103) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The first image shows Sebastian with his back to the viewer, while the second shows him facing the audience. [TRUNCATED?]
+
+[Turn 11] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=68  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 101) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 101) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The background in image 1 is a dark blue sky with clouds, while the one in the second image is white with a bright sun. [TRUNCATED?]
+
+[Turn 12] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=65  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 98) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 98) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): image 1 shows a man with a long, thin body and a large head. [TRUNCATED?]
+
+[Turn 13] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=66  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 99) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 99) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The two images depict the martyrdom of saint Sebastian by the Roman emperor Diocletian. [TRUNCATED?]
+
+[Turn 14] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=68  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 101) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 101) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The first image shows Sebastian with a look of anguish, while the second shows him with an expression of resignation. [TRUNCATED?]
+
+[Turn 15] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=72  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 105) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 105) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The figures are not just there to look pretty. [TRUNCATED?]
+
+[Turn 16] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=70  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 103) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 103) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): Image 1 is a painting by pieter bernard van oosten, and image 2 is an engraving by giovanni di pio barone painting by joseph aloisius krämer...
+
+✅ Per-sample CSVs saved under output/
+Tip: Each file name is <model_short>_sample<global_id>.csv .
+Tip: If you still hit context budget, reduce --max-images-per-turn or --panel-tile-size or --hist-max.
+[ok]   sample 43 -> /fs/nexus-scratch/byan1/MMDU-main/output/Salesforce_blip2-opt-6.7b_sample43.csv
+>>> [run] sample 44 ...
+Local images root: /fs/nexus-scratch/byan1/MMDU-main/_mmdu_pics/mmdu_pics
+[dataset] using samples [44, 45) -> total 1
+Using device_map=auto, dtype=torch.bfloat16
+[ctx] max_pos=2048  max_new=128  budget=1912
+
+============================================================
+Sample 44 (local idx 0) | #images=3  #turns=20
+[write] output/blip2-opt-6.7b_sample44.csv
+
+[Turn 1] | images=3 -> panel
+Prompt (head): You are given 3 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=96  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 129) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 129) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The first image is a lizard, the second is an amphibian, while the third is some kind of fish. [TRUNCATED?]
+
+[Turn 2] | images=3 -> panel
+Prompt (head): You are given 3 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=72  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 105) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 105) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): Image 1 is a gecko with a black and white pattern. [TRUNCATED?]
+
+[Turn 3] | images=3 -> panel
+Prompt (head): You are given 3 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=74  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 107) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 107) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The creatures in image 1 are probably alligators. [TRUNCATED?]
+
+[Turn 4] | images=3 -> panel
+Prompt (head): You are given 3 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=81  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 114) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 114) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): Image 1 - a lizard that lived during the Jurassic period. [TRUNCATED?]
+
+[Turn 5] | images=3 -> panel
+Prompt (head): You are given 3 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=71  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 104) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 104) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The lizard in image 1 is moving forward, while the lizard on image 2 is crawling. [TRUNCATED?]
+
+[Turn 6] | images=3 -> panel
+Prompt (head): You are given 3 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=76  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 109) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 109) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): Image 1 is a drawing of a gecko with its tongue out. [TRUNCATED?]
+
+[Turn 7] | images=3 -> panel
+Prompt (head): You are given 3 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=72  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 105) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 105) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): They evolved to be able to walk on water. [TRUNCATED?]
+
+[Turn 8] | images=3 -> panel
+Prompt (head): You are given 3 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=75  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 108) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 108) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The geckos in image 1 are happy, the ones in images 2 and 3 are sad. [TRUNCATED?]
+
+[Turn 9] | images=3 -> panel
+Prompt (head): You are given 3 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=73  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 106) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 106) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): Image 1 is a fossilized lizard. [TRUNCATED?]
+
+[Turn 10] | images=3 -> panel
+Prompt (head): You are given 3 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=76  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 109) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 109) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The background images are all related to the environment of the animals in which they lived. [TRUNCATED?]
+
+✅ Per-sample CSVs saved under output/
+Tip: Each file name is <model_short>_sample<global_id>.csv .
+Tip: If you still hit context budget, reduce --max-images-per-turn or --panel-tile-size or --hist-max.
+[ok]   sample 44 -> /fs/nexus-scratch/byan1/MMDU-main/output/Salesforce_blip2-opt-6.7b_sample44.csv
+>>> [run] sample 45 ...
+Local images root: /fs/nexus-scratch/byan1/MMDU-main/_mmdu_pics/mmdu_pics
+[dataset] using samples [45, 46) -> total 1
+Using device_map=auto, dtype=torch.bfloat16
+[ctx] max_pos=2048  max_new=128  budget=1912
+
+============================================================
+Sample 45 (local idx 0) | #images=4  #turns=26
+[write] output/blip2-opt-6.7b_sample45.csv
+
+[Turn 1] | images=4 -> panel
+Prompt (head): You are given 4 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=70  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 103) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 103) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The village is surrounded by forest and hills. [TRUNCATED?]
+
+[Turn 2] | images=4 -> panel
+Prompt (head): You are given 4 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=62  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 95) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 95) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): A farmhouse, a barn, and a house image2 You have been given two images to answer this question. [TRUNCATED?]
+
+[Turn 3] | images=4 -> panel
+Prompt (head): You are given 4 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=74  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 107) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 107) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The image of the mine is a symbol of a past that is now gone. [TRUNCATED?]
+
+[Turn 4] | images=4 -> panel
+Prompt (head): You are given 4 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=77  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 110) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 110) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The image is a panoramic view of a valley with mountains on the horizon. [TRUNCATED?]
+
+[Turn 5] | images=4 -> panel
+Prompt (head): You are given 4 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=65  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 98) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 98) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The image shows a mountainous region with a valley in between. [TRUNCATED?]
+
+[Turn 6] | images=4 -> panel
+Prompt (head): You are given 4 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=65  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 98) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 98) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The image shows a valley with green hills and a small village nestled in between the mountains Image3 The image is a panoramic view of a mou...
+
+[Turn 7] | images=4 -> panel
+Prompt (head): You are given 4 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=74  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 107) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 107) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The image is a panoramic view of a snowy village with mountains in background. [TRUNCATED?]
+
+[Turn 8] | images=4 -> panel
+Prompt (head): You are given 4 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=70  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 103) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 103) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): Skiing, snowboarding, cross-country skiing, and snowshoeing. [TRUNCATED?]
+
+[Turn 9] | images=4 -> panel
+Prompt (head): You are given 4 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=70  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 103) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 103) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The snow is a symbol of peace and happiness. [TRUNCATED?]
+
+[Turn 10] | images=4 -> panel
+Prompt (head): You are given 4 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=75  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 108) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 108) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The image is a composite of three photographs taken from different angles. [TRUNCATED?]
+
+[Turn 11] | images=4 -> panel
+Prompt (head): You are given 4 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=65  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 98) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 98) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The village is located in a mountainous area and is not very attractive to tourists. [TRUNCATED?]
+
+[Turn 12] | images=4 -> panel
+Prompt (head): You are given 4 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=66  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 99) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 99) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The image is a village scene with a rural setting. [TRUNCATED?]
+
+[Turn 13] | images=4 -> panel
+Prompt (head): You are given 4 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=78  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 111) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 111) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): Image 1 is a rural scene with a small village in the background. [TRUNCATED?]
+
+✅ Per-sample CSVs saved under output/
+Tip: Each file name is <model_short>_sample<global_id>.csv .
+Tip: If you still hit context budget, reduce --max-images-per-turn or --panel-tile-size or --hist-max.
+[ok]   sample 45 -> /fs/nexus-scratch/byan1/MMDU-main/output/Salesforce_blip2-opt-6.7b_sample45.csv
+>>> [run] sample 46 ...
+Local images root: /fs/nexus-scratch/byan1/MMDU-main/_mmdu_pics/mmdu_pics
+[dataset] using samples [46, 47) -> total 1
+Using device_map=auto, dtype=torch.bfloat16
+[ctx] max_pos=2048  max_new=128  budget=1912
+
+============================================================
+Sample 46 (local idx 0) | #images=4  #turns=10
+[write] output/blip2-opt-6.7b_sample46.csv
+
+[Turn 1] | images=4 -> panel
+Prompt (head): You are given 4 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=109  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 142) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 142) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The lake in the center of this image is much larger than the other two lakes.
+
+[Turn 2] | images=4 -> panel
+Prompt (head): You are given 4 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=83  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 116) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 116) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): Image 1 is a lake with a blue sky and trees on the shore. [TRUNCATED?]
+
+[Turn 3] | images=4 -> panel
+Prompt (head): You are given 4 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=86  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 119) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 119) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): Image 1 is a lake with a lot of trees and grasses. [TRUNCATED?]
+
+[Turn 4] | images=4 -> panel
+Prompt (head): You are given 4 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=79  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 112) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 112) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): Image 1 is a lake with trees surrounding it. [TRUNCATED?]
+
+[Turn 5] | images=4 -> panel
+Prompt (head): You are given 4 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=86  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 119) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 119) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): Image 1 is a lake with a greenish tint. [TRUNCATED?]
+
+✅ Per-sample CSVs saved under output/
+Tip: Each file name is <model_short>_sample<global_id>.csv .
+Tip: If you still hit context budget, reduce --max-images-per-turn or --panel-tile-size or --hist-max.
+[ok]   sample 46 -> /fs/nexus-scratch/byan1/MMDU-main/output/Salesforce_blip2-opt-6.7b_sample46.csv
+>>> [run] sample 47 ...
+Local images root: /fs/nexus-scratch/byan1/MMDU-main/_mmdu_pics/mmdu_pics
+[dataset] using samples [47, 48) -> total 1
+Using device_map=auto, dtype=torch.bfloat16
+[ctx] max_pos=2048  max_new=128  budget=1912
+
+============================================================
+Sample 47 (local idx 0) | #images=2  #turns=20
+[write] output/blip2-opt-6.7b_sample47.csv
+
+[Turn 1] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=77  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 110) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 110) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The building is an architectural example from the early 20th century. [TRUNCATED?]
+
+[Turn 2] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=67  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 100) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 100) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The church is the tallest structure in the image. [TRUNCATED?]
+
+[Turn 3] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=65  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 98) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 98) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The tall spire and the clock tower a clocktower clocktower clock church clock clock face the clock on the church an old clock in a church cl...
+
+[Turn 4] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=69  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 102) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 102) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The cathedral is a large stone building with a clock tower on top The cathedral has a tall clocktower on its roof There is an ornate statue ...
+
+[Turn 5] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=69  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 102) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 102) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The building is a combination of gothic and baroque styles. [TRUNCATED?]
+
+[Turn 6] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=69  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 102) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 102) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The cathedral is a large stone building with a clock tower on top and a statue of the saint on the front steps The cathedral has a tall spir...
+
+[Turn 7] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=65  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 98) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 98) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): Image 1 is a cathedral with a clock tower, while Image 2 is an old city hall. [TRUNCATED?]
+
+[Turn 8] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=67  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 100) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 100) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): Image 1 is a view of the cathedral at night with the clock tower lit up. [TRUNCATED?]
+
+[Turn 9] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=70  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 103) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 103) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): Image 1 is lit by a street lamp while Image 2 is illuminated by the light from the clock tower. [TRUNCATED?]
+
+[Turn 10] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=71  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 104) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 104) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): Image 1 is a Gothic Revival church and was built in . [TRUNCATED?]
+
+✅ Per-sample CSVs saved under output/
+Tip: Each file name is <model_short>_sample<global_id>.csv .
+Tip: If you still hit context budget, reduce --max-images-per-turn or --panel-tile-size or --hist-max.
+[ok]   sample 47 -> /fs/nexus-scratch/byan1/MMDU-main/output/Salesforce_blip2-opt-6.7b_sample47.csv
+>>> [run] sample 48 ...
+Local images root: /fs/nexus-scratch/byan1/MMDU-main/_mmdu_pics/mmdu_pics
+[dataset] using samples [48, 49) -> total 1
+Using device_map=auto, dtype=torch.bfloat16
+[ctx] max_pos=2048  max_new=128  budget=1912
+
+============================================================
+Sample 48 (local idx 0) | #images=3  #turns=38
+[write] output/blip2-opt-6.7b_sample48.csv
+
+[Turn 1] | images=3 -> panel
+Prompt (head): You are given 3 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=73  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 106) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 106) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The building is a brick structure with a large clock tower and a steeple. [TRUNCATED?]
+
+[Turn 2] | images=3 -> panel
+Prompt (head): You are given 3 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=72  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 105) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 105) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The church is located on a corner, and its entrance is on an intersection. [TRUNCATED?]
+
+[Turn 3] | images=3 -> panel
+Prompt (head): You are given 3 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=73  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 106) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 106) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The image is a depiction of a church building with a statue of st peter and a cross on the facade The church is located in a city the church...
+
+[Turn 4] | images=3 -> panel
+Prompt (head): You are given 3 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=70  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 103) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 103) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The building is a church . [TRUNCATED?]
+
+[Turn 5] | images=3 -> panel
+Prompt (head): You are given 3 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=63  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 96) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 96) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The architecture is a mix of gothic and renaissance styles. [TRUNCATED?]
+
+[Turn 6] | images=3 -> panel
+Prompt (head): You are given 3 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=67  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 100) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 100) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The building is a church The building has a clock tower There is an arched window It is made of stone You can see the clock from outside Ima...
+
+[Turn 7] | images=3 -> panel
+Prompt (head): You are given 3 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=79  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 112) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 112) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The clock tower a clock on the side of a building clock tower on a church church clock the clock in a clocktower an old clock with a face ol...
+
+[Turn 8] | images=3 -> panel
+Prompt (head): You are given 3 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=69  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 102) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 102) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The image is a composite of three different images. [TRUNCATED?]
+
+[Turn 9] | images=3 -> panel
+Prompt (head): You are given 3 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=71  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 104) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 104) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The image is a composite of three images. [TRUNCATED?]
+
+[Turn 10] | images=3 -> panel
+Prompt (head): You are given 3 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=66  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 99) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 99) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The gable is a structural element that is found on the sides of a building. [TRUNCATED?]
+
+[Turn 11] | images=3 -> panel
+Prompt (head): You are given 3 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=69  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 102) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 102) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): Image 1 is a church. [TRUNCATED?]
+
+[Turn 12] | images=3 -> panel
+Prompt (head): You are given 3 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=69  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 102) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 102) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): Image 1 and 2 are both churches. [TRUNCATED?]
+
+[Turn 13] | images=3 -> panel
+Prompt (head): You are given 3 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=72  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 105) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 105) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): Image 1 is a gothic style church with a clock tower. [TRUNCATED?]
+
+[Turn 14] | images=3 -> panel
+Prompt (head): You are given 3 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=73  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 106) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 106) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): Image 1 is a Gothic Revival building, built between and . [TRUNCATED?]
+
+[Turn 15] | images=3 -> panel
+Prompt (head): You are given 3 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=76  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 109) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 109) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The gables are triangular in shape. [TRUNCATED?]
+
+[Turn 16] | images=3 -> panel
+Prompt (head): You are given 3 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=70  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 103) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 103) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The gable is decorated with a clock face and a sunburst. [TRUNCATED?]
+
+[Turn 17] | images=3 -> panel
+Prompt (head): You are given 3 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=74  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 107) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 107) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The cultural context of Image 1 is the gothic revival style. [TRUNCATED?]
+
+[Turn 18] | images=3 -> panel
+Prompt (head): You are given 3 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=71  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 104) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 104) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): brick, stone, cement, metal, glass, wood, etc. [TRUNCATED?]
+
+[Turn 19] | images=3 -> panel
+Prompt (head): You are given 3 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=76  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 109) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 109) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The gables are symmetrical and have a decorative pattern. [TRUNCATED?]
+
+✅ Per-sample CSVs saved under output/
+Tip: Each file name is <model_short>_sample<global_id>.csv .
+Tip: If you still hit context budget, reduce --max-images-per-turn or --panel-tile-size or --hist-max.
+[ok]   sample 48 -> /fs/nexus-scratch/byan1/MMDU-main/output/Salesforce_blip2-opt-6.7b_sample48.csv
+>>> [run] sample 49 ...
+Local images root: /fs/nexus-scratch/byan1/MMDU-main/_mmdu_pics/mmdu_pics
+[dataset] using samples [49, 50) -> total 1
+Using device_map=auto, dtype=torch.bfloat16
+[ctx] max_pos=2048  max_new=128  budget=1912
+
+============================================================
+Sample 49 (local idx 0) | #images=4  #turns=44
+[write] output/blip2-opt-6.7b_sample49.csv
+
+[Turn 1] | images=4 -> panel
+Prompt (head): You are given 4 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=72  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 105) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 105) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The person is sad. [TRUNCATED?]
+
+[Turn 2] | images=4 -> panel
+Prompt (head): You are given 4 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=73  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 106) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 106) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The person is standing with her back to the camera, facing the viewer. [TRUNCATED?]
+
+[Turn 3] | images=4 -> panel
+Prompt (head): You are given 4 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=67  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 100) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 100) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The suitcase is a symbol of her journey and the beginning of a new life.
+
+[Turn 4] | images=4 -> panel
+Prompt (head): You are given 4 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=73  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 106) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 106) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): Anger, sadness, and confusion The man is sitting on a chair with his back to us. [TRUNCATED?]
+
+[Turn 5] | images=4 -> panel
+Prompt (head): You are given 4 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=67  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 100) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 100) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The image2 is a powerful tool for conveying a message. [TRUNCATED?]
+
+[Turn 6] | images=4 -> panel
+Prompt (head): You are given 4 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=73  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 106) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 106) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): Image1 is a portrait of a young man in a suit, with a hat and sunglasses. [TRUNCATED?]
+
+[Turn 7] | images=4 -> panel
+Prompt (head): You are given 4 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=67  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 100) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 100) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The first section is a person with a red scarf, and the second section has a girl with long hair. [TRUNCATED?]
+
+[Turn 8] | images=4 -> panel
+Prompt (head): You are given 4 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=63  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 96) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 96) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The image3 is a reflection of my background and culture. [TRUNCATED?]
+
+[Turn 9] | images=4 -> panel
+Prompt (head): You are given 4 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=71  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 104) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 104) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The artist is a person with a troubled past, and his work reflects his inner turmoil. [TRUNCATED?]
+
+[Turn 10] | images=4 -> panel
+Prompt (head): You are given 4 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=68  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 101) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 101) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The crowd is depicted with a concertina. [TRUNCATED?]
+
+[Turn 11] | images=4 -> panel
+Prompt (head): You are given 4 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=62  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 95) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 95) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The Colosseum Deep Purple - live in verona deep purple - with orchestra live in vienna verona - deep purple vienna - veron with orchestra - ...
+
+[Turn 12] | images=4 -> panel
+Prompt (head): You are given 4 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=62  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 95) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 95) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): deep purple with orchestra live in verona deep purple - live with orch - veronaproduct Deep Purple - Live in Verona - DVD Image5 The image s...
+
+[Turn 13] | images=4 -> panel
+Prompt (head): You are given 4 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=76  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 109) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 109) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): Image 1 is a simple image with a single person standing in front of a crowd. [TRUNCATED?]
+
+[Turn 14] | images=4 -> panel
+Prompt (head): You are given 4 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=66  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 99) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 99) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): Image 1 - a man sitting on a bench with a book in his lap, reading. [TRUNCATED?]
+
+[Turn 15] | images=4 -> panel
+Prompt (head): You are given 4 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=76  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 109) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 109) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): Image 1 is a dark blue background with white text. [TRUNCATED?]
+
+[Turn 16] | images=4 -> panel
+Prompt (head): You are given 4 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=79  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 112) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 112) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The first image is a man with a red shirt and a blue tie, looking out at the ocean. [TRUNCATED?]
+
+[Turn 17] | images=4 -> panel
+Prompt (head): You are given 4 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=76  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 109) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 109) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): Image1 is a closeup of a concert poster for deep purple with orchestra live in verona. [TRUNCATED?]
+
+[Turn 18] | images=4 -> panel
+Prompt (head): You are given 4 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=70  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 103) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 103) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): Image 1 is a photo of a man sitting on a bench. [TRUNCATED?]
+
+[Turn 19] | images=4 -> panel
+Prompt (head): You are given 4 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=69  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 102) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 102) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): Image1 is a close-up of a concert poster with the words deep purple on it. [TRUNCATED?]
+
+[Turn 20] | images=4 -> panel
+Prompt (head): You are given 4 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=64  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 97) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 97) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The first image is a young man with his hair tied up in a bun. [TRUNCATED?]
+
+✅ Per-sample CSVs saved under output/
+Tip: Each file name is <model_short>_sample<global_id>.csv .
+Tip: If you still hit context budget, reduce --max-images-per-turn or --panel-tile-size or --hist-max.
+[ok]   sample 49 -> /fs/nexus-scratch/byan1/MMDU-main/output/Salesforce_blip2-opt-6.7b_sample49.csv
+>>> [run] sample 50 ...
+Local images root: /fs/nexus-scratch/byan1/MMDU-main/_mmdu_pics/mmdu_pics
+[dataset] using samples [50, 51) -> total 1
+Using device_map=auto, dtype=torch.bfloat16
+[ctx] max_pos=2048  max_new=128  budget=1912
+
+============================================================
+Sample 50 (local idx 0) | #images=2  #turns=20
+[write] output/blip2-opt-6.7b_sample50.csv
+
+[Turn 1] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=78  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 111) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 111) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The architecture is Gothic Revival. [TRUNCATED?]
+
+[Turn 2] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=63  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 96) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 96) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): Image 1 is a church. [TRUNCATED?]
+
+[Turn 3] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=67  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 100) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 100) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): Image 1 is a church. [TRUNCATED?]
+
+[Turn 4] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=66  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 99) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 99) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The church is a very old building a large brick building with a clock tower the building has a steeple there is an archway it is brown and i...
+
+[Turn 5] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=69  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 102) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 102) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): Image 1 is a church. [TRUNCATED?]
+
+[Turn 6] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=73  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 106) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 106) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): Image 1 is a church and image 2 is an office building. [TRUNCATED?]
+
+[Turn 7] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=65  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 98) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 98) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): Image 1 is a church, Image 2 is an airport terminal. [TRUNCATED?]
+
+[Turn 8] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=69  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 102) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 102) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): Image 1 is a church in a rural area. [TRUNCATED?]
+
+[Turn 9] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=75  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 108) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 108) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The building in the first image is a church.
+
+[Turn 10] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=73  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 106) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 106) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): Image 1 is a church. [TRUNCATED?]
+
+✅ Per-sample CSVs saved under output/
+Tip: Each file name is <model_short>_sample<global_id>.csv .
+Tip: If you still hit context budget, reduce --max-images-per-turn or --panel-tile-size or --hist-max.
+[ok]   sample 50 -> /fs/nexus-scratch/byan1/MMDU-main/output/Salesforce_blip2-opt-6.7b_sample50.csv
+>>> [run] sample 51 ...
+Local images root: /fs/nexus-scratch/byan1/MMDU-main/_mmdu_pics/mmdu_pics
+[dataset] using samples [51, 52) -> total 1
+Using device_map=auto, dtype=torch.bfloat16
+[ctx] max_pos=2048  max_new=128  budget=1912
+
+============================================================
+Sample 51 (local idx 0) | #images=2  #turns=32
+[write] output/blip2-opt-6.7b_sample51.csv
+
+[Turn 1] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=67  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 100) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 100) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): A white car a white truck an old car with a broken window the car is white it is a car that is not white anymore there is no car in this pic...
+
+[Turn 2] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=63  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 96) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 96) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): a chevrolet caprice a white car parked next to a black car the white cars back end is facing the camera there is a red car in front of it tw...
+
+[Turn 3] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=69  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 102) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 102) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The car is a white, unmodified, non-luxury vehicle. [TRUNCATED?]
+
+[Turn 4] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=78  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 111) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 111) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): An old pickup truck a blue pick up truck parked in front of a house the truck has a blue stripe down the side there is a white car parked ne...
+
+[Turn 5] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=75  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 108) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 108) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The truck is a pickup truck, which was popular from the late to the early . [TRUNCATED?]
+
+[Turn 6] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=76  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 109) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 109) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The vehicle is parked on the side of the road in front of a house. [TRUNCATED?]
+
+[Turn 7] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=66  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 99) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 99) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): Image 1 is a pickup truck. [TRUNCATED?]
+
+[Turn 8] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=64  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 97) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 97) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The blue truck is a pickup truck a blue pickup is parked on the street the blue pick up is not parked in a driveway there is no car parked n...
+
+[Turn 9] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=71  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 104) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 104) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): Image 1 is a pickup truck and image 2 is an old car. [TRUNCATED?]
+
+[Turn 10] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=64  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 97) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 97) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The blue truck is a pickup truck. [TRUNCATED?]
+
+[Turn 11] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=65  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 98) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 98) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): Image 1 is a blue truck with a white roof and a black stripe down the side. [TRUNCATED?]
+
+[Turn 12] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=68  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 101) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 101) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): Image 1 is a pick-up truck from the . [TRUNCATED?]
+
+[Turn 13] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=70  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 103) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 103) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The blue truck is a pickup truck. [TRUNCATED?]
+
+[Turn 14] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=66  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 99) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 99) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): Image 1 is a blue pickup truck. [TRUNCATED?]
+
+[Turn 15] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=72  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 105) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 105) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The truck is parked on a street. [TRUNCATED?]
+
+[Turn 16] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=67  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 100) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 100) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): Image 1 shows a pickup truck with a small engine and a manual transmission. [TRUNCATED?]
+
+✅ Per-sample CSVs saved under output/
+Tip: Each file name is <model_short>_sample<global_id>.csv .
+Tip: If you still hit context budget, reduce --max-images-per-turn or --panel-tile-size or --hist-max.
+[ok]   sample 51 -> /fs/nexus-scratch/byan1/MMDU-main/output/Salesforce_blip2-opt-6.7b_sample51.csv
+>>> [run] sample 52 ...
+Local images root: /fs/nexus-scratch/byan1/MMDU-main/_mmdu_pics/mmdu_pics
+[dataset] using samples [52, 53) -> total 1
+Using device_map=auto, dtype=torch.bfloat16
+[ctx] max_pos=2048  max_new=128  budget=1912
+
+============================================================
+Sample 52 (local idx 0) | #images=2  #turns=28
+[write] output/blip2-opt-6.7b_sample52.csv
+
+[Turn 1] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=74  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 107) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 107) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The image is a poster for a movie called les invasions barbares. [TRUNCATED?]
+
+[Turn 2] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=64  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 97) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 97) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The people in Image 1 are depicted with a sense of humor and a look of surprise. [TRUNCATED?]
+
+[Turn 3] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=67  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 100) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 100) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The book depicts the invasion of barbarians by the french army. [TRUNCATED?]
+
+[Turn 4] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=75  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 108) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 108) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The poster for ginger rogers's movie kitty foy The poster shows a woman with her hands on her hips, looking at the camera with a smile on hi...
+
+[Turn 5] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=76  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 109) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 109) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): Image 1 is a black and white film with red and green accents. [TRUNCATED?]
+
+[Turn 6] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=74  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 107) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 107) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): Image 1 is a black and white film from the . [TRUNCATED?]
+
+[Turn 7] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=79  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 112) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 112) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): image1 - ginger rogers, kitty foy image2 - james cagney, mary tyler moore Image 1 Ginger Rogers is a beautiful actress who starred in many f...
+
+[Turn 8] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=71  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 104) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 104) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): Image 1 is a close-up of a woman's face, while Image 2 is an image of the poster for the movie ginger rogers Image1 image2 Ginger Rogers and...
+
+[Turn 9] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=78  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 111) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 111) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): Image 1 is from the movie ginger rogers and the kitty foy Image 2 is a poster for the film ginger rogers and kittie froy The poster shows a ...
+
+[Turn 10] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=82  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 115) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 115) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The poster for ginger roggers and kitty foyles is a movie poster with two people in it Image 1 The poster shows a man and woman sitting on a...
+
+[Turn 11] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=77  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 110) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 110) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): I see a young woman with a book and a man with an open book. [TRUNCATED?]
+
+[Turn 12] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=81  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 114) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 114) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The title of each poster is a clue to the storyline of that film. [TRUNCATED?]
+
+[Turn 13] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=79  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 112) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 112) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): Image 1 is a poster for a movie called ginger roggers, and image 2 is for kitty foy The poster shows a woman with her hair in a bun, wearing...
+
+[Turn 14] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=74  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 107) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 107) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): Image 1 shows a group of young people sitting around a table. [TRUNCATED?]
+
+✅ Per-sample CSVs saved under output/
+Tip: Each file name is <model_short>_sample<global_id>.csv .
+Tip: If you still hit context budget, reduce --max-images-per-turn or --panel-tile-size or --hist-max.
+[ok]   sample 52 -> /fs/nexus-scratch/byan1/MMDU-main/output/Salesforce_blip2-opt-6.7b_sample52.csv
+>>> [run] sample 53 ...
+Local images root: /fs/nexus-scratch/byan1/MMDU-main/_mmdu_pics/mmdu_pics
+[dataset] using samples [53, 54) -> total 1
+Using device_map=auto, dtype=torch.bfloat16
+[ctx] max_pos=2048  max_new=128  budget=1912
+
+============================================================
+Sample 53 (local idx 0) | #images=2  #turns=20
+[write] output/blip2-opt-6.7b_sample53.csv
+
+[Turn 1] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=75  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 108) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 108) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): This is a church The building has a large tower There are two statues on the front of the building It is made of stone This is an old church...
+
+[Turn 2] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=65  budget=1912
+[safe_generate] keys=attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 98) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 98) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 224, 224) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()

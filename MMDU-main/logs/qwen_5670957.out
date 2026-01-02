@@ -1,0 +1,448 @@
+Local images root: /fs/nexus-scratch/byan1/MMDU-main/_mmdu_pics/mmdu_pics
+[dataset] using samples [108, 110) -> total 2
+Using device_map=auto, dtype=torch.bfloat16
+[ctx] max_pos=32768  max_new=128  budget=32632
+
+============================================================
+Sample 108 (local idx 0) | #images=18  #turns=34
+[write] output/Qwen2-VL-7B-Instruct_sample108.csv
+
+[Turn 1] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=235  budget=32632
+[safe_generate] keys=attention_mask, image_grid_thw, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 466) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 466) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(936, 1176) device=cuda:0 dtype=torch.bfloat16
+[safe_generate]   image_grid_thw: shape=(1, 3) device=cuda:0 dtype=torch.int64
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The vehicle in image 2 is powered by a propeller, while the vehicle in image 8 is powered by a jet engine, and the vehicle in image 4 is pow...
+
+[Turn 2] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=180  budget=32632
+[safe_generate] keys=attention_mask, image_grid_thw, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 435) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 435) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(936, 1176) device=cuda:0 dtype=torch.bfloat16
+[safe_generate]   image_grid_thw: shape=(1, 3) device=cuda:0 dtype=torch.int64
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The vehicle in Image 2, which is a seaplane, seems best suited for long-distance travel over bodies of water due to its amphibious capabilit...
+
+[Turn 3] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=211  budget=32632
+[safe_generate] keys=attention_mask, image_grid_thw, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 481) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 481) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1008, 1176) device=cuda:0 dtype=torch.bfloat16
+[safe_generate]   image_grid_thw: shape=(1, 3) device=cuda:0 dtype=torch.int64
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The hot air balloon in Image 1 uses thermal energy, while the train in Image 2 uses mechanical energy, and the airplane in Image 7 uses kine...
+
+[Turn 4] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=196  budget=32632
+[safe_generate] keys=attention_mask, image_grid_thw, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 469) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 469) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1008, 1176) device=cuda:0 dtype=torch.bfloat16
+[safe_generate]   image_grid_thw: shape=(1, 3) device=cuda:0 dtype=torch.int64
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The hot air balloons in image 1 and image 2 are designed for leisurely flights, suitable for scenic views and tourism, while the smaller, mo...
+
+[Turn 5] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=193  budget=32632
+[safe_generate] keys=attention_mask, image_grid_thw, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 463) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 463) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1008, 1176) device=cuda:0 dtype=torch.bfloat16
+[safe_generate]   image_grid_thw: shape=(1, 3) device=cuda:0 dtype=torch.int64
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): airplane
+
+[Turn 6] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=187  budget=32632
+[safe_generate] keys=attention_mask, image_grid_thw, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 460) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 460) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1008, 1176) device=cuda:0 dtype=torch.bfloat16
+[safe_generate]   image_grid_thw: shape=(1, 3) device=cuda:0 dtype=torch.int64
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The vehicles serve various purposes, including transportation, exploration, and leisure.
+
+[Turn 7] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=195  budget=32632
+[safe_generate] keys=attention_mask, image_grid_thw, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 468) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 468) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1008, 1176) device=cuda:0 dtype=torch.bfloat16
+[safe_generate]   image_grid_thw: shape=(1, 3) device=cuda:0 dtype=torch.int64
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The environment in image 10, with its open field, is suitable for the hot air balloon's leisurely flight, while the environment in image 5, ...
+
+[Turn 8] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=188  budget=32632
+[safe_generate] keys=attention_mask, image_grid_thw, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 461) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 461) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1008, 1176) device=cuda:0 dtype=torch.bfloat16
+[safe_generate]   image_grid_thw: shape=(1, 3) device=cuda:0 dtype=torch.int64
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The designs in image 1, image 6, image 7, image 8, image 4, image 10, and image 5 reflect the technological evolution of air transportation ...
+
+[Turn 9] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=171  budget=32632
+[safe_generate] keys=attention_mask, image_grid_thw, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 408) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 408) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(864, 1176) device=cuda:0 dtype=torch.bfloat16
+[safe_generate]   image_grid_thw: shape=(1, 3) device=cuda:0 dtype=torch.int64
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): Air transportation can be crucial for rapid response, rescue operations, and logistical support in emergency services and disaster response ...
+
+[Turn 10] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=186  budget=32632
+[safe_generate] keys=attention_mask, image_grid_thw, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 387) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 387) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(720, 1176) device=cuda:0 dtype=torch.bfloat16
+[safe_generate]   image_grid_thw: shape=(1, 3) device=cuda:0 dtype=torch.int64
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The sleek, futuristic design of image 5 may enhance the aesthetic appeal and user experience, potentially making the air transportation more...
+
+[Turn 11] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=179  budget=32632
+[safe_generate] keys=attention_mask, image_grid_thw, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 434) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 434) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(936, 1176) device=cuda:0 dtype=torch.bfloat16
+[safe_generate]   image_grid_thw: shape=(1, 3) device=cuda:0 dtype=torch.int64
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): Scaled models or simpler representations of air transportation vehicles can serve as educational tools, hobby activities, and scientific res...
+
+[Turn 12] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=195  budget=32632
+[safe_generate] keys=attention_mask, image_grid_thw, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 468) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 468) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1008, 1176) device=cuda:0 dtype=torch.bfloat16
+[safe_generate]   image_grid_thw: shape=(1, 3) device=cuda:0 dtype=torch.int64
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The hot air balloons in the image are powered by hot air, while the airplane in the image is powered by jet engines.
+
+[Turn 13] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=220  budget=32632
+[safe_generate] keys=attention_mask, image_grid_thw, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 445) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 445) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(864, 1176) device=cuda:0 dtype=torch.bfloat16
+[safe_generate]   image_grid_thw: shape=(1, 3) device=cuda:0 dtype=torch.int64
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The vehicles in Image 11, Image 12, and Image 14 serve as transportation, surveillance, and recreational purposes, respectively, indicating ...
+
+[Turn 14] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=175  budget=32632
+[safe_generate] keys=attention_mask, image_grid_thw, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 430) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 430) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(936, 1176) device=cuda:0 dtype=torch.bfloat16
+[safe_generate]   image_grid_thw: shape=(1, 3) device=cuda:0 dtype=torch.int64
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The vehicles in image 2, image 4, and image 13 are likely to operate on different terrains, with image 2's vehicle being suitable for water,...
+
+[Turn 15] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=188  budget=32632
+[safe_generate] keys=attention_mask, image_grid_thw, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 440) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 440) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(936, 1176) device=cuda:0 dtype=torch.bfloat16
+[safe_generate]   image_grid_thw: shape=(1, 3) device=cuda:0 dtype=torch.int64
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The aircraft in image 15 are designed for commercial passenger transport, while the aircraft in image 2 are designed for military use, and t...
+
+[Turn 16] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=189  budget=32632
+[safe_generate] keys=attention_mask, image_grid_thw, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 423) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 423) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(864, 1176) device=cuda:0 dtype=torch.bfloat16
+[safe_generate]   image_grid_thw: shape=(1, 3) device=cuda:0 dtype=torch.int64
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The individual would need to have good balance, coordination, and physical fitness to safely engage in these activities.
+
+[Turn 17] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=212  budget=32632
+[safe_generate] keys=attention_mask, image_grid_thw, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 461) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 461) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(936, 1176) device=cuda:0 dtype=torch.bfloat16
+[safe_generate]   image_grid_thw: shape=(1, 3) device=cuda:0 dtype=torch.int64
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The primary energy sources for the flying machines in the images are jet fuel, which can have significant environmental impacts such as air ...
+
+============================================================
+Sample 109 (local idx 1) | #images=20  #turns=38
+[write] output/Qwen2-VL-7B-Instruct_sample109.csv
+
+[Turn 1] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=194  budget=32632
+[safe_generate] keys=attention_mask, image_grid_thw, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 386) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 386) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(720, 1176) device=cuda:0 dtype=torch.bfloat16
+[safe_generate]   image_grid_thw: shape=(1, 3) device=cuda:0 dtype=torch.int64
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): All three images depict habitats that are typically found in tropical regions.
+
+[Turn 2] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=233  budget=32632
+[safe_generate] keys=attention_mask, image_grid_thw, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 449) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 449) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(864, 1176) device=cuda:0 dtype=torch.bfloat16
+[safe_generate]   image_grid_thw: shape=(1, 3) device=cuda:0 dtype=torch.int64
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The presence of leaves and a log in image 2, the presence of a tree in image 6, and the presence of a log in image 10 suggest that the subje...
+
+[Turn 3] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=173  budget=32632
+[safe_generate] keys=attention_mask, image_grid_thw, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 410) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 410) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(864, 1176) device=cuda:0 dtype=torch.bfloat16
+[safe_generate]   image_grid_thw: shape=(1, 3) device=cuda:0 dtype=torch.int64
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The long tail of the animal in Image 5 could be used for balance and protection, while the large fin-like structure on the back of the anima...
+
+[Turn 4] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=176  budget=32632
+[safe_generate] keys=attention_mask, image_grid_thw, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 377) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 377) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(720, 1176) device=cuda:0 dtype=torch.bfloat16
+[safe_generate]   image_grid_thw: shape=(1, 3) device=cuda:0 dtype=torch.int64
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The habitats depicted in Image 1 and Image 4 provide natural camouflage for the alligators, blending them into their surroundings, while the...
+
+[Turn 5] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=185  budget=32632
+[safe_generate] keys=attention_mask, image_grid_thw, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 419) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 419) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(864, 1176) device=cuda:0 dtype=torch.bfloat16
+[safe_generate]   image_grid_thw: shape=(1, 3) device=cuda:0 dtype=torch.int64
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The animal in Image 11 has a long tail for balance and a streamlined body for speed, while the animal in Image 5 has a long neck for reachin...
+
+[Turn 6] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=183  budget=32632
+[safe_generate] keys=attention_mask, image_grid_thw, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 420) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 420) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(864, 1176) device=cuda:0 dtype=torch.bfloat16
+[safe_generate]   image_grid_thw: shape=(1, 3) device=cuda:0 dtype=torch.int64
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The coloration of the animal in image 1 helps it blend into the forest floor, while the animal in image 4 uses its bright colors to attract ...
+
+[Turn 7] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=191  budget=32632
+[safe_generate] keys=attention_mask, image_grid_thw, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 422) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 422) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(864, 1176) device=cuda:0 dtype=torch.bfloat16
+[safe_generate]   image_grid_thw: shape=(1, 3) device=cuda:0 dtype=torch.int64
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The alligator's powerful jaws and sharp teeth are well-suited for its role as a top predator, while the frog's agile limbs and webbed feet a...
+
+[Turn 8] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=173  budget=32632
+[safe_generate] keys=attention_mask, image_grid_thw, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 374) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 374) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(720, 1176) device=cuda:0 dtype=torch.bfloat16
+[safe_generate]   image_grid_thw: shape=(1, 3) device=cuda:0 dtype=torch.int64
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The alligator in image 4 is interacting with its environment by swimming, while the alligator in image 11 is resting on the rocks, reflectin...
+
+[Turn 9] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=174  budget=32632
+[safe_generate] keys=attention_mask, image_grid_thw, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 411) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 411) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(864, 1176) device=cuda:0 dtype=torch.bfloat16
+[safe_generate]   image_grid_thw: shape=(1, 3) device=cuda:0 dtype=torch.int64
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The snake demonstrates a more complex level of interaction with its surroundings because it is navigating through a rocky terrain, which req...
+
+[Turn 10] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=176  budget=32632
+[safe_generate] keys=attention_mask, image_grid_thw, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 359) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 359) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(648, 1176) device=cuda:0 dtype=torch.bfloat16
+[safe_generate]   image_grid_thw: shape=(1, 3) device=cuda:0 dtype=torch.int64
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): Both the snake and the lizard use their agility and camouflage to hunt and evade predators, with the snake's flexibility allowing it to slit...
+
+[Turn 11] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=181  budget=32632
+[safe_generate] keys=attention_mask, image_grid_thw, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 418) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 418) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(864, 1176) device=cuda:0 dtype=torch.bfloat16
+[safe_generate]   image_grid_thw: shape=(1, 3) device=cuda:0 dtype=torch.int64
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The habitats of these animals are likely to provide a variety of food sources, including insects, small mammals, and plants, which would con...
+
+[Turn 12] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=174  budget=32632
+[safe_generate] keys=attention_mask, image_grid_thw, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 411) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 411) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(864, 1176) device=cuda:0 dtype=torch.bfloat16
+[safe_generate]   image_grid_thw: shape=(1, 3) device=cuda:0 dtype=torch.int64
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The presence of water sources in the habitats portrayed likely influences the lifestyles of the animals by providing a habitat for aquatic s...
+
+[Turn 13] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=185  budget=32632
+[safe_generate] keys=attention_mask, image_grid_thw, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 422) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 422) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(864, 1176) device=cuda:0 dtype=torch.bfloat16
+[safe_generate]   image_grid_thw: shape=(1, 3) device=cuda:0 dtype=torch.int64
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): Human activities could lead to habitat destruction and loss, impacting the survival of these prehistoric creatures.
+
+[Turn 14] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=207  budget=32632
+[safe_generate] keys=attention_mask, image_grid_thw, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 438) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 438) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(864, 1176) device=cuda:0 dtype=torch.bfloat16
+[safe_generate]   image_grid_thw: shape=(1, 3) device=cuda:0 dtype=torch.int64
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The habitats in image 9, image 3, image 8, image 5, image 14, image 10, and image 15 are all different types of environments, with image 9 d...
+
+[Turn 15] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=196  budget=32632
+[safe_generate] keys=attention_mask, image_grid_thw, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 433) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 433) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(864, 1176) device=cuda:0 dtype=torch.bfloat16
+[safe_generate]   image_grid_thw: shape=(1, 3) device=cuda:0 dtype=torch.int64
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The color schemes of the subjects' surroundings enhance their visibility to the observer.
+
+[Turn 16] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=207  budget=32632
+[safe_generate] keys=attention_mask, image_grid_thw, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 441) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 441) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(864, 1176) device=cuda:0 dtype=torch.bfloat16
+[safe_generate]   image_grid_thw: shape=(1, 3) device=cuda:0 dtype=torch.int64
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The creatures depicted prefer environments that provide shelter, food, and water, such as forests, wetlands, and aquatic habitats, which sup...
+
+[Turn 17] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=181  budget=32632
+[safe_generate] keys=attention_mask, image_grid_thw, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 415) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 415) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(864, 1176) device=cuda:0 dtype=torch.bfloat16
+[safe_generate]   image_grid_thw: shape=(1, 3) device=cuda:0 dtype=torch.int64
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The creatures shown in image 17 are solitary.
+
+[Turn 18] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=177  budget=32632
+[safe_generate] keys=attention_mask, image_grid_thw, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 411) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 411) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(864, 1176) device=cuda:0 dtype=torch.bfloat16
+[safe_generate]   image_grid_thw: shape=(1, 3) device=cuda:0 dtype=torch.int64
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The creature in image 18, a snake, benefits from camouflage by blending into its rocky environment, which helps it avoid predators and ambus...
+
+[Turn 19] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=213  budget=32632
+[safe_generate] keys=attention_mask, image_grid_thw, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 390) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 390) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(648, 1176) device=cuda:0 dtype=torch.bfloat16
+[safe_generate]   image_grid_thw: shape=(1, 3) device=cuda:0 dtype=torch.int64
+[safe_generate] forward has image_num_patches? False
+[safe_generate] try #1: clean generate()
+Answer (head): The images depict a variety of habitats, including rocky areas with snakes, a desert environment with a snake, and a rocky ground with a sna...
+
+✅ Per-sample CSVs saved under output/
+Tip: Each file name is <model_short>_sample<global_id>.csv .
+Tip: If you still hit context budget, reduce --max-images-per-turn or --panel-tile-size or --hist-max.

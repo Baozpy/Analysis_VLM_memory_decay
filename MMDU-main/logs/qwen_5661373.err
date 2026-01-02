@@ -1,0 +1,9 @@
+/nfshomes/byan1/venvs/cmsc799/lib/python3.11/site-packages/transformers/utils/hub.py:110: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+Map:   0%|          | 0/59 [00:00<?, ? examples/s]Map: 100%|██████████| 59/59 [00:00<00:00, 2000.65 examples/s]
+The image processor of type `Qwen2VLImageProcessor` is now loaded as a fast processor by default, even if the model checkpoint was saved with a slow processor. This is a breaking change and may produce slightly different outputs. To continue using the slow processor, instantiate this class with `use_fast=False`. Note that this behavior will be extended to all models in a future release.
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/5 [00:00<?, ?it/s]Loading checkpoint shards:  20%|██        | 1/5 [00:01<00:05,  1.26s/it]Loading checkpoint shards:  40%|████      | 2/5 [00:02<00:03,  1.14s/it]Loading checkpoint shards:  60%|██████    | 3/5 [00:02<00:01,  1.30it/s]Loading checkpoint shards: 100%|██████████| 5/5 [00:02<00:00,  1.87it/s]
+Some parameters are on the meta device because they were offloaded to the cpu.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+slurmstepd: error: *** JOB 5661373 ON cml03 CANCELLED AT 2025-10-30T05:46:28 DUE TO TIME LIMIT ***

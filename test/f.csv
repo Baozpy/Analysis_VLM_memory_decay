@@ -1,0 +1,8 @@
+id,image_a,image_b,ssim,lpips,mae_delta,ciede2000_mean,ciede2000_median,edge_f1,qwen_rating_1to5,qwen_raw,dino_cosine,dino_similarity01,dino_l2,elapsed_sec
+sample_0,/fs/clip-scratch/apalnitk/figure/scripts/plot2code_outputs/sample_0/generated.png,/fs/clip-scratch/apalnitk/figure/scripts/plot2code_outputs/sample_0/ground_truth.png,0.585388720035553,0.7460150718688965,0.251792311668396,22.483196258544922,0.0,0.26054752244744156,3,"system
+You are a helpful assistant.
+user
+You are a strict image similarity judge for scientific plots and charts. Given two images, output ONLY ONE line in this exact format:
+SCORE: <1-5>; REASON: <a single short sentence>
+assistant
+SCORE: 3; REASON: The images contain similar",0.8348388671875,0.91741943359375,18.69729232788086,18.589763641357422

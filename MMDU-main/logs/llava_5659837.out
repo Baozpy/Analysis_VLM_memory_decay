@@ -1,0 +1,2173 @@
+Local images root: /fs/nexus-scratch/byan1/MMDU-main/_mmdu_pics/mmdu_pics
+[dataset] using samples [23, 110) -> total 87
+Using device_map=auto, dtype=torch.bfloat16
+[ctx] max_pos=4096  max_new=128  budget=3960
+
+============================================================
+Sample 23 (local idx 0) | #images=3  #turns=38
+[write] output/llava-v1.6-vicuna-7b-hf_sample23.csv
+
+[Turn 1] | images=3 -> panel
+Prompt (head): You are given 3 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=172  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 756) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 756) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): Grassy field
+
+[Turn 2] | images=3 -> panel
+Prompt (head): You are given 3 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=167  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 754) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 754) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): The animal in Image1 is a brown cat with a striped tail.
+
+[Turn 3] | images=3 -> panel
+Prompt (head): You are given 3 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=172  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 759) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 759) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): The animal in Image1 is a predator.
+
+[Turn 4] | images=3 -> panel
+Prompt (head): You are given 3 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=180  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 764) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 764) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): The animal in Image2 is a dog with a muscular build, standing on its hind legs with its front paws on the ground.
+
+[Turn 5] | images=3 -> panel
+Prompt (head): You are given 3 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=178  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 765) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 765) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): The animal in Image2 appears to be alert and focused, with a slightly tense facial expression and a relaxed body posture.
+
+[Turn 6] | images=3 -> panel
+Prompt (head): You are given 3 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=183  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 770) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 770) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): Herding
+
+[Turn 7] | images=3 -> panel
+Prompt (head): You are given 3 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=182  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 766) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 766) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): The primary color of the animal in the foreground of Image3 is brown, and it has a blonde mane.
+
+[Turn 8] | images=3 -> panel
+Prompt (head): You are given 3 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=177  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 764) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 764) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): The popularity of the animal in the Image3 in pleasure and parade classes could be attributed to its physical appearance, temperament, and t...
+
+[Turn 9] | images=3 -> panel
+Prompt (head): You are given 3 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=179  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 766) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 766) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): The colors and patterns of the animal's coats in Image3 contribute to their aesthetic appeal by showcasing the natural beauty and diversity ...
+
+[Turn 10] | images=3 -> panel
+Prompt (head): You are given 3 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=173  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 760) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 760) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): The horse has a blonde mane and tail.
+
+[Turn 11] | images=3 -> panel
+Prompt (head): You are given 3 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=178  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 765) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 765) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): The animals in Image1, Image2, and Image3 are horses.
+
+[Turn 12] | images=3 -> panel
+Prompt (head): You are given 3 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=180  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 767) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 767) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): Image1 shows a horse in a fenced area, Image2 shows a horse in a grassy field, and Image3 shows a horse in a corral.
+
+[Turn 13] | images=3 -> panel
+Prompt (head): You are given 3 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=187  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 774) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 774) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): In Image1, the horse is standing with its head over a fence, possibly curious or interested in something on the other side.
+
+[Turn 14] | images=3 -> panel
+Prompt (head): You are given 3 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=181  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 768) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 768) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): The coat colors and textures in Image1, Image2, and Image3 may serve their functions or activities by providing camouflage, insulation, and ...
+
+[Turn 15] | images=3 -> panel
+Prompt (head): You are given 3 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=182  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 769) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 769) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): The horses in Image1 and Image2 appear to be calm and content, while the horse in Image3 seems to be curious or attentive.
+
+[Turn 16] | images=3 -> panel
+Prompt (head): You are given 3 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=185  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 772) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 772) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): The largest horse, with the most muscle mass, would have the highest speed and agility.
+
+[Turn 17] | images=3 -> panel
+Prompt (head): You are given 3 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=176  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 763) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 763) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): Image1 shows a brown horse with blonde mane, Image2 shows a brown horse with blonde mane, Image3 shows a brown horse with blonde mane.
+
+[Turn 18] | images=3 -> panel
+Prompt (head): You are given 3 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=183  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 770) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 770) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): The horses in Image1, Image2, and Image3 are brown and white, which can symbolize balance, harmony, and purity.
+
+[Turn 19] | images=3 -> panel
+Prompt (head): You are given 3 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=190  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 777) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 777) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): In Image1, the horse is standing next to a fence, which provides a boundary and a sense of security.
+
+============================================================
+Sample 24 (local idx 1) | #images=2  #turns=20
+[write] output/llava-v1.6-vicuna-7b-hf_sample24.csv
+
+[Turn 1] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=183  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 764) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 764) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): Pasta and sauce
+
+[Turn 2] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=168  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 755) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 755) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): Image1 shows a person stirring pasta in a pot with a spoon, while Image2 shows a close-up of a bowl of pasta with sauce.
+
+[Turn 3] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=179  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 766) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 766) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): ImageK: The last mentioned ImageK only.
+
+[Turn 4] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=171  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 758) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 758) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): Image1 shows a person cooking pasta in a pan, which is a common dish in many cultures, particularly Italian cuisine.
+
+[Turn 5] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=177  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 764) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 764) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): Image1 shows a person using a spoon to scoop pasta into a bowl, which is a common method of serving pasta in Western cuisine.
+
+[Turn 6] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=183  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 770) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 770) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): Pasta with tomato sauce, symbolizing Italian cuisine.
+
+[Turn 7] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=187  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 774) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 774) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): The person is using a spoon to scoop pasta from a pot of sauce.
+
+[Turn 8] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=180  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 767) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 767) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): A cozy, warm kitchen setting with soft lighting and a comfortable atmosphere.
+
+[Turn 9] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=175  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 762) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 762) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): The dishes shown in Image1 and Image2 are pasta dishes with tomato sauce and cheese. [TRUNCATED?]
+
+[Turn 10] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=175  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 762) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 762) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): Spaghetti with marinara sauce.
+
+============================================================
+Sample 25 (local idx 2) | #images=3  #turns=16
+[write] output/llava-v1.6-vicuna-7b-hf_sample25.csv
+
+[Turn 1] | images=3 -> panel
+Prompt (head): You are given 3 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=176  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 760) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 760) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): The figures in Image1 display a sense of joy and togetherness.
+
+[Turn 2] | images=3 -> panel
+Prompt (head): You are given 3 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=179  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 763) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 763) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): The individuals in Image2 are engaged in conversation and socializing with each other.
+
+[Turn 3] | images=3 -> panel
+Prompt (head): You are given 3 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=178  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 765) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 765) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): The people in Image2 appear to be expressing happiness and joy.
+
+[Turn 4] | images=3 -> panel
+Prompt (head): You are given 3 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=175  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 762) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 762) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): The characters in Image2 are holding items that represent their social status and wealth.
+
+[Turn 5] | images=3 -> panel
+Prompt (head): You are given 3 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=188  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 772) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 772) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): The central figure in Image3 is a depiction of Jesus Christ, with a halo around his head, indicating his importance as a religious figure.
+
+[Turn 6] | images=3 -> panel
+Prompt (head): You are given 3 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=184  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 771) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 771) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): The two figures flanking the central figure in Image3 are Mary and John the Baptist.
+
+[Turn 7] | images=3 -> panel
+Prompt (head): You are given 3 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=185  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 772) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 772) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): The Image3 is a fresco painting that features a large central figure, surrounded by a group of people in a church setting. [TRUNCATED?]
+
+[Turn 8] | images=3 -> panel
+Prompt (head): You are given 3 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=178  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 765) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 765) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): The elongated figures in Image1 are taller than the figures or characters in Image2 and Image3.
+
+============================================================
+Sample 26 (local idx 3) | #images=3  #turns=26
+[write] output/llava-v1.6-vicuna-7b-hf_sample26.csv
+
+[Turn 1] | images=3 -> panel
+Prompt (head): You are given 3 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=182  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 766) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 766) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): Border Collie
+
+[Turn 2] | images=3 -> panel
+Prompt (head): You are given 3 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=181  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 768) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 768) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): The dog in Image1 is a medium-sized dog with a muscular build, which is advantageous for herding sheep.
+
+[Turn 3] | images=3 -> panel
+Prompt (head): You are given 3 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=193  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 780) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 780) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): The dog appears to be excited and energetic, which might suggest that it is enthusiastic about herding the sheep.
+
+[Turn 4] | images=3 -> panel
+Prompt (head): You are given 3 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=174  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 758) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 758) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): The animal in Image2 is a donkey.
+
+[Turn 5] | images=3 -> panel
+Prompt (head): You are given 3 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=176  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 763) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 763) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): The animal in Image2, a donkey, faces challenges related to its habitat and survival, such as finding adequate food and water resources, avo...
+
+[Turn 6] | images=3 -> panel
+Prompt (head): You are given 3 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=176  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 763) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 763) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): The coloration of the animal in the Image2, which is brown and white, helps in its identification and adaptation to its environment by provi...
+
+[Turn 7] | images=3 -> panel
+Prompt (head): You are given 3 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=193  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 777) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 777) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): Horse standing in a field.
+
+[Turn 8] | images=3 -> panel
+Prompt (head): You are given 3 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=180  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 767) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 767) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): Image1 shows a horse in a fenced area, Image2 shows a horse in a grassy field, and Image3 shows a horse in a dirt area.
+
+[Turn 9] | images=3 -> panel
+Prompt (head): You are given 3 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=180  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 767) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 767) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): The horses in Image1, Image2, and Image3 are brown and white, and they are standing in a fenced area.
+
+[Turn 10] | images=3 -> panel
+Prompt (head): You are given 3 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=188  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 775) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 775) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): The horses in Image1 and Image2 appear to be calm and relaxed, while the horse in Image3 looks curious and attentive.
+
+[Turn 11] | images=3 -> panel
+Prompt (head): You are given 3 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=183  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 770) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 770) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): Horse represents freedom, power, and nobility.
+
+[Turn 12] | images=3 -> panel
+Prompt (head): You are given 3 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=176  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 763) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 763) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): In Image1, a person is standing next to a horse, while in Image2, a horse is standing next to a fence.
+
+[Turn 13] | images=3 -> panel
+Prompt (head): You are given 3 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=188  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 775) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 775) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): A brown horse with blonde mane and tail, standing on a dirt path.
+
+============================================================
+Sample 27 (local idx 4) | #images=2  #turns=36
+[write] output/llava-v1.6-vicuna-7b-hf_sample27.csv
+
+[Turn 1] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=193  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 777) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 777) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): Image1 shows a vibrant red and yellow carapace with intricate patterns, which may help the crab blend in with its surroundings and confuse p...
+
+[Turn 2] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=183  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 770) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 770) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): The unique characteristics of the species in the Image1 include its vibrant red and yellow coloration, which is not commonly seen in other t...
+
+[Turn 3] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=193  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 780) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 780) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): The Image1 has a vibrant red and yellow coloration with spots and stripes.
+
+[Turn 4] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=179  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 763) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 763) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): The butterfly in Image2 prefers a habitat with trees and flowers.
+
+[Turn 5] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=179  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 766) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 766) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): The markings on the wings of the butterfly in Image2 help it blend in with its surroundings, providing camouflage and increasing its chances...
+
+[Turn 6] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=176  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 763) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 763) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): The butterfly in Image2 has a brown and white pattern with black spots, which may help it blend in with its natural surroundings and confuse...
+
+[Turn 7] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=174  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 761) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 761) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): The butterfly in Image1 has brown and white wings with black spots, while the butterfly in Image2 has brown and white wings with black spots...
+
+[Turn 8] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=173  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 760) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 760) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): A butterfly in a field, A butterfly in a forest.
+
+[Turn 9] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=180  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 767) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 767) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): Image1 shows a butterfly with a diet of nectar, while Image2 shows a caterpillar with a diet of leaves.
+
+[Turn 10] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=178  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 765) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 765) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): The butterfly in Image1 and Image2 has spots and stripes on its wings, which can serve as a form of camouflage to confuse predators.
+
+[Turn 11] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=180  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 767) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 767) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): Awe
+
+[Turn 12] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=182  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 769) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 769) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): The butterfly in Image1 and Image2 symbolizes transformation, rebirth, and the cycle of life in various cultures and traditions.
+
+[Turn 13] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=178  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 765) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 765) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): The butterfly in Image1 has a brown and white pattern, while the butterfly in Image2 has a brown and yellow pattern.
+
+[Turn 14] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=178  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 765) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 765) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): Image1 shows a butterfly with brown and white spots, indicating it may be a species that camouflages well in natural environments.
+
+[Turn 15] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=180  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 767) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 767) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): Image1 and Image2 showcase the diversity of butterfly species and their roles in pollination and seed dispersal within their ecosystems.
+
+[Turn 16] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=182  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 769) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 769) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): The butterfly in Image1 is the K-th tile in row-major order, and it is shown in relation to the other butterfly in Image2.
+
+[Turn 17] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=182  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 769) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 769) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): Image1 and Image2 are similar in that they both depict a butterfly, but they differ in their patterns and colors.
+
+[Turn 18] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=179  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 766) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 766) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): The presence of the organisms in Image1 and Image2 can have a significant impact on the biodiversity of their respective habitats.
+
+============================================================
+Sample 28 (local idx 5) | #images=5  #turns=40
+[write] output/llava-v1.6-vicuna-7b-hf_sample28.csv
+
+[Turn 1] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=182  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 766) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 766) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): Image1 shows a plant with green leaves and yellow-green seed pods.
+
+[Turn 2] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=175  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 762) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 762) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): The presence of the plants in the Image1 can have various effects on local ecosystems and human activities. [TRUNCATED?]
+
+[Turn 3] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=175  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 762) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 762) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): The plants in Image1 have green, spiral-shaped seed pods that can be used for decorative purposes or as a natural alternative to plastic.
+
+[Turn 4] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=178  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 762) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 762) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): The leaves in Image2 have a mix of smooth and rough textures, with some having a slightly wavy shape.
+
+[Turn 5] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=175  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 762) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 762) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): The plant in Image2 is a cruciferous vegetable, which is known for its potential health benefits, including being a good source of vitamins,...
+
+[Turn 6] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=177  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 764) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 764) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): The Image2 shows the seasonal growth pattern and physical transformation of the plant throughout its lifecycle, with the plant starting as a...
+
+[Turn 7] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=176  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 760) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 760) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): The plant in Image3 has green leaves and yellow flowers.
+
+[Turn 8] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=171  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 758) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 758) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): The flowers in Image3 are small, green, and yellow.
+
+[Turn 9] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=178  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 765) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 765) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): The hairy texture of the leaves in the Image3 might serve a functional or biological purpose for the plant by increasing the surface area fo...
+
+[Turn 10] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=176  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 760) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 760) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): The plant in Image4 has a purple flower with a green stem and leaves.
+
+[Turn 11] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=176  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 763) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 763) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): Image4 shows a plant with pink flowers and green leaves, which could be used for its medicinal properties or in traditional practices.
+
+[Turn 12] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=176  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 763) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 763) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): Image4 is aesthetically pleasing with its vibrant pink and purple flowers set against a green background, creating a visually appealing cont...
+
+[Turn 13] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=175  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 759) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 759) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): The flower in Image5 is a white lotus with a yellow center.
+
+[Turn 14] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=172  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 759) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 759) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): The flower in the Image5 provides a habitat for pollinators and other insects, contributing to the overall biodiversity of the ecosystem.
+
+[Turn 15] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=174  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 761) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 761) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): The flower in the Image5 is a lotus flower, and it symbolizes purity, enlightenment, and transcendence in various cultures and traditions.
+
+[Turn 16] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=170  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 757) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 757) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): Image1 has green leaves and yellow flowers, while Image3 has green leaves and red flowers.
+
+[Turn 17] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=180  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 767) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 767) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): Pond, Pond, Pond
+
+[Turn 18] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=173  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 760) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 760) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): Purple flowers, Green leaves, Blue water, Sunlight on plant.
+
+[Turn 19] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=178  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 765) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 765) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): The flowers in Image3, Image4, and Image5 symbolize beauty, purity, and the cycle of life.
+
+[Turn 20] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=177  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 764) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 764) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): Image1 shows a white flower with a yellow center, which is a water lily, and it plays a role in the aquatic ecosystem by providing habitat a...
+
+============================================================
+Sample 29 (local idx 6) | #images=2  #turns=20
+[write] output/llava-v1.6-vicuna-7b-hf_sample29.csv
+
+[Turn 1] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=183  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 764) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 764) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): The flowers in Image1 are pink, while the flowers in Image2 are white.
+
+[Turn 2] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=172  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 759) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 759) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): A forest environment.
+
+[Turn 3] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=171  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 758) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 758) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): Image1 has pink flowers, while Image2 has white flowers.
+
+[Turn 4] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=174  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 761) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 761) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): The flowers in Image1 and Image2 are pink and white, which are often associated with love, affection, and purity.
+
+[Turn 5] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=179  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 766) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 766) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): The leaves in Image1 and Image2 are arranged in a way that creates a dense, lush appearance, with the leaves overlapping and intertwining to...
+
+[Turn 6] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=173  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 760) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 760) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): Image1 and Image2 are significant from a cultural or historical perspective as they depict a flower with pink petals and green leaves, which...
+
+[Turn 7] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=180  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 767) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 767) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): The flowers in Image1 convey a sense of tranquility and serenity, while the flowers in Image2 evoke a feeling of joy and happiness.
+
+[Turn 8] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=178  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 765) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 765) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): Image1 is a close-up of a flower, while Image2 shows a tree in a forest.
+
+[Turn 9] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=171  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 758) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 758) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): The flowers in Image1 and Image2 are pink and white, and they are surrounded by green leaves.
+
+[Turn 10] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=175  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 762) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 762) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): Image1 has a pink flower, while Image2 has green leaves.
+
+============================================================
+Sample 30 (local idx 7) | #images=3  #turns=26
+[write] output/llava-v1.6-vicuna-7b-hf_sample30.csv
+
+[Turn 1] | images=3 -> panel
+Prompt (head): You are given 3 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=178  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 762) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 762) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): The woman's blue dress and hat.
+
+[Turn 2] | images=3 -> panel
+Prompt (head): You are given 3 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=173  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 760) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 760) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): The environment in Image1 contributes to a serene and peaceful atmosphere, with the woman sitting on a rock in a natural setting, possibly a...
+
+[Turn 3] | images=3 -> panel
+Prompt (head): You are given 3 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=175  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 762) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 762) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): The subject's posture and expression in Image1 suggest a sense of accomplishment and pride, as she is sitting on top of a rock with a gradua...
+
+[Turn 4] | images=3 -> panel
+Prompt (head): You are given 3 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=174  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 758) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 758) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): The woman in Image2 is sitting and weaving.
+
+[Turn 5] | images=3 -> panel
+Prompt (head): You are given 3 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=180  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 764) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 764) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): The common features of the traditional regalia worn by the individuals in Image3 are the use of colorful blankets, hats, and possibly other ...
+
+[Turn 6] | images=3 -> panel
+Prompt (head): You are given 3 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=177  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 764) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 764) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): The people in Image3 are wearing traditional clothing, which suggests that they may be participating in a cultural or ceremonial event.
+
+[Turn 7] | images=3 -> panel
+Prompt (head): You are given 3 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=178  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 765) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 765) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): The individuals in Image3 are wearing traditional clothing and accessories, which reflect their cultural heritage and traditions.
+
+[Turn 8] | images=3 -> panel
+Prompt (head): You are given 3 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=181  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 768) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 768) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): The traditional attire or activities depicted in Image1, Image2, and Image3 are distinguished by the presence of colorful clothing, headdres...
+
+[Turn 9] | images=3 -> panel
+Prompt (head): You are given 3 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=182  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 769) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 769) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): Image2 shows a woman wearing a traditional headdress and a red blanket, which reflects her role as a leader or a respected figure in her com...
+
+[Turn 10] | images=3 -> panel
+Prompt (head): You are given 3 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=179  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 766) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 766) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): Image1 shows a group of people wearing traditional clothing or regalia, while Image3 shows a single person wearing a headdress.
+
+[Turn 11] | images=3 -> panel
+Prompt (head): You are given 3 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=180  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 767) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 767) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): Image1 shows a woman in a traditional outfit, sitting on the ground and weaving, which suggests a lifestyle focused on handicrafts and a sim...
+
+[Turn 12] | images=3 -> panel
+Prompt (head): You are given 3 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=181  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 768) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 768) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): The individuals in Image1 are dressed in traditional clothing, suggesting a cultural or historical context, while the individuals in Image2 ...
+
+[Turn 13] | images=3 -> panel
+Prompt (head): You are given 3 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=180  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 767) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 767) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): Image2 shows a display of traditional craftsmanship, while Image3 captures a group of people admiring the craftsmanship and its cultural sig...
+
+============================================================
+Sample 31 (local idx 8) | #images=5  #turns=34
+[write] output/llava-v1.6-vicuna-7b-hf_sample31.csv
+
+[Turn 1] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=181  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 762) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 762) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): A mountainous landscape with trees and a body of water.
+
+[Turn 2] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=168  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 755) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 755) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): The animal in Image2 is a gray, long-necked dinosaur with a large head and a long tail.
+
+[Turn 3] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=178  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 765) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 765) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): The animal in Image2 has a herbivorous diet.
+
+[Turn 4] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=176  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 760) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 760) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): The bird in Image3 is a small, gray bird with a black stripe on its head.
+
+[Turn 5] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=176  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 763) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 763) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): The bird in Image3 is likely in a habitat with a mix of water and land, such as a riverbank or a marshy area, as it is perched on a rock nea...
+
+[Turn 6] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=173  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 760) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 760) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): The bird in Image3 is perched on a branch, possibly resting or observing its surroundings.
+
+[Turn 7] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=176  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 760) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 760) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): The bird in Image4 has a black and white coloration with black and white stripes on its wings and tail.
+
+[Turn 8] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=175  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 762) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 762) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): A grassy area
+
+[Turn 9] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=174  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 761) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 761) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): The tail shape of the bird in Image4 is significant to its behavior and habitat as it allows the bird to maneuver and navigate through the a...
+
+[Turn 10] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=187  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 771) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 771) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): The bird in Image5 has a patterned plumage that blends well with the surrounding grass and vegetation, making it difficult to spot in its na...
+
+[Turn 11] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=182  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 769) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 769) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): The bird in Image5 has a distinct coloration pattern, with a white stripe on its chest, which is a characteristic feature of male birds.
+
+[Turn 12] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=180  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 767) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 767) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): The bird in Image5 is foraging for food in the tall grass, which is a natural behavior for birds to find insects and seeds to sustain themse...
+
+[Turn 13] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=171  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 758) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 758) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): A bird with a long beak, standing in tall grass.
+
+[Turn 14] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=172  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 759) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 759) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): Image2 shows a grassy area with a bird standing in the tall grass, while Image5 shows a rocky area with a bird standing on the rocks.
+
+[Turn 15] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=175  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 762) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 762) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): The birds in Image3, Image4, and Image5 have a similar color pattern, with a mix of brown, black, and white feathers.
+
+[Turn 16] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=183  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 770) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 770) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): The specific adaptations of the animals in Image1, Image3, and Image5 help them survive in their respective habitats by enabling them to eff...
+
+[Turn 17] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=178  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 765) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 765) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): The bird in Image4 has a more prominent beak and a different posture compared to the bird in Image3.
+
+============================================================
+Sample 32 (local idx 9) | #images=5  #turns=40
+[write] output/llava-v1.6-vicuna-7b-hf_sample32.csv
+
+[Turn 1] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=179  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 763) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 763) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): The fish in Image1 has a distinctive green stripe on its front part.
+
+[Turn 2] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=174  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 761) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 761) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): Coral reef
+
+[Turn 3] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=168  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 755) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 755) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): The tail of the fish in the Image1 is green and white striped.
+
+[Turn 4] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=177  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 761) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 761) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): The fish in Image2 is orange and white with a black stripe.
+
+[Turn 5] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=174  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 761) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 761) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): The fish in the Image2 is swimming among the sea anemones.
+
+[Turn 6] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=170  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 757) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 757) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): The environment surrounding the fish in the Image2 provides it with protection by offering a natural camouflage, making it difficult for pre...
+
+[Turn 7] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=182  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 766) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 766) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): The main subject depicted in Image3 is a fish, and it is situated in a rocky environment with some plants.
+
+[Turn 8] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=188  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 775) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 775) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): During metamorphosis, eels undergo significant structural and behavioral changes, including the transformation of their body shape, the deve...
+
+[Turn 9] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=177  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 764) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 764) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): The eel shown in Image3 is significant or economically important in certain cultures or regions because it is a popular food source, particu...
+
+[Turn 10] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=182  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 766) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 766) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): The giant sea bass has a large, elongated body with a pattern of dark spots and a prominent underbelly.
+
+[Turn 11] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=177  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 764) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 764) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): The giant sea bass lives in a habitat with a diverse ecosystem, including coral reefs and rocky areas, where it can find shelter and food.
+
+[Turn 12] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=183  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 770) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 770) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): The giant sea bass is significantly larger than the other fish in its surroundings.
+
+[Turn 13] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=190  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 774) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 774) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): The shark in Image5 has a white body with a darker underside and a pointed nose, which is different from the hammerhead shark's distinctive ...
+
+[Turn 14] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=181  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 768) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 768) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): The shark likely prefers clear, blue water conditions.
+
+[Turn 15] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=192  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 779) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 779) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): The shark in Image5 appears to be swimming towards the surface, possibly in search of food or to breathe.
+
+[Turn 16] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=184  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 771) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 771) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): The body shape and unique features of the fishes in Image1, Image2, and Image5 adapt them to their respective marine environments by allowin...
+
+[Turn 17] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=193  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 780) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 780) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): ImageK shows a large fish swimming in a coral reef, surrounded by various sea creatures.
+
+[Turn 18] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=191  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 778) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 778) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): The clownfish in Image2 has a mutualistic relationship with the anemone in Image3.
+
+[Turn 19] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=200  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 787) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 787) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): Image5 shows a shark with a large mouth, indicating it likely feeds on larger prey, while Image1 and Image3 show smaller fish, suggesting th...
+
+[Turn 20] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=194  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 781) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 781) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): The shark in Image5 is swimming towards the surface, which is a common behavior during migration.
+
+============================================================
+Sample 33 (local idx 10) | #images=4  #turns=40
+[write] output/llava-v1.6-vicuna-7b-hf_sample33.csv
+
+[Turn 1] | images=4 -> panel
+Prompt (head): You are given 4 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=178  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 762) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 762) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): Image1 shows green and purple fruits hanging from a tree.
+
+[Turn 2] | images=4 -> panel
+Prompt (head): You are given 4 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=185  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 772) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 772) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): Image1 is a close-up of a cluster of olive fruits, which are green and purple, indicating the variety of colors in the fruits and the divers...
+
+[Turn 3] | images=4 -> panel
+Prompt (head): You are given 4 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=174  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 761) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 761) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): The olive tree in Image1 represents a symbol of peace, prosperity, and longevity in many cultures, particularly in the Mediterranean region.
+
+[Turn 4] | images=4 -> panel
+Prompt (head): You are given 4 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=174  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 758) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 758) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): Raspberry
+
+[Turn 5] | images=4 -> panel
+Prompt (head): You are given 4 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=173  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 760) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 760) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): The presence of a single yellow raspberry in the middle of the red raspberries.
+
+[Turn 6] | images=4 -> panel
+Prompt (head): You are given 4 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=168  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 755) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 755) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): Raspberries are commonly used in desserts, smoothies, and as a topping for yogurt or oatmeal.
+
+[Turn 7] | images=4 -> panel
+Prompt (head): You are given 4 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=181  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 765) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 765) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): Pink and black
+
+[Turn 8] | images=4 -> panel
+Prompt (head): You are given 4 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=172  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 759) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 759) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): The leaf arrangement in Image3 is a cluster of green leaves surrounding the inflorescence, which is a tall, red and black berry-like structu...
+
+[Turn 9] | images=4 -> panel
+Prompt (head): You are given 4 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=178  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 765) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 765) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): The plant in Image3 belongs to the family Fabaceae, and some of its characteristic features include pink and black flowers, and green leaves...
+
+[Turn 10] | images=4 -> panel
+Prompt (head): You are given 4 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=182  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 766) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 766) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): The plant in Image4 is a young basil plant with small, delicate leaves.
+
+[Turn 11] | images=4 -> panel
+Prompt (head): You are given 4 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=170  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 757) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 757) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): North America
+
+[Turn 12] | images=4 -> panel
+Prompt (head): You are given 4 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=178  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 765) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 765) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): The plants in Image4 are likely to be used for their medicinal properties, as they are shown to have small leaves and stems, which are commo...
+
+[Turn 13] | images=4 -> panel
+Prompt (head): You are given 4 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=178  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 765) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 765) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): Image2 and Image3 have green fruits, while Image1 and Image4 have purple fruits.
+
+[Turn 14] | images=4 -> panel
+Prompt (head): You are given 4 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=175  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 762) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 762) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): The leaves in Image1 and Image4 are similar in appearance, with a green color and a slightly curved shape.
+
+[Turn 15] | images=4 -> panel
+Prompt (head): You are given 4 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=175  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 762) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 762) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): ImageK is a close-up of a plant with small leaves, showing its growth pattern and texture.
+
+[Turn 16] | images=4 -> panel
+Prompt (head): You are given 4 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=186  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 773) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 773) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): Image3 and Image4 have a single flower each, while Image1 and Image2 have multiple flowers.
+
+[Turn 17] | images=4 -> panel
+Prompt (head): You are given 4 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=178  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 765) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 765) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): Raspberries are a food source for various animals, including birds and small mammals.
+
+[Turn 18] | images=4 -> panel
+Prompt (head): You are given 4 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=182  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 769) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 769) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): The cultivation methods for the plants in Image1 and Image2 might differ from those in Image3 and Image4 due to the differences in plant spe...
+
+[Turn 19] | images=4 -> panel
+Prompt (head): You are given 4 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=174  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 761) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 761) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): The fruits in Image2 and Image3 are likely to represent the concept of abundance and fertility, as they are often associated with these qual...
+
+[Turn 20] | images=4 -> panel
+Prompt (head): You are given 4 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=173  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 760) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 760) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): Image1 shows a plant with small, delicate leaves, while Image4 shows a plant with larger, more robust leaves, indicating adaptability to dif...
+
+============================================================
+Sample 34 (local idx 11) | #images=2  #turns=20
+[write] output/llava-v1.6-vicuna-7b-hf_sample34.csv
+
+[Turn 1] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=189  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 770) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 770) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): The primary colors and distinctive markings seen on the birds in Image1 are gray and orange, while the birds in Image2 have gray and white m...
+
+[Turn 2] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=178  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 765) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 765) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): A bird with a red head and gray body, flying with its wings spread wide.
+
+[Turn 3] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=184  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 771) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 771) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): A bird with a red head and gray body, flying with its wings spread wide. [TRUNCATED?]
+
+[Turn 4] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=176  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 763) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 763) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): The birds in Image1 and Image2 are both flying.
+
+[Turn 5] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=180  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 767) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 767) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): Image1 shows a bird with a red head, which may indicate a species that is territorial or has a brightly colored head for attracting mates.
+
+[Turn 6] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=176  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 763) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 763) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): Image1 evokes a sense of calm and serenity, while Image2 conveys a sense of urgency and agitation.
+
+[Turn 7] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=182  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 769) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 769) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): The birds in Image1 and Image2 are likely to symbolize freedom, grace, and the beauty of nature.
+
+[Turn 8] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=183  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 770) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 770) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): The birds in Image1 and Image2 have different nesting habits, which help them avoid predators and protect their offspring from harsh weather...
+
+[Turn 9] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=183  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 770) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 770) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): Image1 and Image2 both use a combination of contrasting colors and detailed shading to highlight the unique features of the birds.
+
+[Turn 10] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=181  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 768) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 768) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): The bird in Image1 is closer to the viewer, while the bird in Image2 is further away, which affects the perception of each bird's size and p...
+
+============================================================
+Sample 35 (local idx 12) | #images=2  #turns=30
+[write] output/llava-v1.6-vicuna-7b-hf_sample35.csv
+
+[Turn 1] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=184  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 768) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 768) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): The porcelain figure in Image1 is decorated with green and white patterns, and it is holding a fan.
+
+[Turn 2] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=185  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 772) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 772) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): The clothing and accessories of the porcelain figure in the Image1 reflect the cultural and historical context of the Qing dynasty by showca...
+
+[Turn 3] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=180  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 764) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 764) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): The dance gestures and symbolism depicted in Image2 represent the Hindu goddess Shiva, who is known for his dynamic and powerful dance moves...
+
+[Turn 4] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=174  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 761) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 761) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): Image2 illustrates the concept of the five activities associated with Shiva Nataraja by depicting the dancing posture of the Nataraja statue...
+
+[Turn 5] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=188  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 775) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 775) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): The presence of a green Shiva statue in the temple, which is a common feature in South Indian Shaivite temples like the Brihadishvara Temple...
+
+[Turn 6] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=170  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 757) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 757) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): The figures in Image1 are depicted in a standing position, while the figures in Image2 are depicted in a seated position.
+
+[Turn 7] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=170  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 757) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 757) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): The figures in Image1 and Image2 are depicted in a dancing pose.
+
+[Turn 8] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=170  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 757) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 757) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): The figures in Image1 and Image2 are likely to be representations of Hindu deities, as they are found in a Hindu temple.
+
+[Turn 9] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=170  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 757) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 757) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): Image1 shows a figure with a calm and serene expression, while Image2 shows a figure with a more dynamic and energetic expression.
+
+[Turn 10] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=168  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 755) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 755) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): The image depicts a Hindu temple with a statue of a goddess in a dancing pose, which is a symbol of divine energy and creativity.
+
+[Turn 11] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=173  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 760) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 760) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): The figures in Image1 and Image2 are likely associated with Hinduism, as they are depicted in a traditional temple setting, which is common ...
+
+[Turn 12] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=175  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 762) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 762) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): The figures in Image1 and Image2 are depicted in dynamic poses, suggesting movement and energy, which is typical for Hindu deity sculptures ...
+
+[Turn 13] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=175  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 762) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 762) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): The figure in Image1 is a statue of a dancing woman, while the figure in Image2 is a statue of a warrior.
+
+[Turn 14] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=175  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 762) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 762) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): Image1 depicts a Hindu deity, while Image2 shows a Buddhist deity, reflecting the cultural and religious diversity of the region.
+
+[Turn 15] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=174  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 761) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 761) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): Image1 and Image2 are similar in that they are both depictions of a dancing figure, likely a representation of a Hindu deity.
+
+============================================================
+Sample 36 (local idx 13) | #images=2  #turns=20
+[write] output/llava-v1.6-vicuna-7b-hf_sample36.csv
+
+[Turn 1] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=188  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 769) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 769) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): Sports car racing
+
+[Turn 2] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=179  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 766) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 766) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): Image1 is a racing car with a number 3 on it, while Image2 is a racing car with a number 1 on it.
+
+[Turn 3] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=172  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 759) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 759) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): The introduction of Group 5 regulations in and the subsequent evolution of the Can-Am series in the .
+
+[Turn 4] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=178  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 765) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 765) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): Image1 conveys a sense of speed and power, while Image2 has a more aggressive and intense design.
+
+[Turn 5] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=175  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 762) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 762) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): The color schemes and branding in Image1 and Image2 symbolize the competitive nature of racing and the sponsor's role in supporting the driv...
+
+[Turn 6] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=181  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 768) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 768) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): Image1 is a racing car, while Image2 is a sports car.
+
+[Turn 7] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=180  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 767) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 767) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): The cars in Image1 and Image2 are vintage racing cars, which suggests that the technological advancements of the time were focused on improv...
+
+[Turn 8] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=183  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 770) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 770) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): Image1 shows a race car with a large rear wing, while Image2 shows a race car with a smaller rear wing.
+
+[Turn 9] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=175  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 762) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 762) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): The vehicles in Image1 and Image2 have significantly influenced the motorsports industry, particularly in terms of aerodynamics and design.
+
+[Turn 10] | images=2 -> panel
+Prompt (head): You are given 2 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=176  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 763) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 763) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): Image1 is a vintage racing environment, while Image2 is a modern racing environment.
+
+============================================================
+Sample 37 (local idx 14) | #images=5  #turns=42
+[write] output/llava-v1.6-vicuna-7b-hf_sample37.csv
+
+[Turn 1] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=181  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 765) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 765) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): The interior design of the building shown in Image1 features a high vaulted ceiling with stained glass windows, arches, and a long hallway w...
+
+[Turn 2] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=182  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 769) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 769) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): The design and decoration of the Image1, featuring high ceilings, stained glass windows, and wooden benches, contribute to the acoustic qual...
+
+[Turn 3] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=175  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 762) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 762) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): The significance of the historical and cultural heritage evident in the structure shown in the Image1 is that it is a Gothic cathedral with ...
+
+[Turn 4] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=177  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 761) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 761) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): The clock tower and the arched windows.
+
+[Turn 5] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=176  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 760) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 760) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): Gothic
+
+[Turn 6] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=172  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 759) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 759) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): The structure in Image3 is significant as it is part of the historic buildings of Cambridge University, which is one of the oldest and most ...
+
+[Turn 7] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=175  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 762) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 762) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): The bridge in Image3 has a distinctive feature of being adorned with large spherical balls on its sides.
+
+[Turn 8] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=187  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 771) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 771) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1

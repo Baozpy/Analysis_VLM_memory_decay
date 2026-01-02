@@ -1,0 +1,9 @@
+turn,focus_rate,focus_n,answer_ok_rate,answer_ok_n,trunc_rate,trunc_n,model,sample_id
+1,,0,0.0,1,0.0,1,qwen,9
+2,,0,1.0,1,0.0,1,qwen,9
+3,,0,1.0,1,0.0,1,qwen,9
+4,,0,1.0,1,0.0,1,qwen,9
+5,,0,1.0,1,0.0,1,qwen,9
+6,,0,1.0,1,0.0,1,qwen,9
+7,,0,1.0,1,0.0,1,qwen,9
+8,,0,1.0,1,0.0,1,qwen,9

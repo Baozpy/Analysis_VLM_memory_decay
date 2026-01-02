@@ -1,0 +1,868 @@
+sample_id,turn,img_idx,image_path,prompt,answer
+0,1,0,/fs/nexus-scratch/byan1/MMDU-main/_mmdu_pics/mmdu_pics/Bk7v-yLxK0zil8279f1u_1.jpg,Question: Image1: <ImageHere>. Image2: <ImageHere>. Image3: <ImageHere>. Describe the patterns and textures you can observe in the Image3. Short answer:,"Question: Image1: <ImageHere>. Image2: <ImageHere>. Image3: <ImageHere>. Describe the patterns and textures you can observe in the Image3. Short answer: The piece is a decorated bowl with a raised pattern and a flat rim
+
+Answer:
+
+Question: Describe how the patterns of this piece can be interpreted into a story?
+
+Short answer: This piece is decorated with a pattern that is broken up by a flat surface.
+
+Long answer:
+The image above shows the piece as it is displayed on a table. The pattern of the bowl is broken by a surface that is flat. The pieces that are broken up are the top, the middle, and the bottom. These pieces are made of different materials, making them unique. The different materials create the patterns that [TRUNCATED?]"
+0,2,1,/fs/nexus-scratch/byan1/MMDU-main/_mmdu_pics/mmdu_pics/Bk7v-yXxK0zil8279f11_1.jpg,Context: Image1: <ImageHere>. Image2: <ImageHere>. Image3: <ImageHere>. Describe the patterns and textures you can observe in the Image3. Question: What type of lace is shown in the Image3 and what characteristics might you expect it to have based on its historical context? Short answer:,"Context: Image1: <ImageHere>. Image2: <ImageHere>. Image3: <ImageHere>. Describe the patterns and textures you can observe in the Image3. Question: What type of lace is shown in the Image3 and what characteristics might you expect it to have based on its historical context? Short answer: A lace-like pattern, perhaps of a floral design, was commonly used in the architecture of muslim countries.
+
+Question 2
+
+The architecture of the alhambra
+
+Context: <Alhambra > Image1 <Image1>. Image1
+
+Image1
+The alhamba is a large, complex building that has been built over a period of many centuries by the rulers of al- Andalus, the region that encompasses modern day Spain. The structure is one of the most famous tourist attractions in southern Europe, and is visited by thousands every year. It was built in the Moorish style, and it [TRUNCATED?]"
+0,3,2,/fs/nexus-scratch/byan1/MMDU-main/_mmdu_pics/mmdu_pics/Bk7v-yXxK0zil8279f2M_1.jpg,"Context: Image1: <ImageHere>. Image2: <ImageHere>. Image3: <ImageHere>. Describe the patterns and textures you can observe in the Image3. Context: What type of lace is shown in the Image3 and what characteristics might you expect it to have based on its historical context? Question: Considering the historical era when the Image3 was created, discuss its potential significance or usage in high society at the time. Short answer:","Context: Image1: <ImageHere>. Image2: <ImageHere>. Image3: <ImageHere>. Describe the patterns and textures you can observe in the Image3. Context: What type of lace is shown in the Image3 and what characteristics might you expect it to have based on its historical context? Question: Considering the historical era when the Image3 was created, discuss its potential significance or usage in high society at the time. Short answer: This lace appears to be a simple, traditional style, possibly of the late 18th century or early 19th century.
+
+Short answer:
+This lace appears
+to be a
+simple, traditional
+style, possibly
+of the late
+18th century
+or early 19c
+century
+
+Long answer: The lace in the image is a very old type of laces known as point lace. This type of pattern is often found in wedding dresses. It is made by sewing small strips of lace together with threads and then sewing them into a pattern. The patterns used in the lace are known as points. These points are [TRUNCATED?]"
+0,4,3,/fs/nexus-scratch/byan1/MMDU-main/_mmdu_pics/mmdu_pics/Bk7v-ybxK0zil8279f2S_1.jpg,"Context: What type of lace is shown in the Image3 and what characteristics might you expect it to have based on its historical context? Context: Considering the historical era when the Image3 was created, discuss its potential significance or usage in high society at the time. Question: Image4: <ImageHere>. How would you describe the visual patterns and dominant colors present in the Image4? Short answer:","Context: What type of lace is shown in the Image3 and what characteristics might you expect it to have based on its historical context? Context: Considering the historical era when the Image3 was created, discuss its potential significance or usage in high society at the time. Question: Image4: <ImageHere>. How would you describe the visual patterns and dominant colors present in the Image4? Short answer: The colors are bright, the pattern is intricate, and the subject is a person.
+Answer: I would say that this carpet has many patterns of flowers and birds, all of which have a lot of detail.
+I think it would be worn by a person who was very wealthy.
+It is probably a rug that someone would use as a floor covering for their room.
+The colors are very bright, so it would not be used outside, because they would get too hot.
+Question: Image5: <imageHere>. What is the meaning of the Image5?
+Answer Short Answer: This carpet is very detailed and [TRUNCATED?]"
+1,1,0,/fs/nexus-scratch/byan1/MMDU-main/_mmdu_pics/mmdu_pics/Bk7v-s3xK0zil-c78DEL_1.jpg,Question: Image1: <ImageHere>. Image2: <ImageHere>. Image3: <ImageHere>. What natural features are visible in the landscape of Image3? Short answer:,"Question: Image1: <ImageHere>. Image2: <ImageHere>. Image3: <ImageHere>. What natural features are visible in the landscape of Image3? Short answer: mountains
+Long answer: The landscape of the image is dominated by mountain ranges, such as the great karakoram range in pakistan and the nepal range in tibet
+
+the river on the right is the upper reaches of the glacial lake called saser kala lake, in the middle distance is a hill called kala chitta, in between is the lower reach of the lake which is called the bain river
+
+The lower reaches of glacial lakes are often filled with water, which forms a large lake or river. This is the case with the glen morris river in north west g [TRUNCATED?]"
+1,2,1,/fs/nexus-scratch/byan1/MMDU-main/_mmdu_pics/mmdu_pics/Bk7v-snxK0zil-c78DC__1.jpg,Context: Image1: <ImageHere>. Image2: <ImageHere>. Image3: <ImageHere>. What natural features are visible in the landscape of Image3? Question: How might the geographical terrain and natural beauty seen in Image3 contribute to its current use as a tourist destination? Short answer:,"Context: Image1: <ImageHere>. Image2: <ImageHere>. Image3: <ImageHere>. What natural features are visible in the landscape of Image3? Question: How might the geographical terrain and natural beauty seen in Image3 contribute to its current use as a tourist destination? Short answer: the landscape is dominated by a beach and the surrounding tropical vegetation
+
+This image shows the white sand beaches, turquoise waters and lush green vegetation of an island in bermuda
+
+The beach is surrounded by trees, shrubs, and coconut trees
+
+There are many people relaxing on the beach or swimming in the water
+
+An aerial view of the beach and palm trees
+An overhead view of a sandy beach
+An overview of the island
+An image of a white sand beach
+A map of the bermudas
+An example of a beach with palm trees and vegetation
+The island of bermudez [TRUNCATED?]"
+1,3,2,/fs/nexus-scratch/byan1/MMDU-main/_mmdu_pics/mmdu_pics/Bk7v-snxK0zil-c78DDD_1.jpg,Context: Image1: <ImageHere>. Image2: <ImageHere>. Image3: <ImageHere>. What natural features are visible in the landscape of Image3? Context: How might the geographical terrain and natural beauty seen in Image3 contribute to its current use as a tourist destination? Question: Image4: <ImageHere>. Describe the geographical features visible in the Image4. What natural formations and landcovers can you identify? Short answer:,"Context: Image1: <ImageHere>. Image2: <ImageHere>. Image3: <ImageHere>. What natural features are visible in the landscape of Image3? Context: How might the geographical terrain and natural beauty seen in Image3 contribute to its current use as a tourist destination? Question: Image4: <ImageHere>. Describe the geographical features visible in the Image4. What natural formations and landcovers can you identify? Short answer: Image5: < ImageHere>. How would you describe the geological structure and topography of Image5? Long answer:
+
+A cliff is a vertical wall of rock or soil that is steep enough to form a natural barrier against erosion
+
+Cliffs are formed when layers of sedimentary rock are deposited in water, or on land
+
+These layers of rock are called strata
+
+The sediments gradually accumulate on top of one another, forming a cliff
+
+Eventually, the accumulated layers are eroded by wind, rain, and water erosion
+A landslide is an uncontrolled movement of earth, rock, or other material, often in [TRUNCATED?]"
+1,4,3,/fs/nexus-scratch/byan1/MMDU-main/_mmdu_pics/mmdu_pics/Bk7v-snxK0zil-c78DDP_1.jpg,"Context: How might the geographical terrain and natural beauty seen in Image3 contribute to its current use as a tourist destination? Context: Image4: <ImageHere>. Describe the geographical features visible in the Image4. What natural formations and landcovers can you identify? Question: How do the geographical features in Image1, Image2, Image3, and Image4 differ from one another? Short answer:","Context: How might the geographical terrain and natural beauty seen in Image3 contribute to its current use as a tourist destination? Context: Image4: <ImageHere>. Describe the geographical features visible in the Image4. What natural formations and landcovers can you identify? Question: How do the geographical features in Image1, Image2, Image3, and Image4 differ from one another? Short answer: Image3 is a coastal town surrounded by mountains, while Image4 is a tropical island with white sandy beaches
+
+image 3
+
+2
+
+a
+
+b
+
+c
+
+d
+
+e
+
+f
+
+g
+
+h
+
+i
+
+j
+
+k
+
+l
+
+m
+
+n
+
+o
+
+p
+
+q
+
+r
+
+s
+
+t
+
+u
+
+v
+
+w
+
+x
+
+y
+
+z
+
+6
+
+7
+
+8
+
+9
+
+10
+
+11
+
+12
+ [TRUNCATED?]"
+2,1,0,/fs/nexus-scratch/byan1/MMDU-main/_mmdu_pics/mmdu_pics/Bk7v_F3xK0zil-o8khSl_1.jpg,Question: Image1: <ImageHere>. What type of environment is depicted in the Image1? Short answer:,"Question: Image1: <ImageHere>. What type of environment is depicted in the Image1? Short answer: A field
+Long answer: An open grassy field, with a lake in the background.
+
+There are several plants in the water
+
+there are many tall grasses
+
+the grasses are green
+
+some of them are red
+
+a red flower is in the middle of some of the grasses.
+the flower is red
+a bird is in front of the bird
+there is a bird in the air
+
+The water has a lot of grasses in it
+
+A boat is in a lake
+
+In the middle there is a small boat
+
+Some of the plants have red flowers
+ [TRUNCATED?]"
+2,2,1,/fs/nexus-scratch/byan1/MMDU-main/_mmdu_pics/mmdu_pics/Bk7v_F3xK0zil-o8khSm_1.jpg,"Context: Image1: <ImageHere>. What type of environment is depicted in the Image1? Question: Based on the Image1, how are the cattail plants predominantly arranged or positioned in their natural habitat? Short answer:","Context: Image1: <ImageHere>. What type of environment is depicted in the Image1? Question: Based on the Image1, how are the cattail plants predominantly arranged or positioned in their natural habitat? Short answer: They are arranged in a clump
+Long answer: Cattails are generally arranged in clumps. In fact, they are used as a ground cover in many areas and are often planted as part of a landscaping project. Clumps are also often used as ground covers for erosion control. Clumping is very effective in retaining water. The large leaves act as an umbrella, soaking up moisture from the soil and protecting the roots.
+The image depicts a group of cattails in an area with dirt and rocks. They are growing near each other and are intertwined together. This shows that they are grouped together. They could be grouped [TRUNCATED?]"
+2,3,2,/fs/nexus-scratch/byan1/MMDU-main/_mmdu_pics/mmdu_pics/Bk7v_GvxK0zil-o8khWQ_1.jpg,"Context: Image1: <ImageHere>. What type of environment is depicted in the Image1? Context: Based on the Image1, how are the cattail plants predominantly arranged or positioned in their natural habitat? Question: Considering the Image1, what practical uses do the cattail leaves serve in various cultures? Short answer:","Context: Image1: <ImageHere>. What type of environment is depicted in the Image1? Context: Based on the Image1, how are the cattail plants predominantly arranged or positioned in their natural habitat? Question: Considering the Image1, what practical uses do the cattail leaves serve in various cultures? Short answer: The leaves are used for food, medicine, and fuel
+Long answer: Cattail is a perennial aquatic plant native to the eastern and southern parts of the united states
+Cattail was originally used as a fuel for cooking, for cooking with animal dung, for medicinal use, and as a food source
+It is also used as an ornamental plant in the garden
+The leaves can be harvested and dried for later use
+The dried leaves can also be boiled and used as vegetable food
+Culturally, it is considered a staple food crop
+Culture: Culturally, the leaves are considered a food crop, and [TRUNCATED?]"
+2,4,2,/fs/nexus-scratch/byan1/MMDU-main/_mmdu_pics/mmdu_pics/Bk7v_GvxK0zil-o8khWQ_1.jpg,"Context: Based on the Image1, how are the cattail plants predominantly arranged or positioned in their natural habitat? Context: Considering the Image1, what practical uses do the cattail leaves serve in various cultures? Question: Image2: <ImageHere>. What type of flowers are depicted in the Image2, and what might be their historical significance in floral arrangements? Short answer:","Context: Based on the Image1, how are the cattail plants predominantly arranged or positioned in their natural habitat? Context: Considering the Image1, what practical uses do the cattail leaves serve in various cultures? Question: Image2: <ImageHere>. What type of flowers are depicted in the Image2, and what might be their historical significance in floral arrangements? Short answer: The image depicts the flowers as fennel
+
+Cattail plant
+
+Fennel plant
+cattail fennels, fenni, fenugreek, ferns, fens, fenny, fenic, fening, fencen, fenti, felin, feni, fened, fense, fenh, fene, fane, fenne, fena, feny, fenei, fenegre, fener, fend, fending, feng, fence, fenge, fenger, fegn, fagnet, [TRUNCATED?]"
+3,1,0,/fs/nexus-scratch/byan1/MMDU-main/_mmdu_pics/mmdu_pics/Bk7v-63xK0zil8fC1cvr_1.jpg,Question: Image1: <ImageHere>. Describe the physical appearance of the bird in the Image1. Short answer:,"Question: Image1: <ImageHere>. Describe the physical appearance of the bird in the Image1. Short answer: A brown and green coloured bird with a brown cap on its head, and blue and white feathers on its body.
+
+Question: What is the name of the animal in the painting?
+
+Answer: Brown-necked bulbul
+
+3. What is your favorite bird?
+Answers:
+
+Brown-neck bulbul- it is a colorful bird
+
+Green-winged bulbuls- because they are very beautiful
+
+4. Describe what the bird is doing in this painting
+
+Answered: The bird is sitting on the ground and looking at something
+
+5. How many birds [TRUNCATED?]"
+3,2,1,/fs/nexus-scratch/byan1/MMDU-main/_mmdu_pics/mmdu_pics/Bk7v-7HxK0zil8fC1cwc_1.jpg,Context: Image1: <ImageHere>. Describe the physical appearance of the bird in the Image1. Question: What is the significance of the bird species depicted in the Image1 in terms of its habitat and behavior? Short answer:,"Context: Image1: <ImageHere>. Describe the physical appearance of the bird in the Image1. Question: What is the significance of the bird species depicted in the Image1 in terms of its habitat and behavior? Short answer: The rooster represents strength, courage, power, and leadership. Image2: <LinkHere>. <ImageThere>. Describing the physical characteristics of the animal shown in Image2. Question 1: What are the specific physical features of the rooster depicted in Image 2?
+
+Context: Images1 & 2: Describe physical appearance, habitat, and behavior of animal shown here
+
+In context: Image 1: Image 2: Description:
+
+The rooster is a bird of the family of Galliformes and is also called as chicken, rooster, or cock. It is the only breed of bird which has two [TRUNCATED?]"
+3,3,2,/fs/nexus-scratch/byan1/MMDU-main/_mmdu_pics/mmdu_pics/Bk7v-7LxK0zil8fC1cw9_1.jpg,"Context: Image1: <ImageHere>. Describe the physical appearance of the bird in the Image1. Context: What is the significance of the bird species depicted in the Image1 in terms of its habitat and behavior? Question: Based on the Image1, what emotional expression or impression might the bird evoke in a viewer? Short answer:","Context: Image1: <ImageHere>. Describe the physical appearance of the bird in the Image1. Context: What is the significance of the bird species depicted in the Image1 in terms of its habitat and behavior? Question: Based on the Image1, what emotional expression or impression might the bird evoke in a viewer? Short answer: <Emotional Expression or Impression>
+<Emotional Expressions or Impressions>
+</ImageHere>
+Image1: image
+Image2: image2
+Image3: image3
+Image4: image4
+Image5: image5
+Image6: image6
+Image7: image7
+Image8: image8
+Image9: image9
+Image10: image10
+Image11: image11
+Image12: image12
+Image13: image13
+Image14: image14
+Image15: image15
+Image16: image16
+Image17: image17
+Image18 [TRUNCATED?]"
+3,4,3,/fs/nexus-scratch/byan1/MMDU-main/_mmdu_pics/mmdu_pics/Bk7v-7fxK0zil8fC1cx4_1.jpg,"Context: What is the significance of the bird species depicted in the Image1 in terms of its habitat and behavior? Context: Based on the Image1, what emotional expression or impression might the bird evoke in a viewer? Question: Image2: <ImageHere>. Describe the features of the bird shown in the Image2. What stands out about its appearance? Short answer:","Context: What is the significance of the bird species depicted in the Image1 in terms of its habitat and behavior? Context: Based on the Image1, what emotional expression or impression might the bird evoke in a viewer? Question: Image2: <ImageHere>. Describe the features of the bird shown in the Image2. What stands out about its appearance? Short answer: What are the distinctive features of this bird? Photo Credit: jim watson, usf
+
+an osprey in flight
+
+osprey in action
+
+An ospreh in action is sitting on its nest with an egg in its talons
+
+Ospreys are known for their graceful flight patterns
+
+The ospree is a large bird that can reach up to 7 feet in height
+
+Its flight pattern resembles a kite and is also called a kestrel
+
+It can dive at speeds of over 50 miles per hour
+
+They will often catch fish and other small animals to feed [TRUNCATED?]"
+4,1,0,/fs/nexus-scratch/byan1/MMDU-main/_mmdu_pics/mmdu_pics/Bk7v_D7xK0zil-c78EU5_1.jpg,Question: Image1: <ImageHere>. What shapes are observed in the alimentary paste shown in the Image1? Short answer:,"Question: Image1: <ImageHere>. What shapes are observed in the alimentary paste shown in the Image1? Short answer: The shapes are fusilli and penne
+
+Question: Answer: Question: Image2: <image here> What shapes can be observed in alimentary pastes? Short Answer: Pasta shapes can include fusillis, penne and spaghetti
+
+1-2-3-4-5-6-7-8-9-10-11-12-13-14-15-16-17-18-19-20-21-22-23-24-25-26-27-28-29-30-31-32-33-34-35-36-37- [TRUNCATED?]"
+4,2,1,/fs/nexus-scratch/byan1/MMDU-main/_mmdu_pics/mmdu_pics/Bk7v_EvxK0zil-c78EXw_1.jpg,Context: Image1: <ImageHere>. What shapes are observed in the alimentary paste shown in the Image1? Question: What ingredients can be used to make the type of alimentary paste seen in the Image1? Short answer:,"Context: Image1: <ImageHere>. What shapes are observed in the alimentary paste shown in the Image1? Question: What ingredients can be used to make the type of alimentary paste seen in the Image1? Short answer: Milk and Coffee
+
+a cup with a coffee drink
+
+cup on a napkin
+
+coffee drink
+cup of coffee
+
+cafe latte
+
+latte
+cup
+
+drip coffee
+cup with coffee
+coffe
+
+milk
+
+cream
+
+sugar
+
+foam
+
+napkin
+sink
+
+tables
+
+white
+
+orange
+
+black
+
+brown
+
+yellow
+
+blue
+
+green
+
+red
+
+purple
+
+grey
+
+pink
+white and orange
+
+silver
+
+gold
+
+lime green
+ [TRUNCATED?]"
+4,3,1,/fs/nexus-scratch/byan1/MMDU-main/_mmdu_pics/mmdu_pics/Bk7v_EvxK0zil-c78EXw_1.jpg,Context: Image1: <ImageHere>. What shapes are observed in the alimentary paste shown in the Image1? Context: What ingredients can be used to make the type of alimentary paste seen in the Image1? Question: Discuss the possible cultural significance of the alimentary paste displayed in the Image1. Short answer:,"Context: Image1: <ImageHere>. What shapes are observed in the alimentary paste shown in the Image1? Context: What ingredients can be used to make the type of alimentary paste seen in the Image1? Question: Discuss the possible cultural significance of the alimentary paste displayed in the Image1. Short answer: A. It is a cup of coffee with froth. B. It has a small amount of foam. C. It contains milk. D. It may contain an emulsifier.
+
+A cup of cappuccino
+
+The cup is white
+
+Sugar is on the side
+
+There is a piece of chocolate on top of it
+
+Foam is on top
+
+Pineapple is on bottom
+
+Strawberry is on side
+<p>
+<a href=""http://www.fattoush.com/2013/07/23/cappuccino- [TRUNCATED?]"
+4,4,1,/fs/nexus-scratch/byan1/MMDU-main/_mmdu_pics/mmdu_pics/Bk7v_EvxK0zil-c78EXw_1.jpg,"Context: What ingredients can be used to make the type of alimentary paste seen in the Image1? Context: Discuss the possible cultural significance of the alimentary paste displayed in the Image1. Question: Image2: <ImageHere>. Describe the appearance of the Image2, particularly focusing on the presentation and notable features on top of the beverage. Short answer:","Context: What ingredients can be used to make the type of alimentary paste seen in the Image1? Context: Discuss the possible cultural significance of the alimentary paste displayed in the Image1. Question: Image2: <ImageHere>. Describe the appearance of the Image2, particularly focusing on the presentation and notable features on top of the beverage. Short answer: the beverage is served with a small amount of foam.
+
+This picture shows a white cup with foam on top
+
+There is a coffee cup with a white froth on top next to a napkin
+
+Coffee cup with white foam on it
+
+The cup has a small white foam
+
+A white cup and a napkins
+
+White cup with froth
+
+Frothy cup
+
+cup with frothy froth and napkin on top, close up
+
+white cup with foamy froth, closeup
+
+froth on a white coffee cup
+close up of a white foam [TRUNCATED?]"
+5,1,0,/fs/nexus-scratch/byan1/MMDU-main/_mmdu_pics/mmdu_pics/Bk7v-8fxK0zil8fC1c1f_1.jpg,Question: Image1: <ImageHere>. What is the primary color observed on the body of the bird in the Image1? Short answer:,"Question: Image1: <ImageHere>. What is the primary color observed on the body of the bird in the Image1? Short answer: brown
+Long answer: Brown is a dominant color, but it is not the only one. The plumage of most ducks and geese are brown, gray, or white. In some species, the brown plumage can be enhanced by dark markings. Some ducks and other waterfowl have black patches on their heads, necks, and wings. Ducks with black patches are sometimes called ""black ducks"" and other ducks with black or dark colored patches are called ""dark ducks.""
+In this case, there is a duck swimming in the water
+with its head sticking out of the water and its beak sticking up
+out of the [TRUNCATED?]"
+5,2,1,/fs/nexus-scratch/byan1/MMDU-main/_mmdu_pics/mmdu_pics/Bk7v-9vxK0zil8fC1c6H_1.jpg,"Context: Image1: <ImageHere>. What is the primary color observed on the body of the bird in the Image1? Question: Based on the Image1, how would you describe the physical setting where the bird is found? Short answer:","Context: Image1: <ImageHere>. What is the primary color observed on the body of the bird in the Image1? Question: Based on the Image1, how would you describe the physical setting where the bird is found? Short answer: This is a tropical bird found in the tropics. In this image, it is found in a tropical environment.
+Question: Based upon the Image2, what color is observed on a part of the body other than the head of the animal in the image2?
+Short answer: The body of this bird is yellowish with dark brown spots. It is found on the upper side of the neck.
+Context: Question: What are the two most important characteristics of this animal?
+short answer: It is a carnivore and is not a mammal. It has four legs. It can run. It belongs to the order Carn [TRUNCATED?]"
+5,3,1,/fs/nexus-scratch/byan1/MMDU-main/_mmdu_pics/mmdu_pics/Bk7v-9vxK0zil8fC1c6H_1.jpg,"Context: Image1: <ImageHere>. What is the primary color observed on the body of the bird in the Image1? Context: Based on the Image1, how would you describe the physical setting where the bird is found? Question: What features in the Image1 demonstrate the bird's potential for sociability and interaction with its environment? Short answer:","Context: Image1: <ImageHere>. What is the primary color observed on the body of the bird in the Image1? Context: Based on the Image1, how would you describe the physical setting where the bird is found? Question: What features in the Image1 demonstrate the bird's potential for sociability and interaction with its environment? Short answer: The color of the feathers on the bird are black and red. The background is green.
+
+Context: <TextHere>
+
+In this context, <Text Here> represents a text that is to be shown to the student.
+The student is expected to read the text carefully and then answer the question.
+If the student is unable to answer the questions, the student must indicate that he or she cannot answer the
+question by using the word <No> (see the example below).
+The word <Yes> should be used only if the student can provide an answer.
+A correct response is one in which the [TRUNCATED?]"
+5,4,1,/fs/nexus-scratch/byan1/MMDU-main/_mmdu_pics/mmdu_pics/Bk7v-9vxK0zil8fC1c6H_1.jpg,"Context: Based on the Image1, how would you describe the physical setting where the bird is found? Context: What features in the Image1 demonstrate the bird's potential for sociability and interaction with its environment? Question: Image2: <ImageHere>. Based on Image2, describe the various color patterns observed in the fish shown. Short answer:","Context: Based on the Image1, how would you describe the physical setting where the bird is found? Context: What features in the Image1 demonstrate the bird's potential for sociability and interaction with its environment? Question: Image2: <ImageHere>. Based on Image2, describe the various color patterns observed in the fish shown. Short answer: The fish shown in Image2 are a species of tetra fish. They are commonly found in aquariums, freshwater aquariums and marine aquariums.
+The fish shown are different species, and have different color patterns. The fish in the image are red, black and white. They have small fins, and a dorsal fin that is shaped like a bow. In the wild, these fish live in small groups of up to 10 individuals. They tend to stay together, and can be seen moving around the tank.
+
+Context: The photo below shows a bird and a fish in a glass tank. Based on your observation of the bird [TRUNCATED?]"
+6,1,0,/fs/nexus-scratch/byan1/MMDU-main/_mmdu_pics/mmdu_pics/Bk7v_D3xK0zil_ULacex_1.jpg,Question: Image1: <ImageHere>. What is the central action depicted in the Image1? Short answer:,"Question: Image1: <ImageHere>. What is the central action depicted in the Image1? Short answer: The main characters are trying to escape a shipwreck
+
+Question: <QuestionHere> Where did the main characters get their weapons from? Short Answer: From the ship they were escaping
+
+<QuestionHere>. Where did they find the bodies of the dead? Short answers: At the bottom of the boat and at the shore
+
+Answer: A mythological story about a boat full of people who are fleeing from a ship that is sinking
+
+The boat is filled with people and it is going down. Some people are fighting each other and some are just trying to stay alive. The boat is going to sink and they will all [TRUNCATED?]"
+6,2,1,/fs/nexus-scratch/byan1/MMDU-main/_mmdu_pics/mmdu_pics/Bk7v_EjxK0zil_ULachQ_1.jpg,Context: Image1: <ImageHere>. What is the central action depicted in the Image1? Question: How does the artist use the surrounding environment in the Image1 to enhance the mood of the scene? Short answer:,"Context: Image1: <ImageHere>. What is the central action depicted in the Image1? Question: How does the artist use the surrounding environment in the Image1 to enhance the mood of the scene? Short answer: the artist uses the surroundings to highlight the central character's mood
+Context: image2: <imageHere> what is the most important detail of the Image2? Question 1: What does the image reveal about the relationship between person and the other person? Short Answer: person is the focus of the image, he is at the center
+Context : Image3: < imageHere> which is the main point of interest in the image? Question 2: What is significant about the people in the picture? Short answers: person, child, woman, man
+Context, a black and white photograph showing a statue of a woman holding a cup [TRUNCATED?]"
+6,3,1,/fs/nexus-scratch/byan1/MMDU-main/_mmdu_pics/mmdu_pics/Bk7v_EjxK0zil_ULachQ_1.jpg,"Context: Image1: <ImageHere>. What is the central action depicted in the Image1? Context: How does the artist use the surrounding environment in the Image1 to enhance the mood of the scene? Question: Who is the main figure in the Image1, and what is his historical or mythological significance? Short answer:","Context: Image1: <ImageHere>. What is the central action depicted in the Image1? Context: How does the artist use the surrounding environment in the Image1 to enhance the mood of the scene? Question: Who is the main figure in the Image1, and what is his historical or mythological significance? Short answer: The statue represents the goddess person
+
+A statue of the goddess of love
+
+The statue represents person
+person was a roman goddess who had the power to grant love to whoever she wanted
+
+In the statue of person, her arms are open and she is holding a vase of flowers
+
+Person was the personification of love and beauty
+
+She was usually depicted as a young woman with long flowing hair
+
+she was also known for her good looks
+
+person had many lovers
+
+one of her most famous lovers was the emperor person
+the emperor person fell in love with person and asked her to be his [TRUNCATED?]"
+6,4,1,/fs/nexus-scratch/byan1/MMDU-main/_mmdu_pics/mmdu_pics/Bk7v_EjxK0zil_ULachQ_1.jpg,"Context: How does the artist use the surrounding environment in the Image1 to enhance the mood of the scene? Context: Who is the main figure in the Image1, and what is his historical or mythological significance? Question: Image2: <ImageHere>. How would you describe the pose and attire of the figure depicted in the Image2? Short answer:","Context: How does the artist use the surrounding environment in the Image1 to enhance the mood of the scene? Context: Who is the main figure in the Image1, and what is his historical or mythological significance? Question: Image2: <ImageHere>. How would you describe the pose and attire of the figure depicted in the Image2? Short answer: <Answer Here>
+
+short answer: the pose of the person in image 2 is a standing pose with arms folded
+
+context: how does the surrounding environmental background help the artist in creating the mood for the painting?
+
+Question: image 3: <imageHere>. What do you think the artist was trying to accomplish by depicting the figure in this pose?
+Answer: The artist was showing the way in which the figure has been sitting for a long time
+
+Short Answer: the artist wanted to show the way the figure had been sitting
+
+Context: how do the artist's choices in colors and textures help create the [TRUNCATED?]"
+7,1,0,/fs/nexus-scratch/byan1/MMDU-main/_mmdu_pics/mmdu_pics/Bk7v_E3xK0zil-o8khOT_1.jpg,Question: Image1: <ImageHere>. What is the primary color of the flowers visible in the Image1? Short answer:,"Question: Image1: <ImageHere>. What is the primary color of the flowers visible in the Image1? Short answer: Yellow
+Long answer: The yellow color of flowers is caused by the presence of carotenoids which are a class of compounds found in plants
+Photo by person, courtesy of the floriculture department, university of florida
+
+Yellow flowers are seen on this plant
+
+Photo of a yellow flower from the floriography department at the university of Florida
+
+photo of a plant with yellow flowers from the botany department at uf
+
+Question: Photo2: <FileName> is a picture of the plant <FileType> in question, but the image is being displayed as if it were a photograph. [TRUNCATED?]"
+7,2,1,/fs/nexus-scratch/byan1/MMDU-main/_mmdu_pics/mmdu_pics/Bk7v_E7xK0zil-o8khOg_1.jpg,Context: Image1: <ImageHere>. What is the primary color of the flowers visible in the Image1? Question: Describe the arrangement of the leaves and flowers in the Image1. Short answer:,"Context: Image1: <ImageHere>. What is the primary color of the flowers visible in the Image1? Question: Describe the arrangement of the leaves and flowers in the Image1. Short answer: the flowers are pink
+
+[1]
+
+image 1
+
+Chlorophyll and chlorophyll a
+
+The chlorophylla of the green alga, Chlorophyta, is a complex mixture of three pigments
+chlorophyll, phycobilisomes, and chloroplasts
+chloroplast pigments are responsible for photosynthesis
+phycobilins are responsible pigment for chlorophylly
+phycoerythrin is responsible for color
+
+Green algae, such as Chloroplasts, can produce chlorophyly
+the most common form of chlorophyyl is chlorophyyll [TRUNCATED?]"
+7,3,1,/fs/nexus-scratch/byan1/MMDU-main/_mmdu_pics/mmdu_pics/Bk7v_E7xK0zil-o8khOg_1.jpg,Context: Image1: <ImageHere>. What is the primary color of the flowers visible in the Image1? Context: Describe the arrangement of the leaves and flowers in the Image1. Question: How is the presence of hairs on the plant in the Image1 significant for its identification? Short answer:,"Context: Image1: <ImageHere>. What is the primary color of the flowers visible in the Image1? Context: Describe the arrangement of the leaves and flowers in the Image1. Question: How is the presence of hairs on the plant in the Image1 significant for its identification? Short answer: The presence of hair on the stem is a distinguishing feature of the plant.
+
+Context: image2: <imageHere>. Describe any other distinguishing features of the plants in the image2. Question 1: What is one of the distinguishing characteristics of the flower in the flower image2? Answer 1: The flower has a very distinct shape and it also has many small white dots all over its surface.
+Question 2: What are the other distinguishing characteristics that make this flower different from the flower shown in the first image? Answer 2: The second flower has fewer white dots but it also lacks a distinct shape.
+Image 3: [TRUNCATED?]"
+7,4,1,/fs/nexus-scratch/byan1/MMDU-main/_mmdu_pics/mmdu_pics/Bk7v_E7xK0zil-o8khOg_1.jpg,Context: Describe the arrangement of the leaves and flowers in the Image1. Context: How is the presence of hairs on the plant in the Image1 significant for its identification? Question: Image2: <ImageHere>. What visual features can you observe in the Image2? Short answer:,"Context: Describe the arrangement of the leaves and flowers in the Image1. Context: How is the presence of hairs on the plant in the Image1 significant for its identification? Question: Image2: <ImageHere>. What visual features can you observe in the Image2? Short answer: The plants are growing out of the soil.
+
+image2 - 1
+
+Context: Explain the significance of the arrangement or arrangement of leaves and flower petals in the image
+
+Short answer:
+
+The plants are in the foreground and the roots are in back.
+The roots are the most important part of the plant, they are the source of nutrients.
+There are also some other plants with flowers in front of the purple plants.
+It may be a wild flower or a cultivated plant.
+You can see the purple flower that grows in clusters.
+This plant is a purple flower.
+Purple flowers grow [TRUNCATED?]"
+8,1,0,/fs/nexus-scratch/byan1/MMDU-main/_mmdu_pics/mmdu_pics/Bk7v-wzxK0zil8279fw2_1.jpg,Question: Image1: <ImageHere>. What architectural feature in the Image1 represents the mystical power of the number nine? Short answer:,"Question: Image1: <ImageHere>. What architectural feature in the Image1 represents the mystical power of the number nine? Short answer: The exterior of the haus of the baha'i faith, located at 6th and walnut streets, is a perfect example of this architectural feature
+
+Answer: The haus bahais are an international religious order founded in 1863 by the great baha 'u'llah, the son of the prophet muhammad. the hau baha is a temple and a center of worship for the followers of the religion. the building is made of white stone, with columns, arches, and domes and it has a large dome that sits on top of it. the dome is covered with a dome of light, which [TRUNCATED?]"
+8,2,1,/fs/nexus-scratch/byan1/MMDU-main/_mmdu_pics/mmdu_pics/Bk7v-x7xK0zil8279f0q_1.jpg,Context: Image1: <ImageHere>. What architectural feature in the Image1 represents the mystical power of the number nine? Question: How does the Image1 symbolize inclusivity for people of all religious backgrounds? Short answer:,"Context: Image1: <ImageHere>. What architectural feature in the Image1 represents the mystical power of the number nine? Question: How does the Image1 symbolize inclusivity for people of all religious backgrounds? Short answer: It doesn't.
+The Trevi fountain is located in the center of rome and is known as one of the most beautiful landmarks of the city
+
+Trevi fountain in rome - image 1
+
+It is a large fountain that was built in the year 1734, but it was not until the year 1869 that the fountain was restored to its original appearance.
+
+The fountain has been known as the trevi fountain or trevi monument since the year 1386 when it was built by the architect, pietro maria dei conti. The fountain has many statues and fountains that are all made [TRUNCATED?]"
+8,3,2,/fs/nexus-scratch/byan1/MMDU-main/_mmdu_pics/mmdu_pics/Bk7v-x_xK0zil8279f1D_1.jpg,Context: Image1: <ImageHere>. What architectural feature in the Image1 represents the mystical power of the number nine? Context: How does the Image1 symbolize inclusivity for people of all religious backgrounds? Question: What social functions are served by the structure depicted in the Image1? Short answer:,"Context: Image1: <ImageHere>. What architectural feature in the Image1 represents the mystical power of the number nine? Context: How does the Image1 symbolize inclusivity for people of all religious backgrounds? Question: What social functions are served by the structure depicted in the Image1? Short answer: <Answer Here>
+
+The monument has a statue on it, with a chair next to it
+
+There is a statue of a person on top of the monument
+
+It has a chair with a marble base next to the statue
+
+A marble statue is on top
+
+there is a marble chair with the statue sitting on top and a marble pedestal
+
+it has a marble monument and a chair on top, with an open chair next too it
+a marble statue and a statue sitting next to each other
+the monument has an open seat next to a marble statue
+the marble statue has a pedestal next to [TRUNCATED?]"
+8,4,3,/fs/nexus-scratch/byan1/MMDU-main/_mmdu_pics/mmdu_pics/Bk7v-x_xK0zil8279f1K_1.jpg,Context: How does the Image1 symbolize inclusivity for people of all religious backgrounds? Context: What social functions are served by the structure depicted in the Image1? Question: Image2: <ImageHere>. How are mythological figures incorporated into the design of the structure in Image2? Short answer:,"Context: How does the Image1 symbolize inclusivity for people of all religious backgrounds? Context: What social functions are served by the structure depicted in the Image1? Question: Image2: <ImageHere>. How are mythological figures incorporated into the design of the structure in Image2? Short answer: mythological elements have been incorporated into this building to signify the importance of the community within which it is situated
+
+This is a large brick house with a tower and chimney
+
+The church has a tower with a clock and chimneys
+
+There is a grassy area in front of the house
+
+An outdoor fireplace is in the garden
+
+A pond is in front
+
+Brick houses are common in this area
+
+They are usually built near to ponds or streams
+
+Most houses are made out of brick
+
+In this area there are many large brick buildings
+
+These houses are often built on large plots [TRUNCATED?]"
+9,1,0,/fs/nexus-scratch/byan1/MMDU-main/_mmdu_pics/mmdu_pics/Bk7v-r7xK0zil_ULabR7_1.jpg,Question: Image1: <ImageHere>. What architectural style is prominently featured in Image1? Short answer:,"Question: Image1: <ImageHere>. What architectural style is prominently featured in Image1? Short answer: gothic
+Long answer:
+The architecture of the cathedral is gothica, a style that combines elements of
+medieval and renaissance architecture. The gothics were built on the western
+and southern sides of the cathedrals to allow for light and air to enter the
+building.
+
+The gothicas are very long, low, and have pointed spires, which rise above the
+buildings. Gothic buildings are often considered the most beautiful of all of the
+architectural styles. They are also referred to as gothical or gothically
+designed. The cathedral was originally built between 14 [TRUNCATED?]"
+9,2,1,/fs/nexus-scratch/byan1/MMDU-main/_mmdu_pics/mmdu_pics/Bk7v-tzxK0zil_ULabYA_1.jpg,Context: Image1: <ImageHere>. What architectural style is prominently featured in Image1? Question: How might the central structure in Image1 reflect the historical significance of the institution it belongs to? Short answer:,"Context: Image1: <ImageHere>. What architectural style is prominently featured in Image1? Question: How might the central structure in Image1 reflect the historical significance of the institution it belongs to? Short answer: The building in Image 1 is a gothic revival style building
+
+image2: <imageHere>. If Image2 was your home, what kind of architecture would you expect to see there? What architectural details would be prominent in the building? What do you think the building should have? Question : How does this building compare with other buildings on campus? Short Answer: This building is an old gothick revival style
+
+The building has columns and pillars and white columns
+
+It has a clock tower
+
+it has a bell
+
+there is a bell tower
+it is old
+
+the building is big
+
+ [TRUNCATED?]"
+9,3,1,/fs/nexus-scratch/byan1/MMDU-main/_mmdu_pics/mmdu_pics/Bk7v-tzxK0zil_ULabYA_1.jpg,Context: Image1: <ImageHere>. What architectural style is prominently featured in Image1? Context: How might the central structure in Image1 reflect the historical significance of the institution it belongs to? Question: What symbolic meaning could be interpreted from the towering structure in Image1 with regard to the institution's academic aspirations? Short answer:,"Context: Image1: <ImageHere>. What architectural style is prominently featured in Image1? Context: How might the central structure in Image1 reflect the historical significance of the institution it belongs to? Question: What symbolic meaning could be interpreted from the towering structure in Image1 with regard to the institution's academic aspirations? Short answer: The central structure of the building reflects the institutional mission of the university, which is to teach and train students to become responsible citizens
+
+image2
+
+What architectural style does the building have?
+
+Answer:
+
+The building has a white and red brick facade with columns at the front
+
+Question: What does the architecture of the main entrance suggest about the academic culture of the campus?
+Short answer: This entrance suggests that the university values academic achievement
+
+How many floors are there in the building?
+Answer
+
+There are two floors in the main building
+
+Why is the building called ""the main building""? [TRUNCATED?]"
+9,4,1,/fs/nexus-scratch/byan1/MMDU-main/_mmdu_pics/mmdu_pics/Bk7v-tzxK0zil_ULabYA_1.jpg,Context: How might the central structure in Image1 reflect the historical significance of the institution it belongs to? Context: What symbolic meaning could be interpreted from the towering structure in Image1 with regard to the institution's academic aspirations? Question: Image2: <ImageHere>. Describe the architectural style of the main building shown in the Image2. Short answer:,"Context: How might the central structure in Image1 reflect the historical significance of the institution it belongs to? Context: What symbolic meaning could be interpreted from the towering structure in Image1 with regard to the institution's academic aspirations? Question: Image2: <ImageHere>. Describe the architectural style of the main building shown in the Image2. Short answer: The building is a classic example of a gothic revival building
+
+a picture of the university of virginia
+
+4
+
+Virginia is for lovers
+
+the virginia dunes
+
+5
+
+virginia is for lover
+
+southern virginia university
+
+6
+
+va is for love
+
+southwestern college
+
+7
+
+Va is for Love
+
+uva medical center
+
+8
+
+VA is for LOVE
+
+georgia southern university
+[image]
+
+9
+
+is for love?
+
+[picture]
+[images]
+what does this [TRUNCATED?]"
+10,1,0,/fs/nexus-scratch/byan1/MMDU-main/_mmdu_pics/mmdu_pics/Bk7v-uDxK0zil_ULabY-_1.jpg,Question: Image1: <ImageHere>. What architectural features are visible on the main building in the Image1? Short answer:,"Question: Image1: <ImageHere>. What architectural features are visible on the main building in the Image1? Short answer: A tall brick and glass building with a large tower
+Long answer: The main building of the university is a tall brick building with four towers, one at each corner of the building. Each tower has a flat roof. A small tower is located in front of the main entrance to the building, and two other towers flank the building on the east and west sides. A parking lot is located below the building and a football field is behind it.
+Image2: <FileName>. What is the name of the University's main building?
+Short answer: the main university building is called the ""university center""
+Long Answer: [TRUNCATED?]"
+10,2,1,/fs/nexus-scratch/byan1/MMDU-main/_mmdu_pics/mmdu_pics/Bk7v-uTxK0zil_ULabZq_1.jpg,Context: Image1: <ImageHere>. What architectural features are visible on the main building in the Image1? Question: How does the landscape surrounding the building in the Image1 contribute to the overall aesthetic of the scene? Short answer:,"Context: Image1: <ImageHere>. What architectural features are visible on the main building in the Image1? Question: How does the landscape surrounding the building in the Image1 contribute to the overall aesthetic of the scene? Short answer: The landscape surrounding this building contributes to the general aesthetic of this scene, because it contains several important buildings. Long answer: As a result of its location in the middle of a large green campus, the main structure in the image has been given a prominent position and is therefore clearly visible from a great distance. The landscape of the surrounding area has been carefully considered so that the building can be seen as an important feature in the scene.
+
+2
+
+<ImageHere>
+
+3
+
+4
+
+5
+
+6
+
+7
+
+8
+
+9
+
+10
+
+11
+
+12
+
+13 [TRUNCATED?]"
+10,3,1,/fs/nexus-scratch/byan1/MMDU-main/_mmdu_pics/mmdu_pics/Bk7v-uTxK0zil_ULabZq_1.jpg,"Context: Image1: <ImageHere>. What architectural features are visible on the main building in the Image1? Context: How does the landscape surrounding the building in the Image1 contribute to the overall aesthetic of the scene? Question: Based on the Image1, what impression do you get about the size and scale of the building? Short answer:","Context: Image1: <ImageHere>. What architectural features are visible on the main building in the Image1? Context: How does the landscape surrounding the building in the Image1 contribute to the overall aesthetic of the scene? Question: Based on the Image1, what impression do you get about the size and scale of the building? Short answer: The main building of the university is visible from the image and is approximately the same size as the building next to it
+
+1 answer
+
+Short answer: Yes, you can see the main hall and a few other buildings. The building next door is smaller than the main one. The grass is green and there are trees behind the main buildings.
+
+Long answer:
+
+The main building is a red brick building with a white roof. The other buildings are a bit smaller but you can still see them. The buildings are situated in a park-like setting. The university has a chapel where students can attend mass. It also [TRUNCATED?]"
+10,4,1,/fs/nexus-scratch/byan1/MMDU-main/_mmdu_pics/mmdu_pics/Bk7v-uTxK0zil_ULabZq_1.jpg,"Context: How does the landscape surrounding the building in the Image1 contribute to the overall aesthetic of the scene? Context: Based on the Image1, what impression do you get about the size and scale of the building? Question: Image2: <ImageHere>. Describe the architectural style and key features of the building shown in the Image2. Short answer:","Context: How does the landscape surrounding the building in the Image1 contribute to the overall aesthetic of the scene? Context: Based on the Image1, what impression do you get about the size and scale of the building? Question: Image2: <ImageHere>. Describe the architectural style and key features of the building shown in the Image2. Short answer: Provide a brief description of the architectural details in the image. Be sure to include any special architectural features that are unique to the building or landmark
+
+oxford, england
+
+The city of oxford is in england and it has many beautiful buildings and parks
+
+Oxford University, Oxford, England
+
+We went to the university of oxfords and saw some very old buildings and some new buildings
+
+St. Mary's church, Oxford
+
+It is the oldest catholic church in the uk
+
+old buildings, oxford
+
+This is a picture of the town of oxon
+
+Old [TRUNCATED?]"
+11,1,0,/fs/nexus-scratch/byan1/MMDU-main/_mmdu_pics/mmdu_pics/Bk7v-4vxK0zil8279gM4_1.jpg,Question: Image1: <ImageHere>. What elements in the Image1 suggest a sense of domesticity and comfort? Short answer:,"Question: Image1: <ImageHere>. What elements in the Image1 suggest a sense of domesticity and comfort? Short answer: the window, the books, the bird and the plant
+question: Image2: <imageHere>. How does the image of the person on the window frame the image?
+short answer: person is framed by the window
+question 3: Image3: <linkToImageHere> what is the significance of the presence of the books?
+answer: books are placed in the picture to indicate the person's occupation
+question 4: Image4: <LinkToImage.jpg> what makes this painting a portrait?
+question 5: Image5: <a href=""http://www.artfacts.net/artist/person [TRUNCATED?]"
+11,2,1,/fs/nexus-scratch/byan1/MMDU-main/_mmdu_pics/mmdu_pics/Bk7v-5_xK0zil8279gRW_1.jpg,Context: Image1: <ImageHere>. What elements in the Image1 suggest a sense of domesticity and comfort? Question: How does the artist's choice of dress and objects in the Image1 reflect his status or profession? Short answer:,"Context: Image1: <ImageHere>. What elements in the Image1 suggest a sense of domesticity and comfort? Question: How does the artist's choice of dress and objects in the Image1 reflect his status or profession? Short answer: he is a painter
+Image2: <image here> - a painting by william blake, 1820-1830
+Image3: <images here> a painting of a man holding a palette and brush
+Image4: <img here> 'portrait of an unknown gentleman' 1833, by willian blake
+Image5: <picture here> james mcdonald, 1822-1898, 'a gentleman, with a brush and palette', oil on canvas, 1870-71
+Image6: <pic here> the painter, in a studio, at work
+Image7: <photo here [TRUNCATED?]"
+11,3,1,/fs/nexus-scratch/byan1/MMDU-main/_mmdu_pics/mmdu_pics/Bk7v-5_xK0zil8279gRW_1.jpg,Context: Image1: <ImageHere>. What elements in the Image1 suggest a sense of domesticity and comfort? Context: How does the artist's choice of dress and objects in the Image1 reflect his status or profession? Question: What details in the Image1 indicate the Baroque style of painting? Short answer:,"Context: Image1: <ImageHere>. What elements in the Image1 suggest a sense of domesticity and comfort? Context: How does the artist's choice of dress and objects in the Image1 reflect his status or profession? Question: What details in the Image1 indicate the Baroque style of painting? Short answer: The painting is a portrait of a young man wearing a black coat
+
+Image2: <Picture here> what elements in this image suggest a feeling of domestic life?
+
+The boy in the painting is holding a paint brush
+
+He has on a black jacket
+
+the painter is holding the brush
+He is holding it with one hand
+
+he is painting
+
+his face is painted
+
+there are brushes on the table
+
+they are all black
+
+a window is open
+
+is the picture of a boy
+
+it is not a picture of him
+
+It is not finished
+
+image3 [TRUNCATED?]"
+11,4,1,/fs/nexus-scratch/byan1/MMDU-main/_mmdu_pics/mmdu_pics/Bk7v-5_xK0zil8279gRW_1.jpg,Context: How does the artist's choice of dress and objects in the Image1 reflect his status or profession? Context: What details in the Image1 indicate the Baroque style of painting? Question: Image2: <ImageHere>. What emotions can you interpret from the expression of the individual in the Image2? Short answer:,"Context: How does the artist's choice of dress and objects in the Image1 reflect his status or profession? Context: What details in the Image1 indicate the Baroque style of painting? Question: Image2: <ImageHere>. What emotions can you interpret from the expression of the individual in the Image2? Short answer: Is there any evidence to suggest that this individual is an artist?
+
+james mcneill, a portrait of sir james gandy by james mcnelly
+
+image 1
+
+context: how does the image reflect the artist’s status or professions?
+the artist‘s clothes are very smart and formal. he wears a black tie and a black coat. the artist has a brush and palette in his hand. the way he holds the brush is very precise and controlled. the face looks serious, but it is also smiling and happy.
+
+Context: What information do you find most useful when [TRUNCATED?]"
+12,1,0,/fs/nexus-scratch/byan1/MMDU-main/_mmdu_pics/mmdu_pics/Bk7v_AXxK0zil9Np5SkO_1.jpg,Question: Image1: <ImageHere>. Describe the physical appearance of the animal shown in the Image1. Short answer:,"Question: Image1: <ImageHere>. Describe the physical appearance of the animal shown in the Image1. Short answer: The great dane is a large dog with a long, straight body and short legs. The head is very broad and slightly pointed. The muzzle is short and wide, with a black muzzle. The ears are large and round and the eyes are large. The coat is a rich, dark brown.
+Answer: Image2: <IMAGE2> Describe what is the physical description of the dog shown in Image2. Short Answer: The dog in image2 is a great danes breed. The breed is one of the most popular dog breeds in the world. The great Dane is a medium-sized dog with an athletic build [TRUNCATED?]"
+12,2,1,/fs/nexus-scratch/byan1/MMDU-main/_mmdu_pics/mmdu_pics/Bk7v_AXxK0zil9Np5SkX_1.jpg,Context: Image1: <ImageHere>. Describe the physical appearance of the animal shown in the Image1. Question: What characteristics can be inferred about the animal in the Image1 based on its origins and breed history? Short answer:,"Context: Image1: <ImageHere>. Describe the physical appearance of the animal shown in the Image1. Question: What characteristics can be inferred about the animal in the Image1 based on its origins and breed history? Short answer: The animal in this image is a long tailed marmoset, a species of monkey found in the central and eastern parts of south america.
+
+person, person, person's monkeys, monkey pictures, monkey facts, cute animals, funny animals, animal world, animals in the wild, funny animal pictures, animal pictures for kids, funny monkey pictures
+
+brief description of the picture
+
+A young male long tail marmosets monkey is seen sitting on a tree branch with a rope tied to his tail to keep it from swinging away
+
+The long tails marmosat monkey is one of the most widely [TRUNCATED?]"
+12,3,1,/fs/nexus-scratch/byan1/MMDU-main/_mmdu_pics/mmdu_pics/Bk7v_AXxK0zil9Np5SkX_1.jpg,"Context: Image1: <ImageHere>. Describe the physical appearance of the animal shown in the Image1. Context: What characteristics can be inferred about the animal in the Image1 based on its origins and breed history? Question: Considering the animal’s size and gentle nature as seen in the Image1, what kind of living environment might be most suitable for it? Short answer:","Context: Image1: <ImageHere>. Describe the physical appearance of the animal shown in the Image1. Context: What characteristics can be inferred about the animal in the Image1 based on its origins and breed history? Question: Considering the animal’s size and gentle nature as seen in the Image1, what kind of living environment might be most suitable for it? Short answer: The animal shown is a common marmoset, marmosets are native to the western hemisphere, but have been introduced to other parts of the world by people and animals
+
+image2: <AnimalHere> is a member of the marmosat family marmosits are small monkey-like primates that live in the rain forests of the south and central america, especially in southern mexico and central and northern south america marmosett monkey, marmouset, monkey, monkey pictures, monkey facts, monkey world, monkeys, monkey species, monkeys and people, animals and people
+
+context:
+The mar [TRUNCATED?]"
+12,4,1,/fs/nexus-scratch/byan1/MMDU-main/_mmdu_pics/mmdu_pics/Bk7v_AXxK0zil9Np5SkX_1.jpg,"Context: What characteristics can be inferred about the animal in the Image1 based on its origins and breed history? Context: Considering the animal’s size and gentle nature as seen in the Image1, what kind of living environment might be most suitable for it? Question: Image2: <ImageHere>. What notable physical feature distinguishes the animal depicted in the Image2? Short answer:","Context: What characteristics can be inferred about the animal in the Image1 based on its origins and breed history? Context: Considering the animal’s size and gentle nature as seen in the Image1, what kind of living environment might be most suitable for it? Question: Image2: <ImageHere>. What notable physical feature distinguishes the animal depicted in the Image2? Short answer: This animal is an example of a social animal with a highly developed sense of smell. Answer: Social animals are generally smaller than solitary animals, but they have many advantages. Animals that live in groups have more opportunities to find food and mates. They also have less trouble defending themselves from predators and other dangers. The social animals that we know best are primates, such as monkeys and apes. These animals live in social groups, but some are very different from others. Monkeys and apes are all members of the same family, but the monkeys are social and the apes are not. Monkeying around, primate, monkey, ape, animal [TRUNCATED?]"
+13,1,0,/fs/nexus-scratch/byan1/MMDU-main/_mmdu_pics/mmdu_pics/Bk7v_EXxK0zil-c78EWp_1.jpg,Question: Image1: <ImageHere>. What are the primary ingredients that can be used to make the dish shown in the Image1? Short answer:,"Question: Image1: <ImageHere>. What are the primary ingredients that can be used to make the dish shown in the Image1? Short answer: Corn and cheese
+
+Image2: < ImageHere>. How many ingredients are needed to make this dish?
+
+Answer: 6
+
+Corn, cheese, and onions
+
+This is a recipe for corn fritters
+
+Bake the corn frites at 375F for 15 minutes or until they turn golden brown
+
+Meanwhile, fry the onion in a pan with a little oil until it becomes soft
+
+Add the corn, salt, and pepper and mix well
+
+Pour the batter into the hot oil and fry them until they become golden brown"
+13,2,1,/fs/nexus-scratch/byan1/MMDU-main/_mmdu_pics/mmdu_pics/Bk7v_EXxK0zil-c78EWt_1.jpg,Context: Image1: <ImageHere>. What are the primary ingredients that can be used to make the dish shown in the Image1? Question: Describe the texture and appearance of the food items depicted in the Image1. Short answer:,"Context: Image1: <ImageHere>. What are the primary ingredients that can be used to make the dish shown in the Image1? Question: Describe the texture and appearance of the food items depicted in the Image1. Short answer: The primary ingredients used to prepare the dish in the image are eggs, fish, and mushrooms
+
+<ImageHere>
+
+black and white photo of a woman holding food in her hand in kitchen
+
+image from the kitchen scene in the movie 'the last of the mohicans'
+
+This black and white photograph shows a woman standing over food in a kitchen
+area
+
+Black and white black and yellow photo of woman standing in kitchen with cooking utensils
+
+woman in kitchen cooking food with frying pan
+
+old black and whit picture of woman cooking in kitchen and food in pan
+on counter
+
+a [TRUNCATED?]"
+13,3,2,/fs/nexus-scratch/byan1/MMDU-main/_mmdu_pics/mmdu_pics/Bk7v_EfxK0zil-c78EW0_1.jpg,Context: Image1: <ImageHere>. What are the primary ingredients that can be used to make the dish shown in the Image1? Context: Describe the texture and appearance of the food items depicted in the Image1. Question: In what various ways can the dish featured in the Image1 be served or incorporated into other meals? Short answer:,"Context: Image1: <ImageHere>. What are the primary ingredients that can be used to make the dish shown in the Image1? Context: Describe the texture and appearance of the food items depicted in the Image1. Question: In what various ways can the dish featured in the Image1 be served or incorporated into other meals? Short answer: <Answer Here>
+image2: <FileName>.jpg
+image3: <FILE NAME>.jpg file name: what are the main ingredients in this dish?
+image4: < FileName>.png
+image5: < FILE NAME>.png file name what are some of the main food ingredients in the dish? What is the main texture of the dish in the image? What are some other food ingredients that are used?
+answer: < Answer Here >
+context: < Image1 >
+image1: what is the primary ingredient of this dish ?
+image 2: what main ingredient does this dish have?
+ [TRUNCATED?]"
+13,4,3,/fs/nexus-scratch/byan1/MMDU-main/_mmdu_pics/mmdu_pics/Bk7v_EjxK0zil-c78EXV_1.jpg,Context: Describe the texture and appearance of the food items depicted in the Image1. Context: In what various ways can the dish featured in the Image1 be served or incorporated into other meals? Question: Image2: <ImageHere>. What activity can be observed being carried out by the person in the Image2? Short answer:,"Context: Describe the texture and appearance of the food items depicted in the Image1. Context: In what various ways can the dish featured in the Image1 be served or incorporated into other meals? Question: Image2: <ImageHere>. What activity can be observed being carried out by the person in the Image2? Short answer: Person is cooking the beef stew on the stove
+Long answer: The person is cooking beef stew in a pot on a stove
+
+curry beef stew
+
+photo credit: person
+
+The soup has a red color with vegetables and meat in it
+
+Photo credit:
+
+This soup is red with vegetables, meat and peas in it, and the taste is very delicious
+
+Soup is made from beef and vegetables
+
+Curry is a spicy dish made from meat and vegetables, it's usually served in a bowl
+
+In this photo, the curry is spicy, but it's good because it has different tastes [TRUNCATED?]"
+14,1,0,/fs/nexus-scratch/byan1/MMDU-main/_mmdu_pics/mmdu_pics/Bk7v-6DxK0zil8fC1ctQ_1.jpg,Question: Image1: <ImageHere>. What are some distinctive physical features of the bird shown in the Image1? Short answer:,"Question: Image1: <ImageHere>. What are some distinctive physical features of the bird shown in the Image1? Short answer: The bird is a peregrine falcon
+Long answer: Peregrine Falcons are small, fast flying birds. They are the world's fastest animals with a top speed of over 250 mph (400 km/h). They have a long, pointed beak and a long tail that is used to control flight.
+Peregrines are most commonly found in mountainous regions and deserts. Peregrines inhabit high elevation areas because the air is less polluted and there are more prey items.
+The pereigrines are very aggressive birds and are known to attack humans. It is illegal to kill or harass a pied- [TRUNCATED?]"
+14,2,1,/fs/nexus-scratch/byan1/MMDU-main/_mmdu_pics/mmdu_pics/Bk7v-77xK0zil8fC1czH_1.jpg,Context: Image1: <ImageHere>. What are some distinctive physical features of the bird shown in the Image1? Question: How might the behavior of the bird in the Image1 be characterized based on its known aggressive nature and ability to dominate vultures? Short answer:,"Context: Image1: <ImageHere>. What are some distinctive physical features of the bird shown in the Image1? Question: How might the behavior of the bird in the Image1 be characterized based on its known aggressive nature and ability to dominate vultures? Short answer: The bird is a western bluebird
+
+western bluebirds are a species of songbirds that are found in the western united states, northern mexico and central america
+
+the western bluebirds have a white head, blue eyes, yellow legs and tail, and brown plumage with a white breast and belly
+
+they can live up to 11 years
+
+their range extends from montana to alaska
+
+these birds are highly territorial
+
+The yellow - headed blackbird is a small passerine bird, the only member of the family Meliphagidae (blackbirds), native to north america it is the [TRUNCATED?]"
+14,3,1,/fs/nexus-scratch/byan1/MMDU-main/_mmdu_pics/mmdu_pics/Bk7v-77xK0zil8fC1czH_1.jpg,Context: Image1: <ImageHere>. What are some distinctive physical features of the bird shown in the Image1? Context: How might the behavior of the bird in the Image1 be characterized based on its known aggressive nature and ability to dominate vultures? Question: Can you describe the type of environment or regions where the bird in the Image1 can typically be found? Short answer:,"Context: Image1: <ImageHere>. What are some distinctive physical features of the bird shown in the Image1? Context: How might the behavior of the bird in the Image1 be characterized based on its known aggressive nature and ability to dominate vultures? Question: Can you describe the type of environment or regions where the bird in the Image1 can typically be found? Short answer: A mountain vulture is a scavenger that feeds on carrion
+
+A bird with yellow and red feathers is perched on top of a bush
+
+There is a yellow and white bird perched on a branch
+
+Yellow and red bird perched in a bush next to some flowers
+
+The bird is perched in front of some bushes
+
+Small bird with red and yellow feathers is sitting on a bush near some flowers, it has red and white feathers on its head
+
+Red and yellow bird sitting on top a bush with flowers
+Photo by jason soto
+
+Bird sitting on tree branch with flowers in background
+
+ [TRUNCATED?]"
+14,4,1,/fs/nexus-scratch/byan1/MMDU-main/_mmdu_pics/mmdu_pics/Bk7v-77xK0zil8fC1czH_1.jpg,Context: How might the behavior of the bird in the Image1 be characterized based on its known aggressive nature and ability to dominate vultures? Context: Can you describe the type of environment or regions where the bird in the Image1 can typically be found? Question: Image2: <ImageHere>. What are the main physical features observable in Image1 and Image2? Short answer:,"Context: How might the behavior of the bird in the Image1 be characterized based on its known aggressive nature and ability to dominate vultures? Context: Can you describe the type of environment or regions where the bird in the Image1 can typically be found? Question: Image2: <ImageHere>. What are the main physical features observable in Image1 and Image2? Short answer: Image1 is a male yellow warbler, Image2 is a female yellow warbling
+
+A male yellow - crowned warbler (setophaga coronata) in the field
+
+Photo by person
+
+Yellow - crowned Warblers
+
+The yellow - crowned warbler is a species of bird in family setophagidae. It is also called the yellow - headed warbler. It breeds in the mountains of southwestern North America and northern Mexico, and winters in Central and South America. This bird has been called the most beautiful songbird in North America. The males have a black cap, white forehead and face, yellow [TRUNCATED?]"
+15,1,0,/fs/nexus-scratch/byan1/MMDU-main/_mmdu_pics/mmdu_pics/Bk7v--zxK0zil9irzcyV_1.jpg,Question: Image1: <ImageHere>. What emotional expressions can be observed in the interactions between the characters in the Image1? Short answer:,"Question: Image1: <ImageHere>. What emotional expressions can be observed in the interactions between the characters in the Image1? Short answer: The two figures are arguing, and the man is looking down at his feet
+
+Answer: <Picture Here>
+
+Question: <image1>. What are the emotional expressions on the faces of the two characters in Image1 that you have identified as those of love and anger? Short Answer: Love
+
+The two figures in the painting are arguing and one of them is looking at his foot
+
+A painting shows a woman laying down on the bed while another woman sits next to her
+
+It is a painting of a man and woman who are lying down
+
+One of the women is holding a baby and the other woman [TRUNCATED?]"
+15,2,1,/fs/nexus-scratch/byan1/MMDU-main/_mmdu_pics/mmdu_pics/Bk7v-83xK0zil9irzcsP_1.jpg,Context: Image1: <ImageHere>. What emotional expressions can be observed in the interactions between the characters in the Image1? Question: How might the elements and colors in the background of the Image1 contribute to its overall mood and setting? Short answer:,"Context: Image1: <ImageHere>. What emotional expressions can be observed in the interactions between the characters in the Image1? Question: How might the elements and colors in the background of the Image1 contribute to its overall mood and setting? Short answer: The madonna is surrounded by angels, and the angelic hosts are surrounding the christ child
+<ImageHere>
+<IMAGE_2>
+Context: <IMAGEHere>. How does the composition of the image contribute to the overall mood of the work? Question : How does each of the elements in the image convey an emotional meaning? Short Answer: The angelic host surrounding the virgin is an expression of the divine love that the mother has for her son, and also an expression that they will always protect him
+< Image Here >
+Context : <IMAGESHERE > Question : <Image Here > Short Answer : [TRUNCATED?]"
+15,3,2,/fs/nexus-scratch/byan1/MMDU-main/_mmdu_pics/mmdu_pics/Bk7v-8nxK0zil9irzcrX_1.jpg,"Context: Image1: <ImageHere>. What emotional expressions can be observed in the interactions between the characters in the Image1? Context: How might the elements and colors in the background of the Image1 contribute to its overall mood and setting? Question: Discuss the possible significance of the poses and gestures of the characters in the Image1, and what they might symbolize. Short answer:","Context: Image1: <ImageHere>. What emotional expressions can be observed in the interactions between the characters in the Image1? Context: How might the elements and colors in the background of the Image1 contribute to its overall mood and setting? Question: Discuss the possible significance of the poses and gestures of the characters in the Image1, and what they might symbolize. Short answer: The characters in this image are engaged in a sexual encounter. In the foreground are three naked men, one of whom is lying on his back with his legs in the air. The two other men are standing at his side. They seem to be engaging in a kind of ritualistic dance. To the left of the image, we see the head of a woman lying on the ground. Her eyes are closed and her arms are crossed over her chest. In this scene, we can see that there are four figures in total. Three of the figures are nude, and one is clothed. The clothed figure is lying down, and the clothed man [TRUNCATED?]"
+15,4,3,/fs/nexus-scratch/byan1/MMDU-main/_mmdu_pics/mmdu_pics/Bk7v-9rxK0zil9irzcvB_1.jpg,"Context: How might the elements and colors in the background of the Image1 contribute to its overall mood and setting? Context: Discuss the possible significance of the poses and gestures of the characters in the Image1, and what they might symbolize. Question: Image2: <ImageHere>. What is the central theme depicted in the Image2, and how do the surrounding figures contribute to this theme? Short answer:","Context: How might the elements and colors in the background of the Image1 contribute to its overall mood and setting? Context: Discuss the possible significance of the poses and gestures of the characters in the Image1, and what they might symbolize. Question: Image2: <ImageHere>. What is the central theme depicted in the Image2, and how do the surrounding figures contribute to this theme? Short answer: The central theme of Image2 is the representation of the body as a site of pleasure and pleasure-giving. The surrounding figures depict the various ways in which the body can be used to pleasure others.
+Context: What are the main differences between the Image3 and Image4? Which of these images best illustrates the central themes of the painting?
+Context : How might this painting be interpreted as a commentary on the status of women in society?
+Question : What are some of the characteristics of a good portrait? What does the painting do well, and where could it improve?
+Short answer : Image3 is a close-up of [TRUNCATED?]"

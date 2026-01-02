@@ -1,0 +1,143 @@
+/nfshomes/byan1/venvs/cmsc799/lib/python3.11/site-packages/transformers/utils/hub.py:110: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 63.46 examples/s]
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:19<00:58, 19.49s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:38<00:38, 19.10s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:56<00:18, 18.52s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:58<00:00, 12.14s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:58<00:00, 14.63s/it]
+/nfshomes/byan1/venvs/cmsc799/lib/python3.11/site-packages/accelerate/utils/modeling.py:1614: UserWarning: The following device_map keys do not match any submodules in the model: ['query_tokens']
+  warnings.warn(
+Some parameters are on the meta device because they were offloaded to the cpu.
+/nfshomes/byan1/venvs/cmsc799/lib/python3.11/site-packages/transformers/utils/hub.py:110: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 57.26 examples/s]
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:10<00:32, 10.78s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:13<00:11,  5.86s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:30<00:11, 11.02s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:33<00:00,  7.73s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:33<00:00,  8.26s/it]
+/nfshomes/byan1/venvs/cmsc799/lib/python3.11/site-packages/accelerate/utils/modeling.py:1614: UserWarning: The following device_map keys do not match any submodules in the model: ['query_tokens']
+  warnings.warn(
+Some parameters are on the meta device because they were offloaded to the cpu.
+/nfshomes/byan1/venvs/cmsc799/lib/python3.11/site-packages/transformers/utils/hub.py:110: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:10<00:30, 10.32s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:12<00:10,  5.32s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:14<00:03,  3.88s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:14<00:00,  2.48s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:14<00:00,  3.66s/it]
+/nfshomes/byan1/venvs/cmsc799/lib/python3.11/site-packages/accelerate/utils/modeling.py:1614: UserWarning: The following device_map keys do not match any submodules in the model: ['query_tokens']
+  warnings.warn(
+Some parameters are on the meta device because they were offloaded to the cpu.
+/nfshomes/byan1/venvs/cmsc799/lib/python3.11/site-packages/transformers/utils/hub.py:110: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:11<00:33, 11.25s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:13<00:11,  5.95s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:15<00:04,  4.19s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  2.66s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.98s/it]
+/nfshomes/byan1/venvs/cmsc799/lib/python3.11/site-packages/accelerate/utils/modeling.py:1614: UserWarning: The following device_map keys do not match any submodules in the model: ['query_tokens']
+  warnings.warn(
+Some parameters are on the meta device because they were offloaded to the cpu.
+/nfshomes/byan1/venvs/cmsc799/lib/python3.11/site-packages/transformers/utils/hub.py:110: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 69.81 examples/s]
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:02<00:07,  2.43s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:12<00:13,  6.91s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:14<00:04,  4.83s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.04s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.78s/it]
+/nfshomes/byan1/venvs/cmsc799/lib/python3.11/site-packages/accelerate/utils/modeling.py:1614: UserWarning: The following device_map keys do not match any submodules in the model: ['query_tokens']
+  warnings.warn(
+Some parameters are on the meta device because they were offloaded to the cpu.
+/nfshomes/byan1/venvs/cmsc799/lib/python3.11/site-packages/transformers/utils/hub.py:110: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 68.60 examples/s]
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:02<00:07,  2.35s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:08<00:09,  4.63s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:30<00:12, 12.57s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:33<00:00,  8.63s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:33<00:00,  8.30s/it]
+/nfshomes/byan1/venvs/cmsc799/lib/python3.11/site-packages/accelerate/utils/modeling.py:1614: UserWarning: The following device_map keys do not match any submodules in the model: ['query_tokens']
+  warnings.warn(
+Some parameters are on the meta device because they were offloaded to the cpu.
+/nfshomes/byan1/venvs/cmsc799/lib/python3.11/site-packages/transformers/utils/hub.py:110: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 67.79 examples/s]
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:08<00:25,  8.56s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:10<00:09,  4.61s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:12<00:03,  3.49s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:12<00:00,  2.24s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:12<00:00,  3.22s/it]
+/nfshomes/byan1/venvs/cmsc799/lib/python3.11/site-packages/accelerate/utils/modeling.py:1614: UserWarning: The following device_map keys do not match any submodules in the model: ['query_tokens']
+  warnings.warn(
+Some parameters are on the meta device because they were offloaded to the cpu.
+/nfshomes/byan1/venvs/cmsc799/lib/python3.11/site-packages/transformers/utils/hub.py:110: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 57.50 examples/s]
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:09<00:29,  9.83s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:12<00:10,  5.38s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:14<00:03,  3.91s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:14<00:00,  2.49s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:14<00:00,  3.64s/it]
+/nfshomes/byan1/venvs/cmsc799/lib/python3.11/site-packages/accelerate/utils/modeling.py:1614: UserWarning: The following device_map keys do not match any submodules in the model: ['query_tokens']
+  warnings.warn(
+Some parameters are on the meta device because they were offloaded to the cpu.
+/nfshomes/byan1/venvs/cmsc799/lib/python3.11/site-packages/transformers/utils/hub.py:110: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 63.49 examples/s]
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:02<00:07,  2.41s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:12<00:14,  7.21s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:15<00:04,  4.90s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.09s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.86s/it]
+/nfshomes/byan1/venvs/cmsc799/lib/python3.11/site-packages/accelerate/utils/modeling.py:1614: UserWarning: The following device_map keys do not match any submodules in the model: ['query_tokens']
+  warnings.warn(
+Some parameters are on the meta device because they were offloaded to the cpu.
+/nfshomes/byan1/venvs/cmsc799/lib/python3.11/site-packages/transformers/utils/hub.py:110: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 67.90 examples/s]
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:02<00:06,  2.31s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:06<00:07,  3.54s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:27<00:11, 11.37s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:29<00:00,  7.89s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:29<00:00,  7.49s/it]
+/nfshomes/byan1/venvs/cmsc799/lib/python3.11/site-packages/accelerate/utils/modeling.py:1614: UserWarning: The following device_map keys do not match any submodules in the model: ['query_tokens']
+  warnings.warn(
+Some parameters are on the meta device because they were offloaded to the cpu.
+/nfshomes/byan1/venvs/cmsc799/lib/python3.11/site-packages/transformers/utils/hub.py:110: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 64.36 examples/s]
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:08<00:25,  8.62s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:10<00:09,  4.62s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:12<00:03,  3.56s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:13<00:00,  2.28s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:13<00:00,  3.27s/it]
+/nfshomes/byan1/venvs/cmsc799/lib/python3.11/site-packages/accelerate/utils/modeling.py:1614: UserWarning: The following device_map keys do not match any submodules in the model: ['query_tokens']
+  warnings.warn(
+Some parameters are on the meta device because they were offloaded to the cpu.
+/nfshomes/byan1/venvs/cmsc799/lib/python3.11/site-packages/transformers/utils/hub.py:110: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 75.08 examples/s]
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:10<00:30, 10.03s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:13<00:12,  6.00s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:15<00:04,  4.19s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  2.67s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.90s/it]
+/nfshomes/byan1/venvs/cmsc799/lib/python3.11/site-packages/accelerate/utils/modeling.py:1614: UserWarning: The following device_map keys do not match any submodules in the model: ['query_tokens']
+  warnings.warn(
+Some parameters are on the meta device because they were offloaded to the cpu.
+/nfshomes/byan1/venvs/cmsc799/lib/python3.11/site-packages/transformers/utils/hub.py:110: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 67.99 examples/s]
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:02<00:07,  2.50s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:11<00:13,  6.58s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:14<00:04,  4.65s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:14<00:00,  2.94s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:14<00:00,  3.65s/it]
+/nfshomes/byan1/venvs/cmsc799/lib/python3.11/site-packages/accelerate/utils/modeling.py:1614: UserWarning: The following device_map keys do not match any submodules in the model: ['query_tokens']
+  warnings.warn(
+Some parameters are on the meta device because they were offloaded to the cpu.
+/nfshomes/byan1/venvs/cmsc799/lib/python3.11/site-packages/transformers/utils/hub.py:110: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 74.69 examples/s]
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:02<00:07,  2.42s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:08<00:09,  4.80s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:29<00:12, 12.09s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:32<00:00,  8.31s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:32<00:00,  8.04s/it]
+/nfshomes/byan1/venvs/cmsc799/lib/python3.11/site-packages/accelerate/utils/modeling.py:1614: UserWarning: The following device_map keys do not match any submodules in the model: ['query_tokens']
+  warnings.warn(
+Some parameters are on the meta device because they were offloaded to the cpu.
+/nfshomes/byan1/venvs/cmsc799/lib/python3.11/site-packages/transformers/utils/hub.py:110: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 67.92 examples/s]
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:08<00:25,  8.48s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:10<00:09,  4.61s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:12<00:03,  3.60s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:13<00:00,  2.31s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:13<00:00,  3.28s/it]
+/nfshomes/byan1/venvs/cmsc799/lib/python3.11/site-packages/accelerate/utils/modeling.py:1614: UserWarning: The following device_map keys do not match any submodules in the model: ['query_tokens']
+  warnings.warn(
+Some parameters are on the meta device because they were offloaded to the cpu.
+/nfshomes/byan1/venvs/cmsc799/lib/python3.11/site-packages/transformers/utils/hub.py:110: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 64.57 examples/s]
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:09<00:28,  9.45s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:12<00:11,  5.65s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:14<00:03,  3.98s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:14<00:00,  2.54s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:14<00:00,  3.69s/it]
+/nfshomes/byan1/venvs/cmsc799/lib/python3.11/site-packages/accelerate/utils/modeling.py:1614: UserWarning: The following device_map keys do not match any submodules in the model: ['query_tokens']
+  warnings.warn(
+Some parameters are on the meta device because they were offloaded to the cpu.
+slurmstepd: error: *** JOB 5653093 ON cml03 CANCELLED AT 2025-10-29T11:45:30 DUE TO TIME LIMIT ***

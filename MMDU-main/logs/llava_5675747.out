@@ -1,0 +1,202 @@
+Local images root: /fs/nexus-scratch/byan1/MMDU-main/_mmdu_pics/mmdu_pics
+[dataset] using samples [109, 110) -> total 1
+Using device_map=auto, dtype=torch.bfloat16
+[ctx] max_pos=4096  max_new=128  budget=3960
+
+============================================================
+Sample 109 (local idx 0) | #images=20  #turns=38
+[write] output/llava-v1.6-vicuna-7b-hf_sample109.csv
+
+[Turn 1] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=205  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 783) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 783) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): The common trait observed when comparing the habitats depicted in image 1, image 2, and image 3 is that they all feature a frog sitting on a...
+
+[Turn 2] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=242  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 808) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 808) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): The presence of a leafy plant indicates a habitat with vegetation, which is typical for the subjects in image 2, image 6, and image 10.
+
+[Turn 3] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=186  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 773) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 773) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): Yes, the spines on the back of the dinosaur in image 6 are visible and serve as a defense mechanism to protect the animal from predators.
+
+[Turn 4] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=191  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 778) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 778) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): Image 1 shows a crocodile in a natural habitat, which provides a natural camouflage for the animal.
+
+[Turn 5] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=196  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 780) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 780) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): Image 11 shows a crocodile with a long snout, which is an adaptation for catching prey in water.
+
+[Turn 6] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=195  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 782) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 782) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): The coloration of the animals in the image helps them blend in with their surroundings, providing camouflage and protection from predators.
+
+[Turn 7] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=203  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 784) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 784) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): Image 12 shows a snake, which is a predator in its ecosystem, while Image 13 shows a frog, which is a prey for various predators.
+
+[Turn 8] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=184  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 771) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 771) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): In image 4, the alligator is seen swimming underwater, while in image 11, the crocodile is seen resting on a rock.
+
+[Turn 9] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=186  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 773) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 773) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): ImageK, which is the last mentioned ImageK, demonstrates a more complex level of interaction with its surroundings because it shows a frog w...
+
+[Turn 10] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=190  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 777) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 777) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): The snake in image 13 is coiled and ready to strike, which suggests that it uses stealth and quick reflexes to hunt prey in its environment.
+
+[Turn 11] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=196  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 783) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 783) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): ImageK is a close-up of a dinosaur's head, which is relevant to the question about dietary requirements and habitats.
+
+[Turn 12] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=188  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 775) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 775) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): The presence or absence of visible water sources in the habitats portrayed can significantly influence the lifestyles of the animals shown.
+
+[Turn 13] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=198  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 785) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 785) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): Human interactions can lead to habitat loss, fragmentation, and degradation, which can negatively impact the populations and habitats of the...
+
+[Turn 14] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=218  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 799) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 799) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): Image 14 shows a desert habitat, while Image 15 shows a forest habitat.
+
+[Turn 15] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=207  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 794) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 794) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): The color schemes of the subjects' surroundings in the images significantly influence their visibility to the observer.
+
+[Turn 16] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=219  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 803) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 803) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): The creatures in the images prefer environments with water, such as ponds, lakes, and rivers.
+
+[Turn 17] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=191  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 775) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 775) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): Image 17 shows a single creature, while image 5 shows a group of creatures.
+
+[Turn 18] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=191  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 775) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 775) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): The use of camouflage in image 18 is beneficial for the creature as it helps it blend in with the surrounding environment, making it difficu...
+
+[Turn 19] | images=5 -> panel
+Prompt (head): You are given 5 images as one panel. When I say ImageK, I mean the K-th tile in row-major order (left→right, top→bottom)
+[tokens] prompt=224  budget=3960
+[safe_generate] [v1.6] keys= attention_mask, input_ids, pixel_values
+[safe_generate]   input_ids: shape=(1, 805) device=cuda:0 dtype=torch.int64
+[safe_generate]   attention_mask: shape=(1, 805) device=cuda:0 dtype=torch.int64
+[safe_generate]   pixel_values: shape=(1, 3, 336, 336) device=cuda:0 dtype=torch.bfloat16
+[safe_generate] [v1.6] gen_kwargs: max_new_tokens=128, use_cache=False, eos_token_id=2, pad_token_id=0, do_sample=False, num_beams=1
+Answer (head): Image 19 shows a snake on a rocky surface, indicating a habitat with rocks and possibly a desert or rocky terrain. [TRUNCATED?]
+
+✅ Per-sample CSVs saved under output/
+Tip: Each file name is <model_short>_sample<global_id>.csv .
+Tip: If you still hit context budget, reduce --max-images-per-turn or --panel-tile-size or --hist-max.
