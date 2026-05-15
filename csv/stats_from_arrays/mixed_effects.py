@@ -1,115 +1,187 @@
-# mixed_effects.py
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+对 Week2/Week3/Week4 导出的逐图像 raw 表（*_raw.tsv）做 GEE（或稳健回归）以获得混合效应估计。
+输入目录由 --in-dir 指定，输出到 --out-dir/mixed_effects.tsv。
+
+要求（任一 raw 表中）至少包含：
+  model, sample_id, turn, ok 以及对应自变量列 xcol ∈ {delta, k, tau}
+  - 若 delta 缺失或全 NaN，且存在 turn，则自动以 turn 兜底
+  - tau 文件缺失会被跳过（不报错）
+"""
+
+import argparse
+import os
+from typing import Optional, Tuple
+
+import numpy as np
 import pandas as pd
 import statsmodels.api as sm
-from pathlib import Path
 
-def fit_gee(df, xcols, ycol="ok", cluster="sample_id", cov_struct="exchangeable"):
-    df = df.dropna(subset=xcols+[ycol, cluster]).copy()
-    df["intercept"] = 1.0
-    X = df[["intercept"] + xcols]
-    y = df[ycol].astype(int)
-    groups = df[cluster].astype(str)
-    cov = sm.cov_struct.Exchangeable() if cov_struct=="exchangeable" else sm.cov_struct.Independence()
-    fam = sm.families.Binomial()
-    model = sm.GEE(y, X, groups=groups, cov_struct=cov, family=fam)
-    res = model.fit()
-    out = res.summary().as_text()
-    return res, out
+RAW_FILES = {
+    "delta": "stats_delta_raw.tsv",
+    "k":     "stats_k_raw.tsv",
+    "tau":   "stats_tau_raw.tsv",
+}
 
-def _stat_values(res):
-    # 兼容不同 statsmodels 版本的命名
-    if hasattr(res, "z_values"):    # 常见于 GEE
-        return getattr(res, "z_values")
-    if hasattr(res, "zvalues"):     # 老版本
-        return getattr(res, "zvalues")
-    if hasattr(res, "tvalues"):     # 回退用 t 统计量
-        return getattr(res, "tvalues")
-    # 最后兜底：z ≈ coef / se
-    return res.params / res.bse
+# 仅为日志可读性，保持与你原来的标签一致：
+# B2 -> delta, D -> k, B1 -> tau
+LABELS = {
+    "delta": "B2",
+    "k":     "D",
+    "tau":   "B1",
+}
 
-def _conf_int_safe(res, alpha=0.05):
+def _read_if_exists(path: str) -> Optional[pd.DataFrame]:
+    if os.path.exists(path):
+        return pd.read_csv(path, sep="\t")
+    return None
+
+def _normalize_df(df: pd.DataFrame) -> pd.DataFrame:
+    df = df.copy()
+    if "model" in df.columns:
+        df["model"] = df["model"].astype(str).str.lower()
+    if "ok" in df.columns:
+        # 统一 ok 为 {0,1}
+        df["ok"] = (df["ok"].astype(float) > 0).astype(int)
+    return df
+
+def _ensure_delta(df: pd.DataFrame) -> Tuple[pd.DataFrame, bool]:
+    """若 delta 缺失或全 NaN 且有 turn，则用 turn 兜底。返回 (df, used_fallback)"""
+    df = df.copy()
+    used = False
+    if "delta" not in df.columns or df["delta"].isna().all():
+        if "turn" in df.columns:
+            df["delta"] = df["turn"]
+            used = True
+    return df, used
+
+def fit_gee(df: pd.DataFrame, xcol: str) -> Tuple[pd.DataFrame, str]:
+    """
+    以 ok ~ xcol 做 GEE，cluster 以 sample_id。
+    若失败，退化为加权最小二乘（WLS）。
+    返回 (summary_df, method_name)
+    """
+    # 基本列检查
+    need = {"ok", xcol, "sample_id"}
+    if not need.issubset(df.columns):
+        # 返回占位行，避免上游崩溃
+        return (pd.DataFrame([{
+            "term": "const", "coef": np.nan, "se": np.nan, "pval": np.nan
+        }, {
+            "term": xcol, "coef": np.nan, "se": np.nan, "pval": np.nan
+        }]), "NA-missing-cols")
+
+    # 过滤缺失
+    df = df.dropna(subset=[xcol, "ok", "sample_id"]).copy()
+    if df.empty or df[xcol].nunique() == 0:
+        return (pd.DataFrame([{
+            "term": "const", "coef": np.nan, "se": np.nan, "pval": np.nan
+        }, {
+            "term": xcol, "coef": np.nan, "se": np.nan, "pval": np.nan
+        }]), "NA-empty-or-constant-x")
+
+    df["const"] = 1.0
+    endog = df["ok"].astype(float)
+    exog  = df[["const", xcol]].astype(float)
+
+    # 先 GEE，失败用 WLS 兜底
     try:
-        ci = res.conf_int(alpha=alpha)
-        # 有的版本返回 DataFrame，有的返回 ndarray，这里都兼容
-        if hasattr(ci, "iloc"):
-            lo = ci.iloc[:, 0].values
-            hi = ci.iloc[:, 1].values
-        else:
-            lo = ci[:, 0]
-            hi = ci[:, 1]
+        fam = sm.families.Binomial()
+        ind = sm.cov_struct.Exchangeable()
+        model = sm.GEE(endog, exog, groups=df["sample_id"], family=fam, cov_struct=ind)
+        res = model.fit()
+        params  = res.params
+        bse     = res.bse
+        pvalues = res.pvalues
+        method  = "GEE-Binomial-Exchangeable"
     except Exception:
-        # 若没有 conf_int，则用正态近似：coef ± 1.96*se
-        q = 1.96
-        lo = res.params.values - q * res.bse.values
-        hi = res.params.values + q * res.bse.values
-    return lo, hi
+        try:
+            # cluster 大小近似为样本数：用样本量做权重（避免除零）
+            w = df.groupby("sample_id")["ok"].transform("count").clip(lower=1).astype(float)
+            model = sm.WLS(endog, exog, weights=w)
+            res = model.fit()
+            params  = res.params
+            bse     = res.bse
+            pvalues = res.pvalues
+            method  = "WLS-Fallback"
+        except Exception:
+            # 再兜底：给出 NA 行
+            return (pd.DataFrame([{
+                "term": "const", "coef": np.nan, "se": np.nan, "pval": np.nan
+            }, {
+                "term": xcol, "coef": np.nan, "se": np.nan, "pval": np.nan
+            }]), "NA-fit-failed")
 
-def one_table(res, model_name, xcols=None):
-    z_or_t = _stat_values(res)
-    # pvalues 兼容
-    if hasattr(res, "pvalues"):
-        pvals = res.pvalues.values if hasattr(res.pvalues, "values") else res.pvalues
-    else:
-        # 极端兜底：无 p 值时给 NA
-        import numpy as np
-        pvals = np.full(len(res.params), np.nan)
-
-    ci_lo, ci_hi = _conf_int_safe(res)
-
-    import pandas as pd
-    df = pd.DataFrame({
-        "term":   res.params.index.astype(str),
-        "coef":   res.params.values,
-        "std_err":res.bse.values,
-        "z":      z_or_t.values if hasattr(z_or_t, "values") else z_or_t,
-        "p":      pvals,
-        "ci_lo":  ci_lo,
-        "ci_hi":  ci_hi,
+    out = pd.DataFrame({
+        "term": ["const", xcol],
+        "coef": [params.get("const", np.nan), params.get(xcol, np.nan)],
+        "se":   [bse.get("const", np.nan),   bse.get(xcol,   np.nan)],
+        "pval": [pvalues.get("const", np.nan), pvalues.get(xcol, np.nan)],
     })
+    return out, method
 
-    # 过滤截距
-    df = df[~df["term"].str.lower().isin(["intercept", "const"])].copy()
+def run_block(df_raw: Optional[pd.DataFrame], xcol: str) -> Optional[pd.DataFrame]:
+    """
+    对某个自变量块（delta/k/tau）运行拟合。
+    返回带列 xvar/method/term/coef/se/pval 的表；若无数据则返回 None。
+    """
+    if df_raw is None:
+        print(f"[warn] raw file for {xcol} missing, skip.")
+        return None
 
-    # 效果名映射（保留你原来的展示）
-    effect_map = {
-        "delta": "Turns since first mention (Δ)",
-        "k":     "Revisit index (k)",
-        "tau":   "Normalized progress (τ)",
-    }
-    df.insert(0, "vlm", model_name)
-    df["effect"] = df["term"].map(effect_map).fillna(df["term"])
+    df = _normalize_df(df_raw)
 
-    # 保持原脚本期望的列顺序
-    return df[["vlm", "effect", "coef", "ci_lo", "ci_hi", "p"]]
+    # delta 兜底
+    used_fallback = False
+    if xcol == "delta":
+        df, used_fallback = _ensure_delta(df)
+        if used_fallback:
+            print("[warn] 'delta' missing/all-NaN → fallback to 'turn' values")
 
+    # 必要列检查（model/sample_id/ok/turn）
+    base_need = {"model", "sample_id", "ok", "turn"}
+    if not base_need.issubset(df.columns):
+        print(f"[warn] missing base columns {base_need - set(df.columns)} for {xcol}, skip.")
+        return None
 
-def run_for(path, xcol, label):
-    df = pd.read_csv(path, sep="\t")
-    out = []
-    for m in df["model"].unique():
-        sub = df[df.model==m].copy()
-        res, _ = fit_gee(sub, [xcol])
-        out.append(one_table(res, m, [xcol]))
-    return pd.concat(out).assign(metric=label)
+    res, method = fit_gee(df, xcol)
+    label = LABELS.get(xcol, xcol)
+    if used_fallback:
+        method = method + "+(delta->turn)"
+
+    res.insert(0, "method", method)
+    res.insert(0, "xvar", label)
+    return res
+
+def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--in-dir", required=True)
+    ap.add_argument("--out-dir", required=True)
+    args = ap.parse_args()
+
+    os.makedirs(args.out_dir, exist_ok=True)
+
+    paths = {k: os.path.join(args.in_dir, v) for k, v in RAW_FILES.items()}
+    pΔ = _read_if_exists(paths["delta"])
+    pk = _read_if_exists(paths["k"])
+    pτ = _read_if_exists(paths["tau"])
+
+    tabs = []
+    for xcol, df_raw in [("delta", pΔ), ("k", pk), ("tau", pτ)]:
+        t = run_block(df_raw, xcol)
+        if t is not None:
+            tabs.append(t)
+
+    if not tabs:
+        # 仍然写一个空文件，避免后续脚本因为文件缺失而报错
+        out = pd.DataFrame(columns=["xvar", "method", "term", "coef", "se", "pval"])
+    else:
+        out = pd.concat(tabs, ignore_index=True)
+
+    out_path = os.path.join(args.out_dir, "mixed_effects.tsv")
+    out.to_csv(out_path, sep="\t", index=False)
+    print("[OK] saved", out_path)
 
 if __name__ == "__main__":
-    pΔ = Path("stats_Δ.tsv")
-    pk = Path("stats_k.tsv")
-    pτ = Path("stats_τ.tsv")
-
-    tabΔ = run_for(pΔ, "delta", "B2")
-    tabk = run_for(pk, "k", "D")
-    tabτ = run_for(pτ, "tau", "B1")
-
-    alltab = pd.concat([tabΔ, tabk, tabτ], ignore_index=True)
-    alltab.to_csv("gee_effects_summary.csv", index=False)
-
-    # 生成一个可直接贴到 slides 的粗体 markdown 表
-    def fmt(r):
-        star = "" if r.p>0.05 else ("*" if r.p>0.01 else "**")
-        return f"| {r.metric} | {r.vlm} | {r.effect} | {r.coef:.3f} [{r.ci_lo:.3f},{r.ci_hi:.3f}] | p={r.p:.3g}{star} |"
-    lines = ["| Metric | VLM | Effect | Coef [95% CI] | p-value |","|---|---|---|---|---|"]
-    for _,r in alltab.iterrows():
-        lines.append(fmt(r))
-    Path("gee_effects_pretty.md").write_text("\n".join(lines), encoding="utf-8")
-    print("Saved: gee_effects_summary.csv, gee_effects_pretty.md")
+    main()

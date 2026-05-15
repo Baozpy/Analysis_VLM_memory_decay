@@ -1,0 +1,5 @@
+xvar	method	term	coef	se	pval
+B2	GEE-Binomial-Exchangeable+(delta->turn)	const	0.059105439410998564	0.11790140527603925	0.6161512620606928
+B2	GEE-Binomial-Exchangeable+(delta->turn)	delta	-0.22676673836801323	0.0829928073548051	0.006288121390320484
+D	GEE-Binomial-Exchangeable	const	-17148935867415.045		
+D	GEE-Binomial-Exchangeable	k	5716311955804.959		

@@ -1,0 +1,4 @@
+model	n_edges	avg_len	med_len	recovery_rate	long_chains_rate
+blip2	678	4.7758	4.0	0.4779	0.5826
+llava	782	2.509	2.0	0.7199	0.3555
+qwen	729	2.3155	2.0	0.7229	0.3128

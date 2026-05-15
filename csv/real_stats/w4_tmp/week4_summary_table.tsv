@@ -1,0 +1,3 @@
+metric_group	variant	z_mean	z_abs_mean	z_max_abs	sig
+half_life	recap_k4	22.90041864331658	22.90041864331658	23.66818278581685	True
+mixed_effects	recap_k4	-8.178428731617036	8.178428731617036	8.178428731617036	True

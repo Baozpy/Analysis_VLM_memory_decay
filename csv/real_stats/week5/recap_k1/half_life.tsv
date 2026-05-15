@@ -1,0 +1,4 @@
+model	points	delta_min	delta_max	A	lambda_	t_half
+BLIP2	110	0.0	0.0	0.18181818181818182		
+LLAVA	110	0.0	0.0	0.5272727272727272		
+QWEN	110	0.0	0.0	0.5454545454545454		
