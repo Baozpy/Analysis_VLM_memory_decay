@@ -93,7 +93,6 @@ where:
 - $N_t$ is the number of samples at turn $t$
 - $y_{i,t}$ is the ground-truth answer
 - $\hat{y}_{i,t}$ is the model prediction
-- $\mathbf{1}(\cdot)$ is an indicator function
 
 This metric helps show whether a model becomes less accurate as the conversation gets longer.
 
