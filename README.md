@@ -72,10 +72,9 @@ The dataset contains dialogue samples where each conversation may include multip
 Because some datasets and image files may be large or have separate licenses, this repository may not include all raw image files directly. Please follow the dataset provider's instructions to download the original data.
 
 ---
-
 ## 5. Core Metrics
 
-This project uses three main quantitative measurements.
+This project uses three main quantitative measurements: **B1**, **B2**, and **D**.
 
 ---
 
@@ -83,11 +82,11 @@ This project uses three main quantitative measurements.
 
 B1 measures model accuracy at each dialogue turn.
 
-For each turn \(t\), the accuracy is:
+For each turn \(t\), the accuracy is defined as:
 
-\[
+$$
 Acc(t) = \frac{1}{N_t} \sum_i \mathbf{1}(y_{i,t} = \hat{y}_{i,t})
-\]
+$$
 
 where:
 
@@ -96,37 +95,44 @@ where:
 - \(\hat{y}_{i,t}\) is the model prediction
 - \(\mathbf{1}(\cdot)\) is an indicator function
 
-This metric helps show whether a model becomes worse as the conversation gets longer.
+This metric helps show whether a model becomes less accurate as the conversation gets longer.
 
 ---
 
 ### B2: Accuracy Decay Slope
 
-B2 measures the slope of model performance as dialogue turns increase.
+B2 measures whether model performance changes as the dialogue turn increases.
 
-The main idea is to fit a regression model:
+The main idea is to fit a regression model between correctness and turn index:
 
-\[
+$$
 Y_{i,t} \sim \text{Turn}_{i,t}
-\]
+$$
 
-where \(Y_{i,t}\) is a binary correctness label.
+where \(Y_{i,t}\) is a binary correctness label:
 
-A negative slope suggests that the model's accuracy decreases over longer dialogue contexts.
+$$
+Y_{i,t} =
+\begin{cases}
+1, & \text{if the model answer is correct} \\
+0, & \text{otherwise}
+\end{cases}
+$$
 
-When possible, the project uses a mixed-effects or robust regression-style analysis. If that fails, a weighted least squares fallback is used.
+A negative slope suggests that model accuracy decreases as the dialogue becomes longer.
 
-The output includes:
-
-- estimated slope
-- standard error
-- z-score
+When possible, the project uses a robust regression or mixed-effects-style analysis. If that fails, a weighted least squares fallback is used.
 
 The z-score is computed as:
 
-\[
+$$
 Z = \frac{\hat{\beta}_1}{SE(\hat{\beta}_1)}
-\]
+$$
+
+where:
+
+- \(\hat{\beta}_1\) is the estimated decay slope
+- \(SE(\hat{\beta}_1)\) is the standard error of the slope
 
 A large negative z-score suggests stronger evidence of memory decay.
 
@@ -136,13 +142,13 @@ A large negative z-score suggests stronger evidence of memory decay.
 
 D measures how well a model handles questions that refer back to earlier images or earlier dialogue turns.
 
-The key idea is that accuracy may decrease as the distance between the current question and the relevant previous context increases.
+The key idea is that accuracy may decrease as the distance between the current question and the relevant earlier context increases.
 
 A simple exponential decay form is used:
 
-\[
+$$
 Acc(\Delta) \approx A e^{-\lambda \Delta}
-\]
+$$
 
 where:
 
@@ -150,11 +156,11 @@ where:
 - \(A\) is the initial accuracy level
 - \(\lambda\) is the decay rate
 
-The half-life is:
+The half-life is defined as:
 
-\[
+$$
 t_{1/2} = \frac{\ln 2}{\lambda}
-\]
+$$
 
 A shorter half-life means the model forgets earlier context more quickly.
 
@@ -162,7 +168,7 @@ A shorter half-life means the model forgets earlier context more quickly.
 
 ## 6. Qualitative Analysis
 
-In addition to numerical metrics, the project also includes qualitative case studies.
+In addition to numerical metrics, this project also includes qualitative case studies.
 
 These examples help explain why a model fails. Common failure patterns include:
 
@@ -215,36 +221,42 @@ Analysis_VLM_memory_decay/
     ├── b1_turn_accuracy.png
     ├── b2_decay_slope.png
     └── d_revisit_decay.png
+```
 
+The exact file names may differ depending on the current implementation.
 
-
-
-
+---
 
 ## 8. Installation
 
 Create a new Python environment:
 
-    conda create -n vlm_memory python=3.10
-    conda activate vlm_memory
+```bash
+conda create -n vlm_memory python=3.10
+conda activate vlm_memory
+```
 
 Install dependencies:
 
-    pip install -r requirements.txt
+```bash
+pip install -r requirements.txt
+```
 
 Common dependencies include:
 
-    torch
-    transformers
-    accelerate
-    datasets
-    pandas
-    numpy
-    scikit-learn
-    statsmodels
-    matplotlib
-    tqdm
-    Pillow
+```text
+torch
+transformers
+accelerate
+datasets
+pandas
+numpy
+scikit-learn
+statsmodels
+matplotlib
+tqdm
+Pillow
+```
 
 Depending on the model, additional dependencies may be required.
 
