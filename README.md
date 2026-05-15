@@ -82,7 +82,7 @@ This project uses three main quantitative measurements: **B1**, **B2**, and **D*
 
 B1 measures model accuracy at each dialogue turn.
 
-For each turn \(t\), the accuracy is defined as:
+For each turn $t$, the accuracy is defined as:
 
 $$
 Acc(t) = \frac{1}{N_t} \sum_i \mathbf{1}(y_{i,t} = \hat{y}_{i,t})
@@ -91,9 +91,9 @@ $$
 where:
 
 - $N_t$ is the number of samples at turn $t$
-- \(y_{i,t}\) is the ground-truth answer
-- \(\hat{y}_{i,t}\) is the model prediction
-- \(\mathbf{1}(\cdot)\) is an indicator function
+- $y_{i,t}$ is the ground-truth answer
+- $\hat{y}_{i,t}$ is the model prediction
+- $\mathbf{1}(\cdot)$ is an indicator function
 
 This metric helps show whether a model becomes less accurate as the conversation gets longer.
 
@@ -109,7 +109,7 @@ $$
 Y_{i,t} \sim \text{Turn}_{i,t}
 $$
 
-where \(Y_{i,t}\) is a binary correctness label:
+where $Y_{i,t}$ is a binary correctness label:
 
 $$
 Y_{i,t} =
@@ -131,8 +131,8 @@ $$
 
 where:
 
-- \(\hat{\beta}_1\) is the estimated decay slope
-- \(SE(\hat{\beta}_1)\) is the standard error of the slope
+- $\hat{\beta}_1$ is the estimated decay slope
+- $SE(\hat{\beta}_1)$ is the standard error of the slope
 
 A large negative z-score suggests stronger evidence of memory decay.
 
@@ -152,9 +152,9 @@ $$
 
 where:
 
-- \(\Delta\) is the distance from the current turn to the referenced earlier context
-- \(A\) is the initial accuracy level
-- \(\lambda\) is the decay rate
+- $\Delta$ is the distance from the current turn to the referenced earlier context
+- $A$ is the initial accuracy level
+- $\lambda$ is the decay rate
 
 The half-life is defined as:
 
